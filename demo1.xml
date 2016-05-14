@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<fastreport version="2.0">
+  <resType>fast</resType>
+  <title>数据分析</title>
+  <foot>信息系统</foot>
+  <style name="style_default">style_default</style>
+  <recodeConfig recodePosition="no" isPrintRecod="no" />
+  <statPosition>2</statPosition>
+  <position>2</position>
+  <unit>1</unit>
+  <rowHeight unit="px">35</rowHeight>
+  <colWidth unit="px">99</colWidth>
+  <pageConfig style="2" rowNum="20" zoomModel="1" PT="25.0" PB="25.0" PL="25.0" PR="25.0" paper="9" paperWidth="210" paperHeight="297" orientation="0" />
+  <mainDatasetName>D_订单明细</mainDatasetName>
+  <datasetType>sql</datasetType>
+  <mainDataSourceName>demo</mainDataSourceName>
+  <sortPriorityStr>地区,客户名称,资金类型,产品名称,销售类型,销售数量,订购日期,订单ID</sortPriorityStr>
+  <colWidthArrayString />
+  <datasets>
+    <dataset name="D_订单明细" datasource="demo" useSchema="false" schemaName="PUBLIC" type="sql" version="1.0">
+      <table name="DEMO_SALESDAY" macro="filter@demo.PUBLIC.DEMO_SALESDAY">
+        <select field="DEMO_SALESDAY.订单ID" alias="" width="99" dataType="11" />
+        <select field="DEMO_SALESDAY.订购日期" alias="" width="99" dataType="11" />
+        <select field="DEMO_SALESDAY.资金类型" alias="" width="99" dataType="11" />
+        <select field="DEMO_SALESDAY.销售类型" alias="" width="99" dataType="11" />
+        <select field="DEMO_SALESDAY.城市" alias="" width="99" dataType="11" />
+        <select field="DEMO_SALESDAY.地区" alias="" width="99" dataType="11" />
+        <select field="DEMO_SALESDAY.客户名称" alias="" width="99" dataType="11" />
+        <select field="DEMO_SALESDAY.产品名称" alias="" width="99" dataType="11" />
+        <select field="DEMO_SALESDAY.销售数量" alias="" width="99" dataType="1" />
+        <select field="DEMO_SALESDAY.销售金额" alias="" width="99" dataType="7" />
+        <select field="DEMO_SALESDAY.折扣比例" alias="" width="99" dataType="7" />
+      </table>
+      <structures>
+        <fieldStructure alias="订单ID" dataType="11" field="订单ID" />
+        <fieldStructure alias="订购日期" dataType="11" field="订购日期" />
+        <fieldStructure alias="资金类型" dataType="11" field="资金类型" />
+        <fieldStructure alias="销售类型" dataType="11" field="销售类型" />
+        <fieldStructure alias="城市" dataType="11" field="城市" />
+        <fieldStructure alias="地区" dataType="11" field="地区" />
+        <fieldStructure alias="客户名称" dataType="11" field="客户名称" />
+        <fieldStructure alias="产品名称" dataType="11" field="产品名称" />
+        <fieldStructure alias="销售数量" dataType="1" field="销售数量" />
+        <fieldStructure alias="销售金额" dataType="7" field="销售金额" />
+        <fieldStructure alias="折扣比例" dataType="7" field="折扣比例" />
+      </structures>
+    </dataset>
+  </datasets>
+  <querys />
+  <params />
+  <dbType>13</dbType>
+  <canPick>1</canPick>
+  <canFilter>2</canFilter>
+  <canAggregate>4</canAggregate>
+  <realDataset>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&#xD;
+&lt;dataset name="D_订单明细" datasource="demo" useSchema="false" schemaName="PUBLIC" type="sql" version="1.0"&gt;&#xD;
+  &lt;table name="DEMO_SALESDAY" macro="filter@demo.PUBLIC.DEMO_SALESDAY"&gt;&#xD;
+    &lt;select field="DEMO_SALESDAY.订单ID" alias="" width="99" dataType="11" /&gt;&#xD;
+    &lt;select field="DEMO_SALESDAY.订购日期" alias="" width="99" dataType="11" /&gt;&#xD;
+    &lt;select field="DEMO_SALESDAY.资金类型" alias="" width="99" dataType="11" /&gt;&#xD;
+    &lt;select field="DEMO_SALESDAY.销售类型" alias="" width="99" dataType="11" /&gt;&#xD;
+    &lt;select field="DEMO_SALESDAY.城市" alias="" width="99" dataType="11" /&gt;&#xD;
+    &lt;select field="DEMO_SALESDAY.地区" alias="" width="99" dataType="11" /&gt;&#xD;
+    &lt;select field="DEMO_SALESDAY.客户名称" alias="" width="99" dataType="11" /&gt;&#xD;
+    &lt;select field="DEMO_SALESDAY.产品名称" alias="" width="99" dataType="11" /&gt;&#xD;
+    &lt;select field="DEMO_SALESDAY.销售数量" alias="" width="99" dataType="1" /&gt;&#xD;
+    &lt;select field="DEMO_SALESDAY.销售金额" alias="" width="99" dataType="7" /&gt;&#xD;
+    &lt;select field="DEMO_SALESDAY.折扣比例" alias="" width="99" dataType="7" /&gt;&#xD;
+  &lt;/table&gt;&#xD;
+  &lt;structures&gt;&#xD;
+    &lt;fieldStructure alias="订单ID" dataType="11" field="订单ID" /&gt;&#xD;
+    &lt;fieldStructure alias="订购日期" dataType="11" field="订购日期" /&gt;&#xD;
+    &lt;fieldStructure alias="资金类型" dataType="11" field="资金类型" /&gt;&#xD;
+    &lt;fieldStructure alias="销售类型" dataType="11" field="销售类型" /&gt;&#xD;
+    &lt;fieldStructure alias="城市" dataType="11" field="城市" /&gt;&#xD;
+    &lt;fieldStructure alias="地区" dataType="11" field="地区" /&gt;&#xD;
+    &lt;fieldStructure alias="客户名称" dataType="11" field="客户名称" /&gt;&#xD;
+    &lt;fieldStructure alias="产品名称" dataType="11" field="产品名称" /&gt;&#xD;
+    &lt;fieldStructure alias="销售数量" dataType="1" field="销售数量" /&gt;&#xD;
+    &lt;fieldStructure alias="销售金额" dataType="7" field="销售金额" /&gt;&#xD;
+    &lt;fieldStructure alias="折扣比例" dataType="7" field="折扣比例" /&gt;&#xD;
+  &lt;/structures&gt;&#xD;
+&lt;/dataset&gt;</realDataset>
+  <DAUC />
+  <mainDataset>D_订单明细</mainDataset>
+  <groupStyle>2</groupStyle>
+  <colHeaderStyle name="" type="" />
+  <detailStyle name="" type="" />
+  <subSumHeaderStyle name="" type="" />
+  <sumHeaderStyle name="" type="" />
+  <groupEmptyStyle name="" type="" />
+  <mainDatasetAliasName>D_订单明细</mainDatasetAliasName>
+  <graphInfo>
+    <paramValues>{"data":"","showLabel":"true","styleTemplateSelectedIndex":"0","zoomEnd":"100","divId":"lineGraph1","seriesName":"","showZoom":"false","showTooltip":"true","paramvalue":"","maxMinValue":"false","realtimeZoom":"true","realTimeDataSource":"","effect":"bubble","tooltipTrigger":"item","legendfile":"default","zoomStart":"0","toolboxShow":"true"}</paramValues>
+    <graphConfigStyle>elegant</graphConfigStyle>
+    <graphColorStyle>System</graphColorStyle>
+    <vAlign />
+    <hAlign />
+    <resizeType />
+    <graphType>echarts折线图</graphType>
+    <reportModelName />
+    <title />
+    <xTitle />
+    <yTitle />
+    <alarm />
+    <sourceRaqName>.raq</sourceRaqName>
+    <sourceRaqType>fastRP</sourceRaqType>
+    <categoryInfo>华南,华北,华东,东北,西南,西北,华中</categoryInfo>
+    <seryInfo>订购日期,销售数量,客户名称,订单ID,销售类型,资金类型,产品名称</seryInfo>
+    <itemIndex>10,0,0</itemIndex>
+    <categoryColumn>地区</categoryColumn>
+    <seryColumn>其他字段</seryColumn>
+    <statColumn />
+    <statType />
+    <md5 />
+    <width>600.0</width>
+    <height>300.0</height>
+    <categoryNum>12</categoryNum>
+    <seryNum>3</seryNum>
+    <default />
+  </graphInfo>
+  <fieldTitleMap>
+    <fieldTitleEntry field="D_订单明细" title="D_订单明细" dispValue="D_订单明细" dataType="" />
+    <fieldTitleEntry field="订单ID" title="订单ID" dispValue="订单ID" dataType="11" />
+    <fieldTitleEntry field="订购日期" title="订购日期" dispValue="订购日期" dataType="11" />
+    <fieldTitleEntry field="资金类型" title="资金类型" dispValue="资金类型" dataType="11" />
+    <fieldTitleEntry field="销售类型" title="销售类型" dispValue="销售类型" dataType="11" />
+    <fieldTitleEntry field="城市" title="城市" dispValue="城市" dataType="11" />
+    <fieldTitleEntry field="地区" title="地区" dispValue="地区" dataType="11" />
+    <fieldTitleEntry field="客户名称" title="客户名称" dispValue="客户名称" dataType="11" />
+    <fieldTitleEntry field="产品名称" title="产品名称" dispValue="产品名称" dataType="11" />
+    <fieldTitleEntry field="销售数量" title="销售数量" dispValue="销售数量" dataType="1" />
+    <fieldTitleEntry field="销售金额" title="销售金额" dispValue="销售金额" dataType="7" />
+    <fieldTitleEntry field="折扣比例" title="折扣比例" dispValue="折扣比例" dataType="7" />
+  </fieldTitleMap>
+  <targetEntryMap>
+    <targetEntry field="aaaaaaaaaaaaaaaaaaa" exp="资金类型" gezExp="资金类型" usedFields="资金类型" tableFieldInfo="" relationInfo="null" dataType="-11" />
+  </targetEntryMap>
+  <selectFields>
+    <folder name="新目录节点1" title="新目录节点1">
+      <field name="客户名称" value="" title="客户名称" dispValue="客户名称" dataType="11" order="asc" width="100" dispFormat="" table="" dispExp="" dispDatasets="" dispDatasetsAlias="" isCompute="" statExp="count" statFormat="" dataFilter="ALLDATA" skipMode="" href="" param="" exp="" nullValue="0" colHide="false" styleString="微软雅黑,小四,false,false,false,-31,-48,0,16777215,4959430,,,9620956||微软雅黑,小四,false,false,false,-31,-48,0,2500134,16777215,2500134,16383229,9620956||微软雅黑,小四,true,false,false,-31,-48,0,16777215,4959430,,,9620956||微软雅黑,小四,true,false,false,-31,-48,0,2500134,14348019,,,9620956" aliasName="客户名称" format="" styleName="" alarmString="" stats="" countFormat="" countStyleString="" dcountFormat="" dcountStyleString="" sumFormat="" sumStyleString="" avgFormat="" avgStyleString="" maxFormat="" maxStyleString="" minFormat="" minStyleString="" alarmWholeLine="" targetFlag="false" styleNew="eyJ0ZXh0QWxpZ24iOiIifQ,," fieldSetStyleString="">
+        <alarm exp="" style="" styleValue="" wholeLine="false" expBackColor="" expForeColor="" />
+        <styleName name="" type="" />
+        <countStyleString name="" type="" />
+        <dcountStyleString name="" type="" />
+        <sumStyleString name="" type="" />
+        <avgStyleString name="" type="" />
+        <maxStyleString name="" type="" />
+        <minStyleString name="" type="" />
+      </field>
+      <field name="资金类型" value="" title="aaaaaaaaaaaaaaaaaaa" dispValue="资金类型" dataType="-11" order="asc" width="200" dispFormat="" table="" dispExp="" dispDatasets="" dispDatasetsAlias="" isCompute="" statExp="count" statFormat="" dataFilter="ALLDATA" skipMode="" href="" param="" exp="" nullValue="0" colHide="false" styleString="微软雅黑,小四,false,false,false,-31,-48,0,16777215,4959430,,,9620956||微软雅黑,小四,false,false,false,-31,-48,0,2500134,16777215,2500134,16383229,9620956||微软雅黑,小四,true,false,false,-31,-48,0,16777215,4959430,,,9620956||微软雅黑,小四,true,false,false,-31,-48,0,2500134,14348019,,,9620956" aliasName="aaaaaaaaaaaaaaaaaaa" format="" styleName="" alarmString="" stats="" countFormat="" countStyleString="" dcountFormat="" dcountStyleString="" sumFormat="" sumStyleString="" avgFormat="" avgStyleString="" maxFormat="" maxStyleString="" minFormat="" minStyleString="" alarmWholeLine="" targetFlag="true" styleNew="eyJ0ZXh0QWxpZ24iOiIifQ,," fieldSetStyleString="">
+        <alarm exp="" style="" styleValue="" wholeLine="false" expBackColor="" expForeColor="" />
+        <styleName name="" type="" />
+        <countStyleString name="" type="" />
+        <dcountStyleString name="" type="" />
+        <sumStyleString name="" type="" />
+        <avgStyleString name="" type="" />
+        <maxStyleString name="" type="" />
+        <minStyleString name="" type="" />
+      </field>
+      <field name="产品名称" value="" title="产品名称" dispValue="产品名称" dataType="11" order="asc" width="100" dispFormat="" table="" dispExp="" dispDatasets="" dispDatasetsAlias="" isCompute="" statExp="count" statFormat="" dataFilter="ALLDATA" skipMode="" href="" param="" exp="" nullValue="0" colHide="false" styleString="微软雅黑,小四,false,false,false,-31,-48,0,16777215,4959430,,,9620956||微软雅黑,小四,false,false,false,-31,-48,0,2500134,16777215,2500134,16383229,9620956||微软雅黑,小四,true,false,false,-31,-48,0,16777215,4959430,,,9620956||微软雅黑,小四,true,false,false,-31,-48,0,2500134,14348019,,,9620956" aliasName="产品名称" format="" styleName="" alarmString="" stats="" countFormat="" countStyleString="" dcountFormat="" dcountStyleString="" sumFormat="" sumStyleString="" avgFormat="" avgStyleString="" maxFormat="" maxStyleString="" minFormat="" minStyleString="" alarmWholeLine="" targetFlag="false" styleNew="eyJ0ZXh0QWxpZ24iOiIifQ,," fieldSetStyleString="">
+        <alarm exp="" style="" styleValue="" wholeLine="false" expBackColor="" expForeColor="" />
+        <styleName name="" type="" />
+        <countStyleString name="" type="" />
+        <dcountStyleString name="" type="" />
+        <sumStyleString name="" type="" />
+        <avgStyleString name="" type="" />
+        <maxStyleString name="" type="" />
+        <minStyleString name="" type="" />
+      </field>
+    </folder>
+    <field name="销售类型" value="" title="销售类型" dispValue="销售类型" dataType="11" order="asc" width="100" dispFormat="" table="" dispExp="" dispDatasets="" dispDatasetsAlias="" isCompute="" statExp="count" statFormat="" dataFilter="ALLDATA" skipMode="" href="" param="" exp="" nullValue="0" colHide="false" styleString="微软雅黑,小四,false,false,false,-31,-48,0,16777215,4959430,,,9620956||微软雅黑,小四,false,false,false,-31,-48,0,2500134,16777215,2500134,16383229,9620956||微软雅黑,小四,true,false,false,-31,-48,0,16777215,4959430,,,9620956||微软雅黑,小四,true,false,false,-31,-48,0,2500134,14348019,,,9620956" aliasName="销售类型" format="" styleName="" alarmString="" stats="" countFormat="" countStyleString="" dcountFormat="" dcountStyleString="" sumFormat="" sumStyleString="" avgFormat="" avgStyleString="" maxFormat="" maxStyleString="" minFormat="" minStyleString="" alarmWholeLine="" targetFlag="false" styleNew="eyJ0ZXh0QWxpZ24iOiIifQ,," fieldSetStyleString="">
+      <alarm exp="" style="" styleValue="" wholeLine="false" expBackColor="" expForeColor="" />
+      <styleName name="" type="" />
+      <countStyleString name="" type="" />
+      <dcountStyleString name="" type="" />
+      <sumStyleString name="" type="" />
+      <avgStyleString name="" type="" />
+      <maxStyleString name="" type="" />
+      <minStyleString name="" type="" />
+    </field>
+    <field name="销售数量" value="" title="销售数量" dispValue="销售数量" dataType="1" order="asc" width="100" dispFormat="" table="" dispExp="" dispDatasets="" dispDatasetsAlias="" isCompute="" statExp="sum" statFormat="" dataFilter="ALLDATA" skipMode="" href="" param="" exp="" nullValue="0" colHide="false" styleString="微软雅黑,小四,false,false,false,-31,-48,0,16777215,4959430,,,9620956||微软雅黑,小四,false,false,false,-31,-48,0,2500134,16777215,2500134,16383229,9620956||微软雅黑,小四,true,false,false,-31,-48,0,16777215,4959430,,,9620956||微软雅黑,小四,true,false,false,-31,-48,0,2500134,14348019,,,9620956" aliasName="销售数量" format="" styleName="" alarmString="" stats="" countFormat="" countStyleString="" dcountFormat="" dcountStyleString="" sumFormat="" sumStyleString="" avgFormat="" avgStyleString="" maxFormat="" maxStyleString="" minFormat="" minStyleString="" alarmWholeLine="" targetFlag="false" styleNew="eyJ0ZXh0QWxpZ24iOiIifQ,," fieldSetStyleString="">
+      <alarm exp="" style="" styleValue="" wholeLine="false" expBackColor="" expForeColor="" />
+      <styleName name="" type="" />
+      <countStyleString name="" type="" />
+      <dcountStyleString name="" type="" />
+      <sumStyleString name="" type="" />
+      <avgStyleString name="" type="" />
+      <maxStyleString name="" type="" />
+      <minStyleString name="" type="" />
+    </field>
+    <folder name="新目录节点2" title="新目录节点2">
+      <field name="订购日期" value="" title="订购日期" dispValue="订购日期" dataType="11" order="asc" width="100" dispFormat="" table="" dispExp="" dispDatasets="" dispDatasetsAlias="" isCompute="" statExp="count" statFormat="" dataFilter="ALLDATA" skipMode="" href="" param="" exp="" nullValue="0" colHide="false" styleString="微软雅黑,小四,false,false,false,-31,-48,0,16777215,4959430,,,9620956||微软雅黑,小四,false,false,false,-31,-48,0,2500134,16777215,2500134,16383229,9620956||微软雅黑,小四,true,false,false,-31,-48,0,16777215,4959430,,,9620956||微软雅黑,小四,true,false,false,-31,-48,0,2500134,14348019,,,9620956" aliasName="订购日期" format="" styleName="" alarmString="" stats="" countFormat="" countStyleString="" dcountFormat="" dcountStyleString="" sumFormat="" sumStyleString="" avgFormat="" avgStyleString="" maxFormat="" maxStyleString="" minFormat="" minStyleString="" alarmWholeLine="" targetFlag="false" styleNew="eyJ0ZXh0QWxpZ24iOiIifQ,," fieldSetStyleString="">
+        <alarm exp="" style="" styleValue="" wholeLine="false" expBackColor="" expForeColor="" />
+        <styleName name="" type="" />
+        <countStyleString name="" type="" />
+        <dcountStyleString name="" type="" />
+        <sumStyleString name="" type="" />
+        <avgStyleString name="" type="" />
+        <maxStyleString name="" type="" />
+        <minStyleString name="" type="" />
+      </field>
+    </folder>
+    <field name="订单ID" value="" title="订单ID" dispValue="订单ID" dataType="11" order="asc" width="100" dispFormat="" table="" dispExp="" dispDatasets="" dispDatasetsAlias="" isCompute="" statExp="count" statFormat="" dataFilter="ALLDATA" skipMode="" href="" param="" exp="" nullValue="0" colHide="false" styleString="微软雅黑,小四,false,false,false,-31,-48,0,16777215,4959430,,,9620956||微软雅黑,小四,false,false,false,-31,-48,0,2500134,16777215,2500134,16383229,9620956||微软雅黑,小四,true,false,false,-31,-48,0,16777215,4959430,,,9620956||微软雅黑,小四,true,false,false,-31,-48,0,2500134,14348019,,,9620956" aliasName="订单ID" format="" styleName="" alarmString="" stats="" countFormat="" countStyleString="" dcountFormat="" dcountStyleString="" sumFormat="" sumStyleString="" avgFormat="" avgStyleString="" maxFormat="" maxStyleString="" minFormat="" minStyleString="" alarmWholeLine="" targetFlag="false" styleNew="eyJ0ZXh0QWxpZ24iOiIifQ,," fieldSetStyleString="">
+      <alarm exp="" style="" styleValue="" wholeLine="false" expBackColor="" expForeColor="" />
+      <styleName name="" type="" />
+      <countStyleString name="" type="" />
+      <dcountStyleString name="" type="" />
+      <sumStyleString name="" type="" />
+      <avgStyleString name="" type="" />
+      <maxStyleString name="" type="" />
+      <minStyleString name="" type="" />
+    </field>
+  </selectFields>
+  <groupFields showDetail="yes">
+    <field name="地区" value="" title="地区" dataType="11" order="asc" width="99" dispFormat="" dispExp="" isCompute="" dispDatasets="" dispDatasetsAlias="" dataFilter="ALLDATA" skipMode="" href="" param="" exp="" table="" aliasName="地区" format="" styleName="" dispValue="地区" alarmString="" stats="" countFormat="" countStyleString="" dcountFormat="" dcountStyleString="" sumFormat="" sumStyleString="" avgFormat="" avgStyleString="" maxFormat="" maxStyleString="" minFormat="" minStyleString="" alarmWholeLine="" targetFlag="false" styleNew="" colHide="false">
+      <styleName name="" type="" />
+      <countStyleString name="" type="" />
+      <dcountStyleString name="" type="" />
+      <sumStyleString name="" type="" />
+      <avgStyleString name="" type="" />
+      <maxStyleString name="" type="" />
+      <minStyleString name="" type="" />
+      <alarm expBackColor="" expForeColor="" wholeLine="false" />
+    </field>
+  </groupFields>
+  <selectCondition />
+</fastreport>
+

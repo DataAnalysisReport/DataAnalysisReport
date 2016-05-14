@@ -1,0 +1,23 @@
+
+.dashboard{position:relative;height:expression(document.body.clientHeight-10); width:expression(document.body.clientWidth-5); padding:10px;}
+
+/* 橙色orange 样式一*/
+.dashboardList{position:absolute; border:1px solid #ED9A01;}
+.DBTitleContent{background:url(dbd-styleone/orange/dbd_title_back.png) repeat-x; height:30px; line-height:30px; }
+.DBTitleText{color:#993333;font-weight:bold;font-size:12px; padding-left:9px; padding-top:5px;}
+.DBTitleIconList{float:right; margin-top:5px;*margin-top:-18px;margin-right:5px;}
+.DBTitleIconListno{float:right; margin-top:5px;}
+.DBTitleIconList a{ width:12px; height:12px;margin-right:5px;}
+.DBTitleIconList a.filter{background:url(dbd-styleone/orange/icon.png) -13px -10px no-repeat; display:inline-block;width:12px; height:12px;}
+.DBTitleIconList a.set{background:url(dbd-styleone/orange/icon.png) -37px -10px no-repeat; display:inline-block;width:12px; height:12px;}
+.DBTitleIconList a.refresh{background:url(dbd-styleone/orange/icon.png) -79px -10px no-repeat; display:inline-block;width:12px; height:12px;}
+.DBTitleIconList a.show{background:url(dbd-styleone/orange/icon.png) -57px -10px no-repeat; display:inline-block;width:12px; height:12px;}
+.DBTitleIconList a.filter:hover{ background:url(dbd-styleone/orange/icon.png) -13px -39px no-repeat;width:12px; height:12px;}
+.DBTitleIconList a.set:hover{ background:url(dbd-styleone/orange/icon.png) -37px -39px no-repeat;width:12px; height:12px;}
+.DBTitleIconList a.refresh:hover{ background:url(dbd-styleone/orange/icon.png) -79px -39px no-repeat;width:12px; height:12px;}
+.DBTitleIconList a.show:hover:{ background:url(dbd-styleone/orange/icon.png) -57px -39px no-repeat;width:12px; height:12px;}
+.DBTitleIconList a.filterno{background:url() -0px -0px no-repeat; display:none;width:11px; height:10px;}
+.DBTitleIconList a.setno{background:url() -0px -0px no-repeat; display:none;width:11px; height:8px;}
+.DBTitleIconList a.showno{background:url() -0px -0px no-repeat; display:none;width:11px; height:8px;}
+.DBTitleIconList a.filterno:hover{ background:url() -13px -39px no-repeat;width:11px; height:10px;}
+.DBContentContent{margin:0px 5px;background-color:#ffffff;margin-bottom: 5px;}

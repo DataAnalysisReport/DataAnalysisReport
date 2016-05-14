@@ -1,0 +1,192 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+	<head>
+		<title>展现分组报表32232</title>
+<!-- 		<meta http-equiv="X-UA-Compatible" content="IE=EmulateIE8" > -->
+		<base href="http://localhost:8800/DataAnalysisReport/mis2/vrsr/show/"></base>
+		<link rel="stylesheet" type="text/css" href="/DataAnalysisReport/mis2/custom/vrsr/vr_ui.css">
+		<link rel="stylesheet" type="text/css" href="/DataAnalysisReport/mis2/style/s1/customStyle/customStyle.css">
+		
+		<link rel="stylesheet" type="text/css" href="/DataAnalysisReport/mis2/vrsr/show/css/reportContent.css">
+		<link rel="stylesheet" type="text/css" href="/DataAnalysisReport/mis2/vrsr/show/customer/addFastBtn.css">
+		
+		<link rel="stylesheet" type="text/css" href="/DataAnalysisReport/mis2/gezComponents/css/jquery-ui-1.8.4.custom.css">
+		<style type="text/css">
+			html {
+				width: 100%; 
+				height: 100%;
+			}
+			body {
+				width: 100%; 
+				height: 100%;
+			}
+		</style>
+		
+		<script type="text/javascript" src="/DataAnalysisReport/mis2/gezComponents/jquery/jquery.js"></script>
+		<script type="text/javascript" src="/DataAnalysisReport/mis2/gezComponents/jsUtils/recordUtils.js"></script>
+		<script type="text/javascript" src="/DataAnalysisReport/mis2/vrsr/show/js/FastReportViewer.js"></script>
+		
+		<script type="text/javascript" src="/DataAnalysisReport/mis2/gezComponents/jsUtils/Base64.js"></script>
+		<script type="text/javascript" src="/DataAnalysisReport/mis2/vrsr/show/js/CacheData.js"></script>
+		<script type="text/javascript" src="/DataAnalysisReport/mis2/vrsr/show/js/resizeGraph.js"></script>
+		<script type="text/javascript" src="/DataAnalysisReport/mis2/vrsr/show/customer/resizeTable.js"></script>
+		<script type="text/javascript" src="/DataAnalysisReport/mis2/vrsr/show/customer/addFastBtn.js"></script>
+
+		<script type="text/javascript" src="/DataAnalysisReport/mis2/gezComponents/loadingTips/js/loadingtip.js"></script>
+		<script type="text/javascript" src="/DataAnalysisReport/mis2/gezComponents/jsUtils/AjaxUtil.js"></script>
+		<script type="text/javascript" src="/DataAnalysisReport/mis2/gezComponents/popupDiv/showDialog.js" ></script>
+		<script type="text/javascript" src="/DataAnalysisReport/mis2/swfobject.js"></script>
+		<script type="text/javascript" src="/DataAnalysisReport/mis2/gezComponents/jsUtils/PathUtils.js"></script>
+		
+		<script src="/mis2/gezComponents/jquery-toolbar/js/rqtoolbar.js" type="text/javascript" ></script> 
+
+
+		<script language="javascript" charset="UTF-8" src="/DataAnalysisReport/mis2/gezComponents/jquery/jqueryui/jqueryuijs/jqueryui.js"></script>
+		<script language="javascript" charset="UTF-8" src="/DataAnalysisReport/mis2/gezComponents/form/js/jquery.ui.core.js"></script>
+		<script language="javascript" charset="UTF-8" src="/DataAnalysisReport/mis2/gezComponents/jquery-toolbar/ui/jquery.ui.widget.js"></script>
+		<script type="text/javascript" src="/DataAnalysisReport/mis2/security/js/ModuleEntry.js"></script>	
+		<link rel="stylesheet" type="text/css" href="/DataAnalysisReport/mis2/gezComponents/jquery/jqueryui/jqueryuicss/jqueryui.css">
+		<link rel="stylesheet" type="text/css" href="/DataAnalysisReport/mis2/gezComponents/jquery-toolbar/css/jquery.toolbar.css">
+		<link rel="stylesheet" type="text/css" href="/DataAnalysisReport/mis2/gezComponents/jquery-toolbar/css/jquery.ui.theme.css">
+		<link rel="stylesheet" type="text/css" href="/DataAnalysisReport/mis2/gezComponents/formstyle/css/form.css">
+		<link rel="stylesheet" type="text/css" href="/DataAnalysisReport/mis2/gezComponents/popupDiv/css/jquery.popup.css" />		
+		<link rel="stylesheet" type="text/css" href="/DataAnalysisReport/mis2/commonQuery/jsCommonQuery/configCss/queryPanel.css">
+		<link rel="stylesheet" type="text/css" href="/DataAnalysisReport/mis2/style/s1/customStyle/customStyle.css">
+		
+		 <style>
+			.ui-resizable-helper { border: 2px dotted #00F; }
+		</style>
+		
+		<script language="javascript" charset="UTF-8" src="/DataAnalysisReport/mis2/gezComponents/jsUtils/json2.js"></script>
+		<script language="javascript" charset="UTF-8" src="/DataAnalysisReport/mis2/reportcenter/saveAndLoad/js/saveAndLoadDialog.js"></script>
+		<script type="text/javascript" src="/DataAnalysisReport/mis2/vrsr/js/vr_linkForm.js"></script>
+		<script type="text/javascript" src="/DataAnalysisReport/mis2/custom/vrsr/vr_ui.js"></script>
+		
+		<script type="text/javascript" src="/DataAnalysisReport/mis2/vrsr/show/js/jquery.nicescroll.js"></script>
+		
+		
+		<script type="text/javascript">
+			var userId = "root";
+			var operationModule = "SRFP";
+			var otherId = "";
+			var relativeJspUrlPrefix= "/DataAnalysisReport/mis2/";
+			var relativeUrlPrefix= "/DataAnalysisReport/";
+			var absoluteUrlPrefix= "http://localhost:8800/DataAnalysisReport/";
+			var absoluteJspUrlPrefix= "http://localhost:8800/DataAnalysisReport/mis2/";
+			var flag=false;
+			var isFromDBD="null";
+			var contextPath = '/DataAnalysisReport';
+			var reportID = '32232';
+			var reportName = '新建数据分析';
+			var exportDAName='';
+			var isFromDataAnalysis='null';
+			var filePath = '/mis2/reportcenter/res/fastReport/jsbb/reportFiles';
+			var urlParams = 'vr_bean=bean_67_12_1&secInfo=544FC0DAADBA4819D05EBE16774673AE-_-eyJyZXNOYW1lIjoiNXBhdzVidTY1cFd3NW8ydTVZaUc1cDZRIiwicmVzSUQiOiIzMjIzMiIsInNlY1RpbWUiOiIxNDYzMjM4NTM1OTM5IiwidXNlcklkIjoi566h55CG5ZGYIiwicmVzVHlwZSI6IjEyIn0,&resID=32232&showGraphOnly=no&fastShowPage=yes&autoMode=yes&needDebug=no&importExcelAppend=yes&resName=新建数据分析&needImportExcel=yes&hasCommQry=yes&needLinkStyle=no&wordFormat=2003&showSelectedFilters=yes&needPage=yes&toolbarLocation=top&defaultPackupQryPanel=no&promptAfterSave=yes&promptBeforeUnload=no&needSubscribe=no&commonQueryLocation=top&patternID=1001&isNeedFormula=0&validOnSubmit=yes&resIdForTab=&autoHideEditor=yes&submitAsync=true&fastPivot_pageCount=40&hasQrPanle=no&backAndRefresh=yes&keyRepeat=no&autoDisplay=0&validOnShow=no';
+			var base64 = new Base64();
+			var notShowReport = true;//是否未展现报表，用于判断是否展现导出分页等工具条按钮
+			var qryStr='';
+			var version = $.browser.version;
+			var schema = '';
+			var serverPath = '/mis2/reportcenter/res/fastReport/jsbb/reportFiles/新建数据分析.xml';
+			var autoDisplay = 0;
+			var useQuickButton = true;
+			var frConfig = 'null';
+			var reportDefineId = 'report_define_1463239195510';
+			
+			var reqJSONStr='{"reportDefineId":"report_define_1463239195510","layout":"null","userId":"root","toolbarLocation":"null","dataAnalysisName":"null","filePath":"/mis2/reportcenter/res/fastReport/jsbb/reportFiles","from":"sr","webType":"firefox","basePath":"aHR0cDovL2xvY2FsaG9zdDo4ODAwL3JlcG9ydG1pcy9taXMyL3JlcG9ydGNlbnRlci9zaG93UmVwb3J0X3JlcG9ydEZyYW1lLmpzcA,,","vr_bean":"bean_67_12_1","isSelfLink":"false","isFromDataAnalysis":"null","t_i_m_e":"Sat May 14 2016 23:19:57 GMT 0800 (ä¸­å\u009b½æ \u0087å\u0087\u0086æ\u0097¶é\u0097´)","contextPath":"/DataAnalysisReport"}';
+			var requestJSON=JSON.parse(reqJSONStr);
+			
+			
+			/** 展现报表 */
+			function showReport(){
+				viewer.pageChangedHandler();
+			}
+			
+			var showReportFirst=false;
+			// 获得数据：
+			var viewer;
+			 
+			// 设置reportContent高度：
+			$(window).load(function() {
+				viewer = new FastReportViewer("/DataAnalysisReport", "32232", "新建数据分析", "/mis2/reportcenter/res/fastReport/jsbb/reportFiles", $("body"), 0, 40, 20, '', '&vr_bean=bean_67_12_1&secInfo=544FC0DAADBA4819D05EBE16774673AE-_-eyJyZXNOYW1lIjoiNXBhdzVidTY1cFd3NW8ydTVZaUc1cDZRIiwicmVzSUQiOiIzMjIzMiIsInNlY1RpbWUiOiIxNDYzMjM4NTM1OTM5IiwidXNlcklkIjoi566h55CG5ZGYIiwicmVzVHlwZSI6IjEyIn0,&resID=32232&showGraphOnly=no&fastShowPage=yes&autoMode=yes&needDebug=no&importExcelAppend=yes&resName=新建数据分析&needImportExcel=yes&hasCommQry=yes&needLinkStyle=no&wordFormat=2003&showSelectedFilters=yes&needPage=yes&toolbarLocation=top&defaultPackupQryPanel=no&promptAfterSave=yes&promptBeforeUnload=no&needSubscribe=no&commonQueryLocation=top&patternID=1001&isNeedFormula=0&validOnSubmit=yes&resIdForTab=&autoHideEditor=yes&submitAsync=true&fastPivot_pageCount=40&hasQrPanle=no&backAndRefresh=yes&keyRepeat=no&autoDisplay=0&validOnShow=no', '',serverPath,frConfig,"12",reportDefineId, "null").init();
+				//if("null" == "false" && !$('#commQryDiv').is(':hidden')){
+				//	hideCommonQueryPanel();
+				//}
+				//if((autoDisplay == 0&&!false)||(autoDisplay == 2&& false)){
+					//showReport_click();
+					viewer.initReportConfig();
+					viewer.pageChangedHandler();
+				//}
+				//parent.setFrameHeight("top");
+				autoSetReportHeight();
+			});
+			
+			/** 设置报表显示区域高度 */
+			function autoSetReportHeight(){
+				var toolbarHeight = 0;
+				$('#reportContent').height($('body').height());
+
+
+				var table_title_div_height=0
+				if(!$("#report_"+reportID+"_table_title_div").is(':hidden')){
+					table_title_div_height=$("#report_"+reportID+"_table_title_div").height();
+				}
+				var table_foot_div_height=0;
+				if(!$("#report_"+reportID+"_table_foot_div").is(':hidden')){
+					table_foot_div_height=$("#report_"+reportID+"_table_foot_div").height();
+				}
+				//设置DIV大小：
+				var height = 0;
+				if($('#tableDiv').attr('clientHeight')){
+					height = $('#tableDiv').attr('clientHeight') - $('#report_' + reportID + '_table_colHeader_div').height() - 
+						table_title_div_height- table_foot_div_height;
+				}else{
+					height = $('#tableDiv').height() - $('#report_' + reportID + '_table_colHeader_div').height() - 
+						table_foot_div_height - table_foot_div_height;
+				}
+				if(BrowserType()!="Firefox"){
+					$('#report_'+reportID+'_table_data_div').width($('#report_' + reportID + '_table_colHeader_div').width());
+					$('#report_'+reportID+'_table_data_div').height(height);
+				}
+				$('#report_'+reportID+'_table_rowHeader_div').height(height);
+				viewer.setLayout();
+			}
+			function setDivSize(){
+				if($("#reportContent").length <= 0){
+					//元素不存在
+					return;
+				}
+				$("#reportContent").css("width", "100%");
+				if($.browser.msie&&parseInt(version)<10){
+					$("#reportContent").css("height", $("body").height()-15);
+				}else{
+					$("#reportContent").css("height", $("body").height());
+				}
+				$("#reportContent").width(document.body.clientWidth);
+				//autoSetReportHeight();
+			}
+		</script>
+		<style>
+			a:link { color: #CC3399; text-decoration: underline;}  //覆盖style.css中的超链接样式
+		</style>
+		
+	</head>
+
+	<body>
+		<div id="reportContent">
+			<!-- 数据： -->
+			<div id="tableDiv" style="text-align:left;height:100%"></div>
+			
+			<!-- 统计图： -->
+			<div id="chartDiv" style="text-align:left;height:100%"></div>
+		</div>
+		
+		<div id="container" style="position: absolute;top: 55px;left: 165px;z-Index:2;">
+			<div id="flashContent" style='width:0px;height:0px;'>
+			</div>
+			<div id="commQrySet2" style='width:0px;height:0px;'>
+			</div>
+		</div>
+	</body>
+</html>
+

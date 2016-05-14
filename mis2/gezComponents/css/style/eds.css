@@ -1,0 +1,53 @@
+@charset "UTF-8";
+@import url("ycss.css");
+
+th{background:url(../images/thBg.png) repeat-x;height:26px;line-height:26px}
+#BgDiv{background-color:#e3e3e3;position:absolute;z-index:99;left:0;top:0;display:none;width:100%;opacity:.5;filter:alpha(opacity=50);-moz-opacity:.5;height:100%}
+#registerPopup{position:absolute;z-index:100;width:900px;left:15%;border:#205a96 solid 1px;font-size:12px;background:#FFF}
+.formContent{background:#f3f5f9;height:484px}
+.formContent .tree{float:left;background:#f6f9fe;border-right:#b8cbdc solid 1px;width:200px}
+.formContent .btnArea .btnAdd{margin:160px 14px 116px 14px}
+.formContent .dataArea{float:left;border-left:#b8cbdc solid 1px;background:#fff;_width:600px;height:483px}
+#newSchePopup{width:900px;left:15%;}
+#BgDivMailAddr{background-color:#e3e3e3;position:absolute;z-index:990;left:0;top:0;display:none;width:100%;opacity:.5;filter:alpha(opacity=50);-moz-opacity:.5;height:100%}
+#mailAddrPopup{position:absolute;z-index:1000;width:320px;left:35%;border:#205a96 solid 1px;font-size:12px;background:#FFF}
+.tagContent{PADDING:0;BACKGROUND:#f2f4f8;COLOR:#484847;height:455px;background:#FFF;overflow:auto}
+#treeview{width:200px;height:459px}
+.queryForm_sche{background:#f5f9fe;border-bottom:#a0bedd solid 1px;padding:10px 10px 10px 15px}
+#t_paramTable{height:33px}
+ul.toolBarBg_sche li{float:left;margin-right:25px;cursor:pointer}
+.add_sche{background:url(../images/add_sche.png) 0 9px no-repeat;padding-left:18px}
+.start_sche{background:url(../images/start_sche.png) 0 9px no-repeat;padding-left:18px}
+.stop_sche{background:url(../images/stop_sche.png) 0 9px no-repeat;padding-left:18px}
+.delete_sche{background:url(../images/delete_sche.png) 0 9px no-repeat;padding-left:18px}
+.sideBar{float:left;height:100%;border-right:#b8cbdc solid 1px;width:204px}
+.container{float:left;height:100%;width:695px;background:url(../images/containerBg.png) repeat-y}
+table.PermissionTable thead td{background:url(../images/PerTableThead.png) repeat-x;height:26px;line-height:26px;padding-left:10px}
+table.PermissionTable tbody td{border-bottom:#efefef solid 1px;padding-left:10px}
+.exportFile{background:url(../images/exportFile.jpg) 0 6px no-repeat;padding-left:20px}
+.basicSet{padding:10px}.choseFile{padding-left:30px;border-bottom:#d4d4d4 solid 1px;padding-bottom:10px}
+.dataSet{border-bottom:#d4d4d4 solid 1px;padding-bottom:10px;padding-top:10px;padding-left:4px}
+.colCheck{padding-bottom:10px;padding-top:10px;padding-left:16px}
+.dataType{margin-left:100px;margin-top:10px;width:645px;border:#a6cfea solid 1px;background-color:#f8fbfd}
+.dataTyleTitle{height:25px;line-height:25px;padding-top:2px;padding-left:10px;border-bottom:#a6cfea solid 1px;background-color:#f0f0f0}
+.dataTypeBlock{padding:5px}.helpMesg{display:inline-block;padding:0 5px;margin-left:5px;height:23px;line-height:23px;border:#dedede solid 1px}
+.mapSetTop{margin:10px;border-bottom:#e7e7e7 solid 1px;padding-bottom:10px}.mapSetBottom{margin:10px;padding:12px}
+.choseImpMode{margin-left:25px}.choseImpMode span{float:left}
+.choseImpMode form{float:left}.choseImpMode form input{margin-right:5px}.choseImpMode form label{margin-right:20px}
+table.importMode{border:#dbdada solid 1px}table.importMode thead{background:url(../images/thead.jpg) repeat-x;height:24px;line-height:24px}
+table.importMode tbody tr.oddRow{background-color:#f8fbfd}
+table.importMode tr{height:24px}
+table.importMode td{padding-left:10px}
+ul.ulOperbtn{list-style:none;padding-left:10px;width:615px;height:31px;line-height:31px;border:#e7e7e7 solid 1px;border-bottom:0;background-color:#f0f0f0}
+ul.ulOperbtn li{float:left;margin-right:20px;cursor:pointer}
+.addField{background:url(../images/addField.jpg) 0 5px no-repeat;padding-left:24px}
+.delField{background:url(../images/delField.jpg) 0 5px no-repeat;padding-left:24px}
+.ui-jqgrid .ui-jqgrid-htable th{height:30px;padding:0 2px 0 2px}
+.ui-jqgrid .ui-jqgrid-htable th div{overflow:hidden;position:relative;height:30px}
+.ui-jqgrid .ui-th-div-ie{white-space:nowrap;zoom:1;height:30px}
+.newRegion{padding:10px}table.regionVarList{background-color:#fff}
+table.regionVarList th{background:url(../images/thead.jpg) repeat-x;height:24px;line-height:24px;text-align:left;padding-left:5px;border:#ccc solid 1px}
+table.regionVarList td{padding-left:5px;height:24px}
+.oddRow{background-color:#f8fbfd}
+.bottomBtn{position:absolute;left:0;bottom:0;height:30px;background:#f0f0f0;border-top:#d4deec solid 1px}
+.bottomBtn input{float:right;margin:3px 10px 3px 0;width:70px;height:24px}

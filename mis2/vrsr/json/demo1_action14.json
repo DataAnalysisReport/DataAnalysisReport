@@ -1,0 +1,38 @@
+{
+	"groupFields": [{
+		"label": "地区",
+		"data": "升序",
+		"name": "地区"
+	}],
+	"sortPriorityArr": "地区,客户名称,资金类型,产品名称,销售类型,销售数量,订购日期,订单ID",
+	"selectFields": [{
+		"label": "客户名称",
+		"data": "升序",
+		"name": "客户名称"
+	},
+	{
+		"label": "产品名称",
+		"data": "升序",
+		"name": "产品名称"
+	},
+	{
+		"label": "销售类型",
+		"data": "升序",
+		"name": "销售类型"
+	},
+	{
+		"label": "销售数量",
+		"data": "升序",
+		"name": "销售数量"
+	},
+	{
+		"label": "订购日期",
+		"data": "升序",
+		"name": "订购日期"
+	},
+	{
+		"label": "订单ID",
+		"data": "升序",
+		"name": "订单ID"
+	}]
+}

@@ -1,0 +1,3345 @@
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	margin: 0;
+	padding: 0
+}
+
+form {
+	margin: 0
+}
+
+.clear {
+	clear: both;
+	height: 0;
+	font-size: 1px;
+	line-height: 0
+}
+
+.red {
+	color: #f03;
+	padding: 0 5px;
+	font-weight: bold
+}
+
+.delete {
+	color: #f10000;
+	text-decoration: none
+}
+
+.green {
+	color: #093;
+	text-decoration: none
+}
+
+.noscroll {
+	overflow: hidden
+}
+
+.clearboth {
+	clear: both;
+	font-size: 0
+}
+
+a {
+	color: #999;
+	text-decoration: none
+}
+
+a:hover {
+	color: #333;
+	text-decoration: none
+}
+
+input {
+	font-size: 12px;
+	color: #333
+}
+
+textArea {
+	font-size: 12px;
+	color: #333
+}
+
+.hidden {
+	display: none
+}
+
+img {
+	border: 0
+}
+
+dl {
+	margin: 0
+}
+
+dl dt {
+	font-weight: 500;
+	margin-bottom: 5px
+}
+
+dl dd {
+	margin-bottom: 2px
+}
+
+.overflow {
+	overflow: auto
+}
+
+.noImage {
+	background-image: none
+}
+
+.loginBody {
+	background: url(customStyle/login-bg.png) repeat-x #ebf4fd;
+	margin: 0;
+	padding: 0
+}
+
+.login {
+	background: url(customStyle/login-pic.png) no-repeat;
+	width: 767px;
+	height: 350px;
+	margin: 180px auto 0 auto;
+	text-align: left;
+	position: relative
+}
+
+.loginTime {
+	color: red;
+	font-size: 20px;
+	font-family: 宋体
+}
+
+.loginForm {
+	position: absolute;
+	margin: 90px 0 0 490px;
+	padding: 0;
+	line-height: 20px
+}
+
+.loginPassword,.loginUser {
+	margin: 12px 0 0 5px
+}
+
+.loginForm label {
+	margin: 0 0 10px 0;
+	padding: 0;
+	line-height: 30px;
+	text-vlign: center;
+	height: 30px;
+	font-size: 14px;
+	color: #525252
+}
+
+.loginInput {
+	border: 1px solid #CCC;
+	width: 170PX;
+	color: #000;
+	margin: 0;
+	height: 31px;
+	line-height: 35px;
+	font-size: 16px;
+	padding-left: 5px
+}
+
+.loginRemPsd {
+	margin: 0;
+	padding: 0;
+	display: inline;
+	width: 20px;
+	height: 16px;
+	border: 0 solid;
+	float: left;
+	line-height: 16px
+}
+
+.lableRemPwd {
+	height: 16px;
+	font-size: 14px;
+	color: #525252;
+	line-height: 16px
+}
+
+.loginButtons {
+	margin: 12px 0 0 49px;
+	line-height: 34px;
+	font-weight: bold;
+	font-size: 14px;
+	color: #fff;
+	text-align: center
+}
+
+.loginButtons a {
+	color: #fff;
+	text-decoration: none;
+	background: url(customStyle/login-button.png) no-repeat left top;
+	float: left;
+	width: 86px;
+	height: 34px;
+	cursor: hand
+}
+
+.loginButtons a:hover {
+	color: #333;
+	text-decoration: none;
+	background: url(customStyle/login-button-hover.png) no-repeat left bottom
+}
+
+.applyBg {
+	background: url(login-bg.png) repeat-x #ebf4fd;
+	margin: 0;
+	padding: 0
+}
+
+.apply {
+	margin: 10px auto 0 auto;
+	width: 824px;
+	position: relative
+}
+
+.applyForm {
+	margin: 0;
+	background: url(apply-form.gif) repeat-y #ebf4fd
+}
+
+.applyForm .applyTitle {
+	margin: 0 10px 10px 0;
+	background: url(apply-title.png) no-repeat;
+	height: 72px;
+	font-size: 12px
+}
+
+.applyForm .applyTitle a {
+	margin: 30px 6px 0 0;
+	float: right;
+	color: #e6e4e4;
+	text-decoration: none
+}
+
+.applyForm .applyContentTitle {
+	padding-left: 15px;
+	padding-top: 8px;
+	background: url(apply-content-title.gif) repeat-x;
+	height: 30px;
+	margin: 30px 46px 0 46px;
+	font-weight: bold;
+	font-size: 12px;
+	color: #007bbb
+}
+
+.applyForm .applyContentTitleB {
+	margin: 0 0 20px 86px;
+	background: url(apply-content-title-b.gif) no-repeat;
+	height: 7px
+}
+
+.applyForm .applyTable {
+	font-size: 12px
+}
+
+.applyForm .applyTable a {
+	color: blue
+}
+
+.applyForm .applyInputButtons {
+	margin: 30px 0 0 0;
+	line-height: 34px;
+	font-weight: bold;
+	font-size: 14px;
+	color: #fff;
+	text-align: center
+}
+
+.applyForm .applyInputButtons a {
+	color: #fff;
+	text-decoration: none;
+	background: url(login-button.png) no-repeat left top;
+	margin: 0 0 0 10px;
+	width: 86px;
+	height: 34px;
+	cursor: hand;
+	padding: 8px 30px !important; *
+	padding: 0
+}
+
+.applyForm .applyInputButtons a:hover {
+	color: #333;
+	text-decoration: none;
+	background: url(login-button.png) no-repeat left bottom
+}
+
+.applyForm .applyButton {
+	margin: 0 0 0 20px;
+	width: 86px;
+	height: 34px;
+	cursor: hand
+}
+
+.applyForm .applyFormBottom {
+	margin: 0;
+	background: url(apply-form-bottom.gif) no-repeat;
+	height: 16px
+}
+
+.head {
+	margin: 0 auto;
+	width: 100%;
+	background: url(customStyle/top-bg.png) repeat-x;
+	height: 74px;
+}
+
+.headLeft{
+	float: left;
+	overflow: visible;
+	height: 74px;
+}
+
+.logo {
+	background: url(customStyle/logo.png) no-repeat;
+	float: left;
+	height: 74px;
+	width: 399px;
+}
+
+.headCenter {
+	float: left;
+	overflow: hidden;
+	height: 74px;
+}
+
+.headRight {
+	float: right;
+	overflow: visible;
+	height: 74px;
+}
+
+.headInfo {
+	margin: 0;
+	padding: 0;
+	float: right;
+	height: 40px;
+	color: #f8f8f8;
+	font-weight: bold;
+}
+
+.headMenu {
+	margin: 0;
+	padding: 0;
+	float: right;
+	height: 26px;
+	color: #f8f8f8;
+	clear: both;
+}
+
+.headRight span {
+	padding: 5px 5px 5px 5px;
+	float: right;
+	display: inline;
+	font-size: 13px
+}
+
+.headRight .logout {
+	margin: -1px -3px 0 0;
+	font: bold;
+	float: right;
+	display: inline;
+	font-size: 13px
+}
+
+.headRight .logout a {
+	padding: 8px 0px 8px 0px;
+	color: #fff;
+	text-decoration: underline;
+	cursor: pointer;
+}
+
+.headRight .logout a:hover {
+	margin: 0;
+	color: #df0000;
+	text-decoration: none
+}
+
+.headLink {
+	clear:both;
+	color: #f4f4f4;
+	text-align: left;
+	margin-left:5px;
+	line-height: 45px;
+	font-size: 12px
+}
+
+.headLink a {
+	margin: 0 3px 0 3px;
+	color: #e6e4e4;
+	text-decoration: none
+}
+
+.headLink a:hover {
+	color: #fff
+}
+
+.headSearch {
+	display: inline;
+	height: 48px;
+	line-height: 48px;
+	margin: 0;
+	padding: 0;
+	overflow: hidden
+}
+
+.headSearch .searchInput {
+	vertical-align: middle;
+	border: 1px solid #c2cff1;
+	height: 19px;
+	margin: 0 -4px 0 0;
+	width: 100px
+}
+
+.headSearch .searchImg {
+	vertical-align: middle;
+	margin: 0;
+	border: 0;
+	cursor: hand
+}
+
+.showMenu{
+    margin: 0;
+	padding: 0;
+	cursor:pointer;
+	width:25px;
+	height:25px;
+	background:url("menuFlat.gif") no-repeat;
+	background-position:center;
+	display:none;
+} 
+
+.showResourceExplorer{
+    margin: 0;
+	padding: 0;
+	cursor:pointer;
+	width:25px;
+	height:25px;
+	background:url("resourceExplorer.gif") no-repeat center;
+	display:block;
+} 
+
+.favorit{
+	margin: 0;
+	padding: 0;
+	cursor:pointer;
+	width:25px;
+	height:25px;
+	background:url("star_fav_empty.png") no-repeat center;
+	display:block;
+} 
+
+.left .leftTitle {
+	background: url(customStyle/menutitle-bg.png) repeat-x;
+	height: 24px;
+	line-height: 24px;
+	font-size: 12px;
+	font-weight: bold
+}
+
+.left .time {
+	margin: 0;
+	padding: 0 0 0 40px;
+	background: url(dhxaccord_dhx_blue/time-icon.png) no-repeat #fff 10px
+		5px;
+	font-size: 12px;
+	line-height: 26px;
+	border-bottom: 1px solid #e0e0e0
+}
+
+.error {
+	width: 100%;
+	background: #ffc;
+	position: relative;
+	margin: 10px;
+	padding: 5px;
+	border: 3px solid #dedede
+}
+
+.error h1 {
+	font: 14px Arial, Helvetica, sans-serif;
+	text-align: left;
+	font-weight: bolder;
+	background: #3073be;
+	padding: 5px 10px;
+	display: block;
+	color: #fff;
+	line-height: 24px
+}
+
+.error a {
+	color: red;
+	font-weight: bold
+}
+
+.errorContent {
+	color: #454545;
+	padding: 0 20px 0 20px;
+	margin: 0;
+	font-size: 14px
+}
+
+.errorTip {
+	color: #454545;
+	padding: 0 20px 0 20px;
+	margin: 0;
+	font-size: 18px;
+	font-weight: bold
+}
+
+.showMsg {
+	margin: 10px;
+	padding: 10px;
+	color: #454545;
+	font-size: 12px;
+	background: #ffc;
+	border: 3px solid #dedede
+}
+
+.sessionBg {
+	background: url(404-bg.png) no-repeat;
+	width: 548px;
+	height: 210px;
+	margin: 100px auto 200px auto
+}
+
+.sessionText {
+	font-size: 14px;
+	font-weight: bold;
+	margin: 80px 20px 0 180px;
+	color: #7c8592
+}
+
+.houseTree {
+	height: 130px;
+	width: 380px;
+	border: 1px solid #adbcca;
+	margin: 0 5px 5px 10px
+}
+
+.houseTitle {
+	font-weight: bold;
+	font-family: 宋体;
+	font-size: 13px;
+	width: 100% -10px;
+	height: 18px;
+	padding: 5px 0 0 10px;
+	background-image: url(privTitle.png);
+	border-bottom: 1px solid #b9c7d3
+}
+
+.houseTreeCenter {
+	height: 130px;
+	width: 380px;
+	overflow: auto
+}
+
+.home {
+	margin: 0;
+	font-size: 12px
+}
+
+.contentFrame {
+	margin: 0;
+	display: block
+}
+
+.crumbNav {
+	background: url(customStyle/nav-bg.png) repeat-x;
+	height: 24px;
+	margin: 0;
+	padding: 0 0 0 15px;
+	line-height: 24px;
+	font-size: 12px;
+	color: #333;
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	-o-text-overflow: ellipsis
+}
+
+.crumbNav a {
+	color: #454545;
+	text-decoration: none
+}
+
+.crumbNav a:hover {
+	color: #f90
+}
+
+.selectDBD {
+	margin: 0;
+	overflow: auto
+}
+
+.selectedDBD {
+	width: 100%;
+	height: 36px;
+}
+
+.selectedDBD0 {
+	width: 80%;
+	height: 20px;
+	border-top: 1px solid #a1bfde;
+	border-bottom: 1px solid #a1bfde
+}
+
+.selectedDBDTitle {
+	margin-left: 10px;
+	margin-top: 7px;
+	float: left;
+	width: 100%;
+	font-weight: bold;
+	font-size: 14px
+}
+
+.dbdInfoMain {
+	margin: 10 10 10 10px
+}
+
+.selectedDBDTabs {
+	height: 170px;
+	overflow: auto
+}
+
+.selectedDBDThumb {
+	width: 166;
+	float: left;
+	padding: 5px 2px 2px 2px
+}
+
+.selectedDBDPrompt {
+	margin-left: 200px
+}
+
+.reserveDBD {
+	width: 100%;
+	height: 36px;
+}
+
+.reserveDBDTitle {
+	margin-left: 10px;
+	margin-top: 7px;
+	float: left;
+	font-weight: bold;
+	font-size: 14px
+}
+
+.reserveDBDFilter {
+	vertical-align: -2px;
+	display: inline
+}
+
+.reserveDBParameter {
+	float: right;
+	margin-right: 30px;
+	margin-top: 5px
+}
+
+.reserveDBDItems {
+	width: 100%;
+	overflow: auto;
+	margin: 10 0 10 0
+}
+
+.reserveDBDItem {
+	padding: 10px 6px 10px 9px;
+	width: 160px;
+	border: 1px solid #fff;
+	display: inline;
+	float: left !important; *
+	float: none
+}
+
+.reserveDBDPic {
+	width: 130px;
+	height: 83px;
+	padding: 1px 1px 1px 1px;
+	border: 0 solid #c0c0c0
+}
+
+.reserveDBDButtons {
+	width: 100%;
+	position: absolute;
+	left: 0;
+	right: 0;
+	bottom: 0; *
+	bottom: 0;
+	height: 30px;
+	background-color: #f0f0f0;
+	border-top: #d4deec solid 1px;
+	font-size: 12px;
+	text-align: right;
+	font-size: 12px
+}
+
+.reserveDBDButtons .button {
+	margin-right: 10px
+}
+
+.reserveDBDButtons input {
+	margin: 4px 10px 3px 0;
+	width: 60px;
+	height: 22px
+}
+
+.dashboard {
+	position: relative;
+	height: expression(document . body . clientHeight-10);
+	width: expression(document . body . clientWidth-5);
+	padding: 10px
+}
+
+.dashboardList {
+	position: absolute
+}
+
+.dashboardTitle {
+	height: 25px
+}
+
+.dashboardTitle .DBTitleLeft {
+	float: left;
+	background: url(topL.png) no-repeat;
+	width: 5px;
+	height: 26px
+}
+
+.dashboardTitle .DBTitleContent {
+	float: left;
+	background: url(dbd_title_back.png) repeat-x;
+	height: 24px;
+	border-top: #c5c5c5 solid 1px;
+	border-bottom: 1px solid #c5c5c5;
+	line-height: 24px
+}
+
+.dashboardTitle .DBTitleText {
+	color: #000;
+	font-weight: bold;
+	font-size: 12px;
+	padding-left: 9px
+}
+
+.dashboardTitle .DBTitleIconList {
+	float: right;
+	margin-top: 5px; *
+	margin-top: -18px
+}
+
+.dashboardTitle .DBTitleIconListno {
+	float: right;
+	margin-top: 5px; *
+	margin-top: -24px
+}
+
+.dashboardTitle .DBTitleIconList a {
+	width: 11px;
+	height: 10px;
+	margin-right: 5px
+}
+
+.DBTitleIconList a.filter {
+	background: url(icon.gif) -13px -10px no-repeat;
+	display: inline-block;
+	width: 11px;
+	height: 10px
+}
+
+.DBTitleIconList a.filterno {
+	background: url() -0px -0px no-repeat;
+	display: none;
+	width: 11px;
+	height: 10px
+}
+
+.DBTitleIconList a.set {
+	background: url(icon.gif) -37px -10px no-repeat;
+	display: inline-block;
+	width: 11px;
+	height: 10px
+}
+
+.DBTitleIconList a.setno {
+	background: url() -0px -0px no-repeat;
+	display: none;
+	width: 11px;
+	height: 10px
+}
+
+.DBTitleIconList a.refresh {
+	background: url(icon.gif) -79px -10px no-repeat;
+	display: inline-block;
+	width: 11px;
+	height: 10px
+}
+
+.DBTitleIconList a.show {
+	background: url(icon.gif) -59px -10px no-repeat;
+	display: inline-block;
+	width: 11px;
+	height: 10px
+}
+
+.DBTitleIconList a.showno {
+	background: url() -0px -0px no-repeat;
+	display: none;
+	width: 11px;
+	height: 10px
+}
+
+.DBTitleIconList a.filter:hover {
+	background: url(icon.gif) -13px -39px no-repeat;
+	width: 11px;
+	height: 10px
+}
+
+.DBTitleIconList a.filterno:hover {
+	background: url() -13px -39px no-repeat;
+	width: 11px;
+	height: 10px
+}
+
+.DBTitleIconList a.set:hover {
+	background: url(icon.gif) -37px -39px no-repeat;
+	width: 11px;
+	height: 10px
+}
+
+.DBTitleIconList a.refresh:hover {
+	background: url(icon.gif) -79px -38px no-repeat;
+	width: 11px;
+	height: 10px
+}
+
+.dashboardTitle .DBTitleRight {
+	float: left;
+	background: url(topR.png) no-repeat;
+	width: 10px;
+	height: 26px
+}
+
+.DBContentLeft {
+	float: left;
+	width: 10px;
+	background: url(middleL.png) repeat-y
+}
+
+.DBContentContent {
+	float: left;
+	background-color: #fff;
+	margin-right: 2px; *
+	margin-right: 0
+}
+
+.DBContentRight {
+	float: left;
+	width: 10px;
+	background: url(middleR.png) repeat-y
+}
+
+.dashboardBottom {
+	height: 10px
+}
+
+.dashboardBottom .DBBottomLeft {
+	float: left;
+	background: url(bottomL.png) no-repeat;
+	width: 10px;
+	height: 10px
+}
+
+.dashboardBottom .DBBottomMiddle {
+	float: left;
+	background: url(bottomC.png) repeat-x;
+	height: 10px
+}
+
+.dashboardBottom .DBBottomRight {
+	float: left;
+	background: url(bottomR.png) no-repeat -4px 0;
+	width: 10px;
+	height: 10px
+}
+
+.reportParam {
+	padding: 10px;
+	margin: 0;
+	display: block;
+	border-bottom: 1px solid #d4dfeb;
+	background: url(report-param.gif) repeat-x top #f4f9fc
+}
+
+.reportParamContent {
+	float: left;
+	margin: 0
+}
+
+.reportParamButton {
+	float: right;
+	margin: 0
+}
+
+.reportParamButton input {
+	margin: 0 0 0 10px;
+	height: 24px;
+	line-height: 18px;
+	width: 65px;
+	color: #000
+}
+
+.reportToolbar {
+	background: url(report-tools-bg.gif) repeat-x top left;
+	height: 38px;
+	margin: 0;
+	padding: 0;
+	font-size: 13px
+}
+
+.reportToolsButton {
+	float: right;
+	margin: 10px 10px 0 0;
+	display: inline;
+	line-height: 18px
+}
+
+.reportToolsButton a {
+	margin: 0 2px 0 0
+}
+
+.reportPage {
+	float: right;
+	margin: 10px 10px 0 0
+}
+
+.reportList {
+	margin: 0;
+	padding: 0;
+	color: #999;
+	border-bottom: 1px solid #ccc
+}
+
+.reportList a {
+	color: #454545;
+	text-decoration: none;
+	line-height: 24px
+}
+
+.reportList a:hover {
+	color: #f90;
+	text-decoration: none
+}
+
+.list {
+	margin: 0;
+	padding: 0 0 18px 0;
+	/*background: url(table-bottom.gif) repeat-x bottom*/
+}
+
+.list table {
+	margin: 0;
+	width: 100%;
+	font-size: 12px;
+	color: #000
+}
+
+.list a {
+	color: #000;
+	text-decoration: none;
+	line-height: 24px
+}
+
+.list a:hover {
+	color: #f90;
+	text-decoration: none
+}
+
+.list .delete {
+	color: #f10000
+}
+
+.list th {
+	font-size: 12px;
+	font-weight: bold;
+	text-align: left;
+	color: #454545;
+	padding: 0 0 0 5px;
+	height: 24px
+}
+
+.list tr td {
+	border-color: #fff;
+	font-size: 12px;
+	padding: 0 0 0 5px;
+	height: 25px
+}
+
+.filterFrame {
+	margin: 0px 10px;
+}
+
+.filterTitle {
+	margin: 5px 0px;
+	height: 26px;
+	width: 98%;
+	font-weight: bold;
+	font-size: 12px;
+	padding-top: 6px;
+	padding-left: 10px;
+	border-top: 1px solid #b0c2ce
+}
+
+.filterTitle table {
+	font-size: 12px;
+	margin: 0 0 10px 0
+}
+
+.filterContent {
+	margin: 10px 0 10px 0;
+	height: auto;
+	font-size: 12px
+}
+
+.filterContent a {
+	text-decoration: none;
+	color: #009;
+	font-size: 12px
+}
+
+.filterContent a:hover {
+	color: #f90
+}
+
+.filterContent SELECT {
+	width: 132px
+}
+
+.filterContent tr td {
+	line-height: 13px
+}
+
+.filterContent tr td .helpDivMsg {
+	line-height: 20px
+}
+
+.filterContent tr td div {
+	text-align: left
+}
+
+.filterContent .password {
+	width: 132px;
+	height: 21px
+}
+
+.filterButtons {
+	width: 100%;
+	_width:99%;
+	position: absolute;
+	padding:0px !important;
+	left: 0;
+	right: 0;
+	bottom: 0; *
+	bottom: 0;
+	height: 35px;
+	line-height:35px;
+	font-size: 12px;
+	text-align: right;
+}
+
+.filterButtons .button {
+	margin-right: 10px
+}
+
+.filterButtons input {
+	float: right;
+	margin: 3px 10px 3px auto;
+	width: 70px;
+	height: 24px
+}
+
+.filterClearBack {
+	background-image: none
+}
+
+.treeLine {
+	margin: 0;
+	padding: 0 0 0 10px;
+	height: 24px;
+	line-height: 24px;
+	font: bold;
+	background: url(treetop-bg.gif) repeat-x;
+	color: #020202
+}
+
+.treeRefresh {
+	float: right;
+	cursor: hand;
+	padding: 0
+}
+
+.treeContentForm {
+	line-height: 22px;
+	color: #4e6a81;
+	padding: 10px 5px 0 10px;
+	overflow: auto;
+	height: expression(parent . document . body . clientHeight-37 + 'px')
+}
+
+.treeContentForm .contentTable {
+	font-size: 12px
+}
+
+.treeContentForm .button input {
+	height: 24px;
+	line-height: 20px;
+	width: 70px;
+	margin: 10px 0 0 10px;
+	color: #000
+}
+
+.treeContentForm a {
+	color: #4e6a81;
+	line-height: 22px
+}
+
+.treeContentForm a:hover {
+	font-weight: bold;
+	text-decoration: none
+}
+
+.treeContent {
+	line-height: 22px;
+	color: #666;
+	white-space: nowrap
+}
+
+.treeContent img {
+	border: 0;
+	vertical-align: middle
+}
+
+.treeContent a {
+	color: #333;
+	text-decoration: none;
+	line-height: 22px
+}
+
+.treeContent a.node,.treeContent a.nodeSel {
+	white-space: nowrap;
+	padding: 1px 2px 1px 2px
+}
+
+.treeContent a.node:hover,.treeContent a.nodeSel:hover {
+	color: #333;
+	text-decoration: none
+}
+
+.treeContent a.nodeSel {
+	font-weight: bold;
+	text-decoration: none
+}
+
+.dtree {
+	margin: 0;
+	padding: 0 5px 0 0;
+}
+
+.dtreeLine {
+	margin: 0;
+	padding: 0 0 0 10px;
+	height: 24px;
+	line-height: 24px;
+	font: bold;
+	background: url(treetop-bg.gif) repeat-x
+}
+
+.dtreeRefresh {
+	float: right;
+	cursor: hand;
+	padding: 0 5px 0 0
+}
+
+.dtreeContent {
+	padding: 10px 5px 0 10px;
+	line-height: 22px;
+	color: #666;
+	overflow: auto;
+	overflow: auto;
+	width: 195px;
+	white-space: nowrap;
+	height: expression(parent . document . body . clientHeight + 'px');
+	list-style: none outside
+}
+
+.dtreeContent input {
+	margin: 0 auto 10px auto;
+	padding: 0;
+	height: 24px;
+	width: 100px
+}
+
+.DTreeNode {
+	line-heght: 22px;
+	height: 22px
+}
+
+.DTreeNode img {
+	border: 0;
+	vertical-align: middle;
+	margin-right: 5px
+}
+
+.DTreeNode a {
+	color: #333;
+	text-decoration: none
+}
+
+.DTreeNode a:hover {
+	color: #333;
+	text-decoration: none
+}
+
+.DTreeNode a.nodeSel {
+	font-weight: bold;
+	text-decoration: none
+}
+
+.treeViewTree {
+	margin: 0;
+	padding: 0 5px 0 0;
+	height: 100%
+}
+
+.treeViewTreeContent {
+	line-height: 22px;
+	margin: 0 0 0 10px;
+	padding: 5px 0 0 0;
+	color: #333;
+	width: expression(document . body . clientWidth-20 + 'px');
+	height: expression(parent . document . body . clientHeight-4 + 'px');
+	overflow: auto;
+	white-space: nowrap
+}
+
+.treeViewTreeContent2 {
+	line-height: 22px;
+	margin: 0 0 0 10px;
+	padding: 5px 0 0 0;
+	color: #333;
+	width: expression(document . body . clientWidth-10 + 'px');
+	height: expression(parent . document . body . clientHeight-34 + 'px');
+	overflow: auto;
+	white-space: nowrap
+}
+
+.docTreeTop {
+	height: expression(parent . document . body . clientHeight-130 + 'px');
+	margin: 0;
+	padding: 0 5px 0 0;
+	background: url(tree-right.gif) repeat-y right top
+}
+
+.docTreeBottom {
+	height: 130px;
+	margin: 0;
+	padding: 0 5px 0 0;
+	background: url(tree-right.gif) repeat-y right top
+}
+
+.docTreeLine {
+	margin: 0;
+	border-top: 1px solid #e0e0e0;
+	padding: 0 0 0 10px;
+	height: 24px;
+	line-height: 24px;
+	font: bold;
+	background: url(treetop-bg.gif) repeat-x
+}
+
+.docTreeContentForm {
+	line-height: 20px;
+	color: #4e6a81;
+	padding: 0;
+	overflow: hidden
+}
+
+.docContentTableTop {
+	font-size: 12px;
+	margin: 10px 0 0 0;
+	height: expression(parent . document . body . clientHeight-164 + 'px');
+	width: 195px;
+	overflow: auto
+}
+
+.docContentTableBottom {
+	font-size: 12px;
+	height: 130px;
+	width: 200px;
+	overflow: hidden
+}
+
+.docTreeContent {
+	line-height: 30px;
+	color: #666;
+	white-space: nowrap
+}
+
+.docTreeContentForm #doc-content-title {
+	background: #fffabb;
+	border-top: 1px solid #ffae62;
+	height: 24px;
+	padding-left: 20px;
+	margin: 0;
+	font-weight: bold;
+	line-height: 24px
+}
+
+.docTreeContent img {
+	border: 0;
+	vertical-align: middle
+}
+
+.docTreeContent .downloadImg {
+	margin-top: -25px
+}
+
+.domainContent {
+	margin: 0;
+	padding: 5px;
+	height: 315px;
+	overflow: auto;
+	background: #fff;
+	color: #020202
+}
+
+.contentPrompt {
+	margin:10px;
+	padding: 10px;
+	color: #454545;
+	font-size: 12px;
+	background: #ffc;
+	border: 3px solid #dedede
+}
+
+.contentPromptContent {
+	color: #000;
+	margin-left: 10px
+}
+
+.contentPromptMessage {
+	margin-left: 5px;
+	padding: 5px;
+	width: 100%;
+	height: 100%;
+	color: #888;
+	font-size: 12px;
+	background: #ffc;
+	border: 1px solid #dedede
+}
+
+.contentFrame {
+	padding: 3px;
+	margin: 10px 10px 0 10px;
+	border: 1px solid #dedede;
+	font-size: 12px;
+	width: auto
+}
+
+.contentFrame table {
+	font-size: 12px;
+	margin: 10px 0 10px 10px
+}
+
+.contentFrame form {
+	padding: 0 0 10px 0
+}
+
+.popUpForm {
+	margin: 0;
+	font-size: 12px
+}
+
+.popUpForm .popUpFormPriv {
+	margin: 0;
+	width: 645px;
+	height: 370px;
+	overflow: auto
+}
+
+.popUpForm .popUpitle {
+	margin: 1px;
+	line-height: 24px;
+	padding-left: 20px;
+	height: 24px;
+	background: url(popup-title.gif) repeat-x #ededed;
+	color: #fff;
+	font-weight: bold;
+	border-bottom: 1px solid #fff
+}
+
+.popUpForm .popUpContent {
+	margin: 0;
+	padding: 10px 0;
+	color: #333
+}
+
+.popUpForm .popUpContent p {
+	margin: 0;
+	padding: 0;
+	line-height: 24px
+}
+
+.popUpForm .popUpContent FORM {
+	margin: 0
+}
+
+.popUpForm .popUpContentTitle {
+	background: #fffabb;
+	border-top: 1px solid #ffae62;
+	height: 24px;
+	padding-left: 20px;
+	margin: 5px 0 10px 0;
+	font-weight: bold;
+	line-height: 24px
+}
+
+.popUpForm .popUpContent table {
+	margin: 0 0 10px 0;
+	font-size: 12px;
+	color: #333
+}
+
+.popUpForm .popUpContent table tr {
+	height: 24px
+}
+
+.popUpForm .popUpContent table select {
+	width: 132px
+}
+
+.popUpButton {
+	position: absolute;
+	width:99%;
+	left: 0;
+	bottom: 0;
+	height: 30px;
+}
+
+.popUpButton input {
+	float: right;
+	margin: 3px 10px 3px 0;
+	width: 70px;
+	height: 24px
+}
+
+.popUpShowUsers {
+	margin: 0;
+	float: right;
+	width: 240px;
+	height: expression(parent . document . body . clientHeight-72 + 'px')
+}
+
+.popUpShowUsersLeftline {
+	padding: 0 0 0 5px;
+	background: url(tree-right.gif) repeat-y left top;
+	height: 100%;
+	overflow: auto
+}
+
+.popUpShowUsersTitle {
+	padding: 0 0 0 10px;
+	line-height: 24px;
+	height: 24px;
+	background: url(list-tools-bg.gif) repeat-x bottom;
+	font-weight: bold;
+	color: #333
+}
+
+.popUpTree {
+	height: auto;
+	margin: 0;
+	padding: 0
+}
+
+.popUpTree a {
+	color: #4e6a81;
+	text-decoration: none
+}
+
+.popUpTree a:hover {
+	color: #f90;
+	text-decoration: none
+}
+
+.popUpTree img {
+	border: 0;
+	vertical-align: middle;
+	margin-right: 3px
+}
+
+.popUpOnlytree {
+	height: auto;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	white-space: nowrap
+}
+
+.popUpOnlytree a {
+	color: #4e6a81;
+	text-decoration: none
+}
+
+.popUpOnlytree a:hover {
+	color: #f90;
+	text-decoration: none
+}
+
+.popUpOnlytree img {
+	border: 0;
+	vertical-align: middle;
+	margin-right: 3px
+}
+
+.popUpTreeTitle {
+	color: #333;
+	font-weight: bold;
+	height: 24px;
+	background: url(treetop-bg.gif) repeat-x;
+	margin: 0 5px 0 0;
+	padding: 0 10px;
+	line-height: 24px
+}
+
+.popUpTreeContent {
+	margin: 0 5px 0 10px;
+	padding: 5px 0 0 0;
+	color: #333;
+	overflow: auto;
+	white-space: nowrap
+}
+
+.popUpTreeContent a {
+	color: #333
+}
+
+.popUpTreeContentNoscroll {
+	line-height: 22px;
+	margin: 0 5px 0 10px;
+	padding: 5px 0 0 0;
+	color: #333;
+	white-space: nowrap
+}
+
+.popUpTreeContentNoscroll a {
+	color: #333
+}
+
+.popUpForm .popUpTable {
+	height: auto;
+	margin: 0;
+	padding: 0;
+	background: #f6f9fd
+}
+
+.popUpForm .popUpTable a {
+	color: #4e6a81;
+	text-decoration: none
+}
+
+.popUpForm .popUpTable a:hover {
+	color: #f90;
+	text-decoration: none
+}
+
+.taskGroupName {
+	border-bottom: 1px solid #d5d1d0
+}
+
+.popUpRemark {
+	width: 170px;
+	border: 1px solid #adbcca;
+	overflow: hidden;
+	position: absolute;
+	left: 510px;
+	top: 10px
+}
+
+.popUpRemarkButton {
+	width: 170px;
+	border: 0 solid #adbcca;
+	overflow: hidden;
+	position: absolute;
+	left: 510px;
+	top: 110px
+}
+
+.RemarkButton {
+	margin-top: 10px;
+	width: 170px
+}
+
+.popUpRemark2 {
+	left: 10px
+}
+
+.popUpOnlytree0 {
+	height: 330px;
+	width: 200px;
+	position: absolute;
+	left: 20px;
+	top: 10px
+}
+
+.popUpOperation {
+	height: 330px;
+	width: 50px;
+	position: absolute;
+	left: 290px;
+	top:100px
+}
+
+.popUpSelectedContent {
+	height: 290px;
+	overflow: auto;
+	padding: 5px 10px
+}
+
+.popUpTreeContent1 {
+	line-height: 22px;
+	margin: 0 5px 0 10px;
+	padding: 5px 0 0 0;
+	color: #333;
+	height: 390px;
+	overflow: auto;
+	white-space: nowrap
+}
+
+.popUpTreeContent3 {
+	line-height: 22px;
+	margin: 0 5px 0 10px;
+	padding: 5px 0 0 0;
+	color: #333;
+	height: 390px;
+	overflow: auto;
+	white-space: nowrap
+}
+
+.popUpSelected {
+	height: 330px;
+	width: 200px;
+	overflow: auto;
+	position: absolute;
+	left: 300px;
+	top: 10px
+}
+
+.popUpOnlytreeSearch {
+	width: 100%;
+	height: 20px;
+	background-color: #f3f4f4;
+	font-size: 16px;
+	border-bottom: 1px solid #adbcca;
+	overflow: auto
+}
+
+.popUpRemarkContent {
+	overflow: hidden
+}
+
+.popUpButton1 {
+	margin-left: 10px;
+	overflow: auto;
+	position: absolute;
+	bottom: 0
+}
+
+.popUpContentPurview {
+	height: 200px;
+	width: 100px;
+	border: 1px solid #adbcca;
+	overflow: auto;
+	position: absolute;
+	left: 540px;
+	top: 10px
+}
+
+.popUpContentLine {
+	height: 330px;
+	width: 1px;
+	border-left: 1px solid #ddd;
+	overflow: auto;
+	position: absolute;
+	left: 520px;
+	top: 10px
+}
+
+.popUpSelectedUser {
+	height: 330px;
+	width: 150px;
+	border: 1px solid #adbcca;
+	position: absolute;
+	left: 450px;
+	top: 10px
+}
+
+.popUpSelectedContentUser {
+	height: 300px;
+	overflow: auto
+}
+
+.reportPersonalToolsLeft {
+	float: left;
+	margin: 8px 0 0 8px;
+	display: inline
+}
+
+.reportPersonalToolsLeft a {
+	margin-left: 3px
+}
+
+.reportPersonalParam {
+	background-color: #eeeff4;
+	border: 1px solid #cacacb;
+	margin: 0 10px 10px 10px;
+	padding: 5px 0 5px 20px
+}
+
+.reportPersonalBorder {
+	margin: 0 10px 10px 10px
+}
+
+.roundbox {
+	background: transparent;
+	margin: 0 px
+}
+
+.roundbox .roundboxTitleForm {
+	background-image: url(roundbox-topbg.gif);
+	background-repeat: repeat-x;
+	height: 24px;
+	line-height: 24px;
+	border-left: 1px solid #3b6bb7;
+	border-right: 1px solid #3b6bb7;
+	border-top: 1px solid #3b6bb7
+}
+
+.roundboxTop {
+	display: block;
+	background: transparent;
+	font-size: 1px
+}
+
+.roundbox .roundboxTitle {
+	float: left;
+	padding: 0 10px;
+	font-size: 12px;
+	font-weight: bold;
+	color: #fff;
+	line-height: 24px
+}
+
+.roundbox .roundboxDelete {
+	float: right;
+	background: url(roundbox-delete.gif) no-repeat;
+	padding: 0 8px;
+	margin: 3px;
+	display: inline;
+	height: 10px;
+	width: 10px;
+	cursor: hand
+}
+
+.roundboxContent {
+	display: block;
+	border-left: 1px solid #d5d1d0;
+	border-right: 1px solid #d5d1d0;
+	border-bottom: 1px solid #d5d1d0
+}
+
+.roundbox p {
+	padding-bottom: 20px
+}
+
+.articleLeft {
+	width: 744px;
+	position: absolute;
+	top: 20px
+}
+
+.article {
+	margin: 0 10px 0 20px
+}
+
+.article h1 {
+	margin: 10px auto;
+	font-size: 18px;
+	line-height: 36px;
+	text-align: center
+}
+
+.articleAttachmentLeft {
+	float: left;
+	margin: 0 -7px 0 -6px;
+	padding: 0;
+	display: inline;
+	background: url(articleFujian.png) left top no-repeat;
+	height: 67px;
+	width: 36px
+}
+
+.articleAttachment {
+	margin: 0 3 10 20px;
+	display: block;
+	padding: 5px 5px 0 5px;
+	background: #f9f9f9;
+	border: 1px solid #d5d5d5;
+	border-left: 0;
+	height: 67px;
+	overflow: auto;
+	width: 260px
+}
+
+.articleAttachment li {
+	margin: 0;
+	list-style: outside none;
+	line-height: 22px
+}
+
+.articleAttachment li img {
+	margin: 0 5px 0 0;
+	float: left;
+	display: inline
+}
+
+.articleAttachment li span {
+	line-height: 22px;
+	padding: -3px 5px 0 0;
+	line-height: 12px
+}
+
+.articleRight {
+	left: 723px;
+	top: -18px;
+	width: 280px;
+	position: absolute
+}
+
+.articleRightLink {
+	line-height: 24px;
+	float: right
+}
+
+.articleModifyRight {
+	left: 600px;
+	top: 10px;
+	width: 280px;
+	position: absolute
+}
+
+.articleRightTop {
+	padding-top: 5px;
+	padding-left: 5px;
+	font-size: 12px;
+	font-weight: bold;
+	width: 260px;
+	height: 27px;
+	margin-left: 20px;
+	border: 1px solid #d5d5d5;
+	background: url(articleRight.png);
+	border-bottom: 0
+}
+
+.articleButton {
+	width: 280px;
+	height: 80px;
+	padding-top: 75px;
+	padding-left: 70px;
+	padding-bottom: 10px
+}
+
+.articleButton1 {
+	width: 90px;
+	margin-left: 10px;
+	font-size: 12px
+}
+
+.articleTable {
+	font-size: 12px
+}
+
+.articleContent {
+	margin: 10px 0 0 0;
+	padding: 0
+}
+
+.articleContentTop {
+	background: url(articleWenzhang.png) no-repeat left top;
+	border-bottom: 2px solid #d8201a;
+	height: 26px
+}
+
+.articleContentText {
+	margin: 0;
+	padding: 10px;
+	border: 1px solid #d5d5d5;
+	background: #fff
+}
+
+.articleCommentheight {
+	margin: 0;
+	height: 800px;
+	width: 744px
+}
+
+.articleCommentlist {
+	width: 714px;
+	margin: 10px 3px 0 20px;
+	padding: 0
+}
+
+.articleCommentlist .pagelinks {
+	margin: 0;
+	line-height: 24px;
+	padding: 5px;
+	background: #f9fafa;
+	border-left: 1px solid #d5d5d5;
+	border-right: 1px solid #d5d5d5;
+	text-align: right;
+	width: 100%
+}
+
+.articleCommentlist .pagelinks a {
+	margin: 0 2px 0 2px
+}
+
+.articleCommentlist table {
+	margin: 0;
+	border: 1px solid #d5d5d5;
+	width: expression(parent . document . body . clientWidth-40 + 'px');
+	font-size: 12px
+}
+
+.articleCommentlistTop {
+	background: url(articlePizhuxinxi.png) no-repeat left top;
+	border-bottom: 2px solid #d8201a;
+	height: 26px
+}
+
+.articleComment {
+	margin: 10px -7px 10px 20px;
+	padding: 0
+}
+
+.articleCommentTop {
+	background: url(articleTianjiapizhu.png) no-repeat left top;
+	border-bottom: 2px solid #d8201a;
+	height: 26px
+}
+
+.articleCommentBg {
+	margin: 0;
+	padding: 10px;
+	border: 1px solid #d5d5d5;
+	background: #f9f9f9
+}
+
+.articleCommentButton {
+	float: right;
+	margin: 29px 0 0 0;
+	display: inline;
+	width: 80px
+}
+
+.articleCommentButton input {
+	width: 60px;
+	height: 30px;
+	color: #000
+}
+
+.articleCommentLeft {
+	margin: 0
+}
+
+.articleCommentInfo {
+	margin: 0 0 5px 0;
+	height: 24px
+}
+
+.articleHistory {
+	width: 260px;
+	margin: 0 3 10 20px;
+	display: block;
+	padding: 5px 5px 0 5px;
+	background: #f9f9f9;
+	border: 1px solid #d5d5d5
+}
+
+.articleHistory li {
+	margin: 0;
+	list-style: outside none;
+	line-height: 22px
+}
+
+.articleHistory li img {
+	margin: 0 5px 0 0;
+	float: left;
+	display: inline
+}
+
+.articleHistory li span {
+	line-height: 22px;
+	padding: -3px 5px 0 0;
+	line-height: 12px
+}
+
+.hpTable {
+	table-layout: fixed
+}
+
+.resizeDivClass {
+	filter: alpha(opacity = 0);
+	height: 100%;
+	float: left;
+	position: relative;
+	background-color: red;
+	width: 2;
+	z-index: 1;
+	left: expression(this . parentElement . offsetWidth-1);
+	cursor: e-resize
+}
+
+.noresizeDivClass {
+	align: bottom;
+	filter: alpha(opacity = 0);
+	height: 1;
+	float: left;
+	background-color: red;
+	width: 100%;
+	z-index: 1;
+	top: expression(this . parentElement . offsetHeight +1 -30);
+	cursor: n-resize
+}
+
+.searchQuery {
+	width: 100px;
+	height: 90px;
+	margin-left: 20px
+}
+
+.searchImg {
+	padding: 2px 2px 2px 2px;
+	margin: 2px 2px 2px 2px;
+	border: 0 solid #1c2b6a
+}
+
+.privfont {
+	color: #999
+}
+
+.delfont {
+	color: #f10000
+}
+
+.selectObj ul {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	margin-left: 30px
+}
+
+.selectObj ul li {
+	margin: 5px 15px;
+	float: left
+}
+
+.selectObj ul li div {
+	margin: 0;
+	padding: 0
+}
+
+.selectObj ul li div span {
+	margin-left: 20px
+}
+
+.selectObj ul li div div {
+	border: 0;
+	margin: 0;
+	padding: 0
+}
+
+.selectObj ul li a:hover {
+	text-decoration: none
+}
+
+.selectObjCycle table th {
+	background-color: #f9fafa
+}
+
+.selectObjCycle table td a {
+	display: block;
+	padding: 3px;
+	margin: 0
+}
+
+.selectObjCycle .AStyle {
+	border: 1p solid #7d8da2;
+	background: url(nameBackl.gif) repeat-x;
+	width: 100px;
+	padding-left: 10px
+}
+
+.selectType dd {
+	border-top: 1px solid #7ea2cd;
+	background: url(backline.gif) repeat-x 0 2px;
+	margin-left: 0;
+	padding-top: 5px;
+	line-height: 22px;
+	color: #909090
+}
+
+.selectType dt {
+	padding: 5px 0 5px 0
+}
+
+.selectType .sendTitlestyle {
+	border: 1px solid #7d8da2;
+	background: url(titleline.gif) repeat-x;
+	padding: 2px 5px
+}
+
+.selectProName {
+	_width: 70px;
+	_margin-right: 10px;
+	_margin-bottom: 5px;
+	_text-align: center
+}
+
+.selectProNameOver {
+	cursor: pointer;
+	background: url(line_1.gif) repeat-x;
+	border: 1px solid #7d8da2;
+	padding: 2px
+}
+
+.selectProNameOut {
+	background: url(highlightOver.png) no-repeat;
+	border: 1px solid white
+}
+
+.selectTable {
+	border-collapse: collapse
+}
+
+.selectTable thead {
+	background-color: #f5f7f6
+}
+
+.selectTable thead th {
+	border: 1px solid #ccc;
+	text-align: left;
+	height: 20px;
+	height: 25px
+}
+
+.selectTable tr {
+	text-align: left;
+	height: 25px
+}
+
+.selectTable td {
+	border-top: 1px solid #ddd
+}
+
+input[name='selectObjName'] {
+	text-align: center;
+	width: 70px;
+	margin-right: 10px;
+	margin-bottom: 5px
+}
+
+.titleText {
+	float: left;
+	font-weight: bold;
+	font-family: 黑体;
+	font-size: 13px
+}
+
+.jiance {
+	float: right;
+	margin-right: 3px
+}
+
+.jiance a {
+	font-size: 12px;
+	color: #7d7d7d;
+	text-decoration: none;
+	background: url(style/image/jianceIcon.png) no-repeat;
+	padding-left: 15px
+}
+
+.leftInfo {
+	float: left;
+	width: 505px;
+	border-right: #9eb0c0 solid 1px;
+	margin-top: 10px;
+	margin-bottom: 10px
+}
+
+.mailPanel {
+	height: 350px;
+	margin-left: 515px;
+	margin-top: 10px
+}
+
+.middlePanel {
+	position: relative;
+	margin-top: 10px;
+	padding: 0;
+	width: 480px;
+	height: 330px
+}
+
+.treeScrolDiv {
+	height: 300px;
+	overflow: auto;
+}
+
+a.flowBtn {
+	margin-right: 6px;
+	width: 75px;
+	height: 21px;
+	line-height: 21px;
+	text-align: center;
+	background: url(btnBg.png) repeat-x;
+	border: #8797aa solid 1px;
+	display: inline-block;
+	color: #000;
+	text-decoration: none
+}
+
+a.flowBtn:hover {
+	background: url(hoverBg.png) repeat-x;
+	border: #ffdb00 solid 1px
+}
+
+.leftInfo {
+	padding-left: 10px;
+	margin-top: 0
+}
+
+.configBgcMessage {
+	position: absolute;
+	bottom: 45;
+	width: 100%;
+	padding-left: 10px;
+	background-color: #f0f0f0;
+	padding-top: 8px;
+	height: 42px;
+	border-top: 1px solid #d0d0d0
+}
+
+.configTitle {
+	margin-left: 10px;
+	background-color: #fffabb;
+	height: 18px;
+	width: 97%;
+	font-weight: bold;
+	font-size: 12px;
+	padding-top: 6px;
+	padding-left: 15px;
+	border-top: 1px solid #ffa355
+}
+
+.tablestyle {
+	font-size: 12px
+}
+
+.hiddenFrame {
+	display: none;
+	height: 0;
+	width: 0
+}
+
+.menuHorizontal {
+	background: url(menu-bg.png) repeat-x;
+	height: 34px;
+	padding: 0;
+	color: #01638c;
+	font-size: 14px
+}
+
+.menuHorizontal ul {
+	margin: 0;
+	padding: 0 0 0 10px;
+	list-style: none;
+	width: 100000px
+}
+
+.menuHorizontal li {
+	display: inline;
+	margin: 0;
+	padding: 0
+}
+
+.menuHorizontal li a {
+	color: #01638c;
+	text-decoration: none;
+	height: 34px;
+	line-height: 34px;
+	float: left;
+	cursor: hand;
+	margin: 0;
+	display: inline
+}
+
+.menuHorizontal li a span {
+	padding: 0 18px 0 10px;
+	margin: 0;
+	float: left;
+	height: 34px;
+	line-height: 34px;
+	display: inline
+}
+
+.menuHorizontal li a:hover {
+	color: #000
+}
+
+.menuHorizontal li a.normal {
+	background: url(menu-li.png) no-repeat right center
+}
+
+.menuHorizontal li a.highlight {
+	margin-left: -2px;
+	background: url(menu-li-on.png) no-repeat left 3px;
+	padding-left: 3px
+}
+
+.menuHorizontal li a.highlight span {
+	color: #01638c;
+	font-weight: bold;
+	padding-top: 0;
+	background: url(menu-li-on.png) no-repeat right 3px
+}
+
+.menuHorizontalRightNav {
+	float: right;
+	width: 20px;
+	background: url(rightnav.png) no-repeat top
+}
+
+.menuHorizontalRightNav a {
+	width: 20px
+}
+
+.menuHorizontalRightNav a:hover {
+	width: 20px;
+	background: url(rightnav-hover.png) no-repeat top
+}
+
+.menuHorizontalLeftNav {
+	float: left;
+	width: 20px;
+	background: url(leftnav.png) no-repeat top
+}
+
+.menuHorizontalLeftNav a {
+	width: 20px
+}
+
+.menuHorizontalLeftNav a:hover {
+	width: 20px;
+	background: url(leftnav-hover.png) no-repeat top
+}
+
+.menuHorizontal .imgBag .img {
+	float: left;
+	width: expression(documentElement . clientWidth -   40 + "px");
+	height: 34px;
+	overflow: hidden
+}
+
+.menuHorizontal .imgBag {
+	width: 100%;
+	height: 34px;
+	margin: 0 auto
+}
+
+.menuHorizontal .imgBag a {
+	float: left;
+	display: block;
+	height: 34px
+}
+
+.sysRoleDes {
+	border: 1px solid #a6c9e2;
+	background: url(systemRoleBack.png)
+}
+
+.sysRoleDes table th {
+	font-size: 12px;
+	font-weight: normal;
+	text-align: left;
+	height: 37px
+}
+
+.sysRoleTitleBack {
+	background: url(systemRoleTitleBack.png) 5px 3px no-repeat;
+	color: #1b5da4;
+	font-weight: bold;
+	padding-left: 7px
+}
+
+.authorization {
+	height: 200px;
+	width: 100px;
+	border: 1px solid #adbcca;
+	overflow: auto;
+	position: absolute;
+	left: 540px;
+	top: 10px
+}
+
+.authorizationTitle {
+	font-weight: bold;
+	font-family: 黑体;
+	font-size: 13px;
+	width: 100% -10px;
+	height: 18px;
+	padding: 5px 0 0 10px;
+	background-image: url(customStyle/authorization_title.png);
+}
+
+.authorizationCheckAll {
+	width: 100% -10px;
+	height: 20px;
+	padding: 5px 0 0 2px;
+	border-bottom: 1px solid #b9c7d3
+}
+
+.authorizationButtons {
+	padding-top: 10px;
+	width: 100px
+}
+
+.dacuModule {
+	height: 450px;
+	width: 630px;
+	border: 1px solid #adbcca;
+	overflow: hidden;
+	position: absolute;
+	left: 511px;
+	top: 10px
+}
+
+.selectedUser {
+	cursor: pointer;
+	margin: 5px 0;
+	margin-left: 20px
+}
+
+.hasChecked {
+	cursor: pointer;
+	margin-left: 0
+}
+
+.reserveList {
+	margin-top: 0;
+	height: 275px;
+	overflow: auto;
+	font-size: 12px
+}
+
+.selectionToolbar {
+	font-weight: normal;
+	float: right;
+	line-height: 18px;
+	margin-right: 5px;
+	cursor:pointer;
+}
+
+.selectionToolbar img {
+	vertical-align: middle
+}
+
+.selectionButtons {
+	margin: 50px 0 0 0;
+	width: 70px;
+	font-size: 12px
+}
+
+.newreportMain {
+	margin: 5px, 0px, 5px, 5px;
+	padding: 0;
+	border: 0 solid #aaa;
+	height: 360px;
+	font: 12px
+}
+
+.newreportMain .newreportTop {
+	padding: 5px;
+	width: 100%;
+	height: 30px;
+	font: 13px
+}
+
+.newreportDiv {
+	margin: 10px 0
+}
+
+.newreportDivTitle {
+	width: 190px;
+	display: inline;
+	text-align: right
+}
+
+.newreportDivTitle span {
+	float: right
+}
+
+.newreportTableTitle {
+	background-color: #eee;
+	height: 25px;
+	font-weight: bold
+}
+
+.newreportTableTitle td {
+	padding-left: 10px
+}
+
+.configTable {
+	border: 1px solid #c2def3;
+	width: 230px;
+	height: 130px;
+	cellspacing: 0;
+	border-collapse: collapse
+}
+
+.configTable td {
+	border-bottom: 1px solid #c2def3;
+	align: center;
+	font-size: 12px
+}
+
+.configmanageTitle {
+	height: 30px;
+	background-image: url("logmanage_title.png");
+	background-repeat: repeat-x;
+	padding: 8 0 0 20;
+	font-size: 12px;
+	font-weight: bold
+}
+
+.divStyle {
+	height: 23px;
+	text-align: left;
+	left: 0;
+	margin: 0;
+	padding: 5px 0 0 5px;
+	top: 2px;
+	float: left;
+	border: 1px solid #e0e0e6
+}
+
+.divStyle2 {
+	height: 20px;
+	text-align: center;
+	left: 0;
+	background-color: white;
+	margin: 0;
+	padding: 2px 0 0 0;
+	top: 2px;
+	float: left
+}
+
+.divStyle3 {
+	height: 23px;
+	padding: 4px 0 0 0;
+	text-align: center;
+	float: left
+}
+
+.treeview0 {
+	width: 240px;
+	height: 315px;
+	overflow: auto
+}
+
+.treeview0 ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0 0 0 12px
+}
+
+.treeview0 ul li {
+	margin: 0;
+	padding: 0;
+	line-height: 20px;
+	width: auto;
+	clear: both
+}
+
+.treeview0 div {
+	padding: 0;
+	margin: 0
+}
+
+.treeview0 h1 {
+	margin: 0;
+	padding: 0;
+	font-size: 12px;
+	font-weight: normal;
+	line-height: 20px;
+	background: url(dirico.png) no-repeat left;
+	padding-left: 22px;
+	float: left
+}
+
+.treeview0 .opendir {
+	background: url(openico.gif) no-repeat left
+}
+
+.treeview0 .closedir {
+	background: url(closeico.gif) no-repeat left
+}
+
+.treeview0 .opendir,.closedir {
+	width: 12px;
+	height: 20px;
+	float: left;
+	cursor: pointer
+}
+
+.treeview0 .nodir {
+	width: 12px;
+	height: 20px;
+	float: left
+}
+
+.treeview0 .none {
+	display: none
+}
+
+.treeview0 ul.list {
+	list-style: url(listStyle.png)
+}
+
+.treeview0 ul.list li {
+	margin-left: 18px;
+	padding-left: 5px;
+	vertical-align: top
+}
+
+.rowStyle {
+	border-bottom-color: #ccc;
+	border-bottom-style: solid;
+	border-bottom-width: 1px;
+	font-size: 13px
+}
+
+.checkBoxBar {
+	width: 60%;
+	text-align: left;
+	float: left;
+	pading-left: 2;
+	padding-top: 2;
+	height: 25
+}
+
+.checkAll {
+	width: 70;
+	float: left;
+	height: 23;
+	margin-top: 1;
+	padding-left: 7
+}
+
+.noCheck {
+	width: 70;
+	float: left;
+	height: 23;
+	margin-top: 1;
+	padding-left: 12
+}
+
+.allFieldCheck {
+	width: 200;
+	float: left;
+	height: 23;
+	margin-top: 1;
+	padding-left: 22
+}
+
+.header {
+	width: 100%;
+	height: 26px;
+	background-image: url(header_bg.png)
+}
+
+.top {
+	width: 100%;
+	height: 35;
+	background-image: url(top_bg.png)
+}
+
+#headerBottom {
+	clear: both;
+	height: 10px;
+	border-top:solid 1px #CCCCCC;
+	background: #F0F0F0;
+	padding:0px;
+}
+
+.actSpan,.arrowSpan{
+    position:relative;
+    margin:0px;
+    padding:0px;
+    display:inline-block;
+	font-size:12px;
+	height:14px;
+	width:100px;
+	border:solid 1px #C6C6C6;
+	background-color:#F8F8F8;
+	cursor:pointer;
+	vertical-align:top
+}
+
+.actSpanMouOver{
+    height:15px;
+	font-size:12px;
+	top:0px;
+}
+
+.arrowSpanMouOver{
+    height:15px;
+	font-size:12px;
+	top:-6px;
+}
+
+.headerBottomSpan {
+    height: 10px;
+	width: 100%;
+	padding:0px;
+	margin:0px;
+	display: inline-block;
+	text-align: center
+}
+
+.selectedRes {
+	cursor: pointer;
+	margin: 5px 0;
+	margin-left: 0
+}
+
+.hasCheckedRes {
+	cursor: pointer;
+	color: blue;
+	margin-left: 0
+}
+.resDelete{
+    background-image: url("resDelete.png");
+    display:inline-block;
+    width:12px;
+    height:15px;
+}
+/*菜单管理---添加菜单按钮*/
+.addMenu{
+    background: url("add-menu.gif") 50% no-repeat;
+    display:inline-block;
+    width:16px;
+    height:16px;
+	margin-right:10px;
+}
+.menu-table{border:1px solid #a6c9e2}
+.menu-table th{
+    background-image:url("../../proconsole/style/s1/sev-table-bg.gif");
+	border-right:1px solid #a6c9e2;
+	border-bottom:1px solid #a6c9e2;
+}
+/*自定义变量管理---新建分类按钮*/
+.newList{
+    background: url("newlist.gif") 50% no-repeat;
+    display:inline-block;
+    width:16px;
+    height:17px;
+	margin-right:10px;
+}
+/*自定义变量管理---新建变量按钮*/
+.newreport{
+    background: url("newlist.gif") 50% no-repeat;
+    display:inline-block;
+    width:16px;
+    height:17px;
+	margin-right:10px;
+}
+/*自定义变量管理---修改分类按钮*/
+.amend{
+    background: url("amend.gif") 50% no-repeat;
+    display:inline-block;
+    width:16px;
+    height:17px;
+	margin-right:10px;
+}
+/*自定义变量管理---删除分类按钮*/
+.deleteList{
+    background: url("delete.gif") 50% no-repeat;
+    display:inline-block;
+    width:16px;
+    height:17px;
+	margin-right:10px;
+	cursor: hand;
+}
+/*资源搜索结果列表翻页按钮*/
+.search_previous{
+    background: url("search_previous.png") 50% no-repeat;
+    display:inline-block;
+    width:11px;
+    height:13px;
+	margin:2px;
+	cursor: hand;
+}
+.search_next{
+    background: url("search_next.png") 50% no-repeat;
+    display:inline-block;
+    width:11px;
+    height:13px;
+	margin:2px;
+	cursor: hand;
+}
+.search_list{
+    background: url("search_list.png") 50% no-repeat;
+    display:inline-block;
+    width:11px;
+    height:13px;
+	margin:2px;
+	cursor: hand;
+}
+.search_previous{
+    background: url("search_previous.png") 50% no-repeat;
+    display:inline-block;
+    width:11px;
+    height:13px;
+	margin:2px;
+	cursor: hand;
+}
+
+/*首页消息框样式*/
+#tipSpan span{
+    color:#FFFFFF;
+	float:left;
+	padding:0px;
+	line-height:18px;
+}
+
+#msgTip{
+	display:inline-block;
+	background: url("msgTip.png");
+	padding:0px;
+	width:16px;
+	height:16px;
+}
+
+#msgNum{
+	display:inline-block;
+	padding:0px;
+	width:18px;
+	height:18px;
+	font-size:12px;
+	cursor:pointer;
+	text-align:center;
+	margin-right:2px;
+	margin-left:2px;
+	-moz-border-radius: 9px; /* Firefox */  
+	-webkit-border-radius: 9px; /* Safari 和 Chrome */ 
+	border-radius: 9px; /* Opera 10.5+, 以及使用了IE-CSS3的IE浏览器 */
+}
+
+#msgList li{
+	list-style:none;
+	margin:0px;
+	padding:0px;
+}
+
+.extendButtons {
+    height:20px;
+    --padding-top:5px;
+}
+
+/*平台字体样式*/
+*{font-family:Microsoft YaHei!important;}
+/*平台输入框样式*/
+input[type!=checkbox]{border:1px solid #ccc;-moz-border-radius: 4px;-webkit-border-radius: 4px;border-radius:4px;}
+
+/*菜单栏标题"系统菜单"文字颜色*/
+ .left .leftTitle span{color:#FFFFFF;}
+
+/**
+ *通用风琴夹可修改的样式
+ */
+ .ui-accordion .ui-accordion-header{ border-bottom: #9fc1e5 solid 1px;}/*按钮未展开时的下边框---修改的jquery.ui.accordion.css*/
+ .ui-state-hover a, .ui-state-hover a:hover { color: #1d5987;}/*鼠标移入按钮时文字颜色*/
+ .ui-state-default a, .ui-state-default a:link, .ui-state-default a:visited {color: #2e6e9e;}/*按钮未展开时文字颜色---修改jqueryui-core.css*/
+
+/**
+  *通用横向tab可修改的样式
+  */
+ #tabs{border: 1px solid #CCCCCC;}/** tab整体外边框 */
+ .rq-ui-tab-ul{border-top:0px!impotant;}
+ .rq-ui-tab-div{border: 0px solid #ffa265;}/* 设置tab页的外边框*/
+ .rq-ui-tab-div .rq-ui-tab-ul li.ui-state-default{background: #FAFAFA;}/*设置tab按钮的背景色*/
+ .rq-ui-tab-div .ui-widget-header.rq-ui-tab-ul {border:0px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-radius: 0;background: #FAFAFA;font-weight: bold;line-height:1;}/*tab条样式*/
+ .rq-ui-tab-div .rq-ui-tab-ul li.ui-state-default a{color:#666666;}/*设置tab按钮未选中时文字的颜色*/ 
+ .rq-ui-tab-div ul.rq-ui-tab-ul li.ui-tabs-selected{background: #fff repeat-x 50% 50%;border-bottom:2px solid #3276DC !important;border-right:1px solid #EEEEEE !important;}/* 设置横向tab按钮被选中时的背景色*/
+ .rq-ui-tab-div ul.rq-ui-tab-ul li.ui-state-active a{color: #333333;}/*设置tab按钮被选中时的文字的颜色*/
+ .ui-widget-content .ui-widget-header .ui-state-default{border:0;border-right: 1px solid #EEEEEE;}/*设置tab按钮边框样式---jqueryui.css*/
+ div.rq-ui-tab-div ul.rq-ui-tab-ul li.ui-corner-top.ui-state-hover{background: #FAFAFA;}/*鼠标移入没有选中tab的样式*/
+ div.rq-ui-tab-div ul.rq-ui-tab-ul li.ui-corner-top.ui-state-hover a{color:#66666;}/*设置鼠标移动到横向tab按钮上时文字的颜色*/
+ div.rq-ui-tab-div ul.rq-ui-tab-ul li.ui-corner-top.ui-tabs-selected.ui-state-hover{background: #FFFFFF repeat-x 50% 50%;}/* 鼠标移入被选中tab按钮的背景色*/
+ .tabInDiv{border:0px !important;}
+ .tabInTab{width:369px !important;margin-top:10px;margin-left:10px;border:1px solid #cccccc !important;}
+ 
+ /**
+  *通用纵向tab可修改的样式
+  */
+ #vertabs{border: 1px solid #CCCCCC;}
+ .rq-ui-tab-div .rq-ui-tab-ul{border-right:1px solid #CCCCCC!important}
+ .rq-ui-tab-div .rq-ui-tab-ul li.ui-corner-left.ui-tabs-selected{background: #fff repeat-x 50% 50%;border-right:2px solid #3276DC !important;border-bottom:1px solid #EEEEEE !important}/* 设置纵向tab按钮被选中时的背景色*/
+ .rq-ui-tab-div .rq-ui-tab-ul li.ui-corner-left{border-bottom: 1px solid #EEEEEE !important; }
+
+/**
+ *日历控件可修改样式
+ */
+ .ui-datepicker-calendar thead,.ui-timepicker-div{color:#3276DC}/*星期区域的背景色以及文字颜色*/
+ .ui-datepicker.ui-widget-content {border:1px solid #B2D4F7;background:#FAFAFA;}/*整体框架边框和背景色*/
+ div.ui-datepicker .ui-timepicker-div{border-top:solid 0.1em #B2D4F7;padding-top:10px;padding-bottom:10px;}/*时间区域上边框样式*/
+ div.ui-datepicker .ui-widget-header{color:#3276DC;border:0px;border-bottom:0.1em solid #B2D4F7 ;}/*标题样式*/
+ div.ui-datepicker.ui-widget-content .ui-state-default{border:solid 0.2em #FAFAFA;background:#FAFAFA;color:#3276DC;}/*日期块默认样式*/
+ div.ui-datepicker.ui-widget-content .ui-state-active{border-bottom:0.2em solid #3276DC;}/*被选中日期块样式*/
+ div.ui-datepicker.ui-widget-content .ui-state-hover,div.ui-datepicker.ui-widget-content .ui-datepicker-today a{border:0.2em solid #DBE8FB;background: #DBE8FB;}/*当前日期按钮样式和鼠标移入日期块样式*/
+ div.ui-datepicker .ui-datepicker-buttonpane{background:#EEEEEE;}/*日历按钮区域*/
+ .rqdatetimeFocus{border:solid 1px #3276DC;}/*日历输入框获得焦点*/
+
+ /**
+  *通用弹出层可修改样式
+  */
+ body div.ui-widget-content {border:1px solid #ccc;}/*弹出层边框颜色以及日期控件弹出层边框和底层Button区域上边框颜色*/
+ .ui-dialog .ui-dialog-titlebar{border-top:1px solid #FFF; color: #000 !important;}/*设置弹出层标题栏的上边框以及标题文字颜色*/
+ .ui-dialog .ui-dialog-buttonpane{ margin:auto -2px -4px -2px; background:#F8F8FB; border-top:1px solid #e8e8e8;}/*confirmUI的操作条样式*/
+ div.ui-dialog.ui-widget div.ui-dialog-buttonpane button.ui-button{border:1px solid #96BAE2;}/*confirmUI操作按钮边框*/
+ .RQAlertMessage{color:#FFFFFF;}/*提示信息框架样式*/
+ .alertTips{background:#4D94FF;border:solid 1px #4D94FF;}/*弹出提示信息框*/
+ .alertTipsSpan{background:#3276DC url("alert_tip.png") 50% 50% no-repeat;}/*弹出提示信息框左侧背景*/
+ .alertSucc{background:#1FAD38;border:solid 1px #1FAD38;}/*弹出成功信息框*/
+ .alertSuccSpan{background:#009A1C url("alert_sure.png") 50% 50% no-repeat;}/*弹出成功信息框左侧背景*/
+ .alertWarn{background:#DD3A2D;border:solid 1px #DD3A2D;}/*弹出警告信息框*/
+ .alertWarnSpan{background:#D02F22 url("alert_warn.png") 50% 50% no-repeat;}/*弹出警告信息框左侧背景*/
+ .confirmUiFlag{display:inline-block;width:80px;height:60px;background:url("confirmUi.png") 50% 50% no-repeat;}
+ #alertcontent{color:#FFFFFF;}/*alert提示信息内容文字颜色*/
+
+/**
+ *通用列表可修改样式
+ */
+ .ui-jqgrid{border:1px solid #CCCCCC !important;}/*表格内容表格外边框*/
+ .ui-jqgrid .ui-userdata{border-bottom:solid 1px #CCCCCC;}/*列表工具条与表头间分隔线*/
+ .ui-jqgrid-htable{border-bottom:solid 1px #DEDFE3 !important;}/*表头下横线*/
+ .ui-jqgrid-htable .ui-state-default{border-right:solid 1px #DEDFE3 !important;}/*列表表头边框*/
+ .ui-th-column, .ui-jqgrid .ui-jqgrid-htable th.ui-th-column{color:#666666;}/*表头文字颜色*/
+ .ui-widget-content .ui-priority-secondary{background: #FDFEFE !important;}/*列表内容偶数行背景色*/
+ .ui-jqgrid-bdiv table{border-bottom:none !important;}
+ div.ui-jqgrid .ui-jqgrid-view .ui-state-hover{background:#D8EBF8;}/*鼠标移入列表改变行背景色*/
+ div.ui-jqgrid .ui-jqgrid-view .ui-state-hover,div.ui-jqgrid .ui-jqgrid-view .ui-state-hover a, div.ui-jqgrid .ui-jqgrid-view .ui-state-hover a:hover{color:#222222;}/*鼠标移入表格文字颜色*/
+ .ui-jqgrid-btable.jqGrid tr.jqgrow.ui-widget-content.ui-state-highlight{background:rgb(255, 255, 202);border:0px;}/*选中行背景色*/
+ .jqgroup td{background-color:#EAEAEA;color:#3276DC;background-image:none;*line-height:22px;border-top:solid 1px #CCCCCC !important;border-bottom:solid 1px #CCCCCC !important}/*分组列表分组行样式*/
+
+/**
+ *通用帮助提示可修改样式
+ */
+ #gezHelpDivMsg{border:1px solid #767676 !important;background-color:#FFFFFF;border-radius: 3px;box-shadow:2px 2px 2px #999;}/*第一种帮助提示信息的弹出框的背景色以及边框的设置*/
+
+/**
+ *通用浏览服务器文件组件可修改样式
+ */
+ .mesWindow{border:1px solid #ADBFEC;}/*组件外层框架边框样式*/
+ .mesWindowTop {border-bottom:#9FC1E5 solid 1px;}/*标题区下划线*/
+ #topbar{border-bottom:#a7a6aa solid 1px; background-color:#f0f0f0;}/*显示选择文件路径区域的背景色设置和该区域的下边框*/
+ #topbar input{width:98%!important}
+ #footer{background-color:#f0f0f0 !important;}/*Button区域的背景色*/
+
+/**
+ *文件上传组件样式
+ */
+ .rquploadTitleSpan{color:#333333;}/*标题文字颜色*/
+ .rquploadContainer .top{border-bottom:#CCCCCC solid 1px;}/*标题行下边框*/
+ .rquploadContainer{background-color:#FFFFFF; border:solid 1px #CCCCCC;}/*组件容器样式*/
+ .rquploadContainer .foot{background:#EEEEEE; border-top:1px solid #CCCCCC;color:#999999}/*底层按钮区域样式*/
+ .rquploadContainer .foot #finishNum{color:#039B1E;}/*已经上传文件完成个数*/
+ .rquploadContainer .foot #remainNum{color:#DD3A2D;}/*上传文件未完成个数*/
+ .rquploadContainer .foot .uploadInfoSpan,.rquploadContainer .foot .uploadBtn{border-right:solid 1px #DDDDDD;border-left:solid 1px #FAFAFA;}/*底层按钮边框*/
+ .rquploadContainer tr td{border-bottom:solid 1px #EEEEEE;}/*文件列表下边框*/
+
+/**
+ *通用工具条可修改的样式
+ */
+.toolbar{background:none!important;}
+.ui-button.ui-state-default{border:1px solid #CACACA;}
+.toolbar.rq-ui-toolbar-div .rq-ui-toolbar-button-default{background-image:none !important;FILTER: progid:DXImageTransform.Microsoft.Gradient(gradientType=0,startColorStr=#FBFBFB,endColorStr=#EAEAEA);border:solid 1px #CACACA;color:#333333;}/*工具条按钮默认背景色、边框以及文字颜色*/
+/*.toolbar.rq-ui-toolbar-div .rq-ui-toolbar-button-default{border:1px solid #5ba3d7;background: #D4DDEA url(toolbarNormalBack.png) repeat-x;color:#333333;}/*工具条按钮默认背景色、边框以及文字颜色*/
+.toolbar.rq-ui-toolbar-div .rq-ui-toolbar-button-hover{border:1px solid #3B74B4;FILTER: progid:DXImageTransform.Microsoft.Gradient(gradientType=0,startColorStr=#ECEFFD,endColorStr=#C5D4E3);}/*鼠标移入按钮边框设置*/
+.toolbar.rq-ui-toolbar-div .rq-ui-toolbar-button-active{border:1px solid #3B74B4;background:#D4DDEA url(toolbarDownBack.png) repeat-x;}/*鼠标点击按钮时边框设置*/
+.filterButtons button{height:26px;line-height:26px;background-image:none;FILTER: progid:DXImageTransform.Microsoft.Gradient(gradientType=0,startColorStr=#FBFBFB,endColorStr=#EAEAEA);border:solid 1px #CACACA !important;color:#333333;}
+.filterButtons button:hover{border:1px solid #3B74B4!important;FILTER: progid:DXImageTransform.Microsoft.Gradient(gradientType=0,startColorStr=#ECEFFD,endColorStr=#C5D4E3);}/*鼠标移入按钮边框设置*/
+.filterButtons button:active{border:1px solid #3B74B4!important;FILTER: progid:DXImageTransform.Microsoft.Gradient(gradientType=0,startColorStr=#ECEFFD,endColorStr=#C5D4E3);}/*鼠标点击按钮时边框设置*/
+/** 按钮选中效果样式 */
+.hideSelectIcon{display:none!important;}
+.selectBtnBg{border:1px solid #3B74B4!important;FILTER: progid:DXImageTransform.Microsoft.Gradient(gradientType=0,startColorStr=#ECEFFD,endColorStr=#C5D4E3)!important;background: #C7D7E7!important;}
+
+/**
+ *新按钮组件样式
+ */
+.gezBasicButton{border:1px solid #CCCCCC;background:-webkit-gradient(linear, 0% 0%, 0% 100%, from(#FBFBFB), to(#ECEBEB));FILTER: progid:DXImageTransform.Microsoft.Gradient(gradientType=0,startColorStr=#FBFBFB,endColorStr=#ECEBEB);}
+.selectedGezBtn,.gezBasicButton:hover{  
+	border:1px solid #3B74B4;
+	/** 背景滤镜效果 */
+	background:-webkit-gradient(linear, 0% 0%, 0% 100%, from(#ECEFFD), to(#C5D4E3));
+    background: -moz-linear-gradient(top, #ECEFFD, #C5D4E3);
+    background: -ms-linear-gradient(top, #ECEFFD, #C5D4E3);
+    background: linear-gradient(top, #ECEFFD, #C5D4E3);
+    /** ie9及以下的滤镜设置 */
+    FILTER: progid:DXImageTransform.Microsoft.Gradient(gradientType=0,startColorStr=#ECEFFD,endColorStr=#C5D4E3)!important;
+}
+.gezBrighterButton{color:#ffffff;border:none;background:#3C6CAC;} 
+
+/**
+ *下拉列表可修改样式
+ */
+ .rqChooseAllDiv{background-color:#EEEEEE;border-bottom:#CCCCCC solid thin;}/*"搜索,排序"区域背景色及下边框设置*/
+ .rqDropDownListDataOver{background-color:#DBE8FB;}/*下拉列表选项鼠标移入背景色*/
+ .rqDropDownList{border:#CCCCCC solid 1px;}/*下拉列表框边框颜色*/
+ .rqdataDivleft{border-left:4px #3276DC solid;padding-left:4px !important;}/*单选下拉列表反显数据时左边框颜色*/
+
+/**
+ *通用树样式
+ */
+ .fontbgcolor a{background-color: #C0D2EC;}/*鼠标移入节点背景色*/
+ .treeNodeSelected {background-color:#ebf0f6;}/*树节点被选中的样式*/
+ .treeNodeOver{background-color:#DBE8FB;}
+
+/**
+ *通用下拉面板样式
+ */
+ .rqPullDownPanelDataOver{background-color:#BBCAEF;}/*下拉面板选项鼠标移入背景色*/
+
+/**
+ *资源管理tab页框架边框
+ */
+ #resContent{border: solid 1px rgb(225,234,245) !important;}
+ #resLeftContent{border-right: solid 1px rgb(225,234,245) !important;}
+ .resRightContent{border: solid 0px blue !important;}
+
+/**
+ *菜单平铺页样式
+ */
+ .menuFlatFistCol{background:#295c9e;}/*左侧第一列背景色*/
+ .menuFlatFistCol div{background:#257dbe;color:#fff}/*左侧第一列内容的背景色以及字色*/
+ .menuFlatFistCol div a{color:#FFFFFF;}/*左侧第一列超链接字色*/
+ .changeWeiZhi{color:#1570a6 !important;}/*“更改当前位置”字色*/
+ .menuFlatInfos ul li a{color:#295C9E}/*菜单平铺功能点文字颜色*/
+ .menuFlatInfos ul li a:hover{color:#295C9E}/*菜单平铺功能点文字鼠标移入的文字颜色*/
+
+/*订阅调度查询面板背景色及边框颜色样式*/
+ .queryForm_sche {background: #F4F8FE;border-bottom: #95B0C7 solid 1px;padding: 10px 10px 10px 15px;}
+
+/*调度器管理(任务管理、新增任务、新增任务组、实例管理、日志管理)标题背景图片*/
+ .schedule-title{background-image: url("logmanage_title.png");background-repeat: repeat-x;height: 30px;margin: 0;padding:0px;}
+
+/*调度器管理(任务管理、实例管理)查询面板背景图片*/
+ #param_page{height: 75px !important;background-color:#F4F8FE;border-bottom:solid 1px #95B0C7;  margin:0px;font-size: 12px;}
+
+/*调度器-任务管理标题下的横线*/
+ .schedule-taskmanage-title{border-bottom:1px solid #5ba3d7;width:300px}
+
+/*调度器配置管理--推送服务配置标题*/
+ .pushHover,.pushSelected{border:solid 1px #B0C2CE;}/*鼠标移入样式、被选中样式*/
+
+/*任务管理-新增任务、新增任务组地层button区域样式*/
+ #task_option {position: absolute;bottom: 12px;left:0px;height:40px;*height:50px;width: 100%;border-top: ridge 1px #cccccc;padding-top:10px;}
+
+/*任务管理-新增任务中基本属性和调度对象设置框架背景色*/
+.taskEditBg{background-color: #FAFBFF;}
+
+/*系统配置及控制台标题行样式*/
+ .config-title-div{background-color: #ebeffa;border-top:solid 1px #B0C2CE;}/*背景色*/
+
+/**
+ *系统管理机构用户管理和业务角色管理基本信息区域样式
+ */
+ .config-title-bg{background:url("systemRoleTitleBack.gif") 0 50% no-repeat;color:#1b5da4;font-weight:bold;padding-left:7px}/*左上角标题的背景图片和文字样式*/
+ .config-title-div-bg{border:1px solid #a6c9e2;background:url("systemRoleBack.png")}/*div背景图片*/
+ .list table{border-bottom: 1px solid #e1e1e1;}/*功能授权列表下边框*/
+ .list th{border-bottom: 1px solid #e1e1e1;border-right: 1px solid #ccc;}/*功能授权列表表头边框*/
+
+/**
+ *控制台服务器参数管理和性能优化管理表格样式
+ */
+ .unitaryDiv{border:#E6E6E6 1px solid;margin:2px;}/*外层div边框样式*/
+ .unitary-button{border-right:1px solid #ccc;margin-right:5px;}/*保存按钮右侧间隔线*/
+ .unitary-showTable td{font-size:13px;border:1px solid #f1f0f0;height:30%;}/*表格单元格样式*/
+ .unitaryTable-td{padding:3px;padding-left:7px;border-bottom:1px solid #E6E6E6 !important;border-right:1px solid #E6E6E6 !important;background-image:url('ui-bg_cccccc_1x23.png');background-repeat:repeat-x;} /*表格表头*/
+
+/**
+ *控制台——全局展现配置、初始化属性设置底层保存按钮区域的样式
+ */
+.proconsoleBtnDiv{height:40px;line-height:40px;padding-top:0px !important;width:100%;margin:0px;border-top:solid 1px #CCCCCC;position:absolute;}
+
+/**
+ *初始化属性设置页面tab页上边框
+ */
+.initAttributeTab{border-top:solid 1px #b8cbdc !important;}
+
+/**
+ *资源中心新增资源弹出层被选中资源类型样式
+ */
+ .typeButtonSelect{background-color:#DAF3FD;border:1px solid #59BDFF;}
+
+/**
+ *资源中心一系列操作弹出层页面底层按钮区域
+ */
+ .filterButtons,.schedule-config-buttonDiv{border-top: #ccc solid 1px;}/*弹出层按钮区域和调度器按钮区域样式*/
+ .popUpButton{border-top: #d4deec solid 1px}/*重命名页面*/
+
+/**
+ *资源中心左侧树样式
+ */
+.resDir{border-bottom:1px solid #DDE7EF;background:#F6F9FD;}
+.record{background:#EBF3FB;}
+.treeNodebgDiv{background:#EBF3FB;}/*通用树组件选中节点背景色也再次控制*/
+
+/**
+ *新增报表组资源--选择新建报表组方式页面样式
+ */
+ .selectTypeDiv{background-color:#E5EBFB;border:1px solid #5CC6FF;}/*两种选项div样式*/
+ .selectTypeDivOver{background-color:#FBFAE5;border:solid 1px #FFBD5C;}/*鼠标移入div背景色*/
+ .newReportLi{border-right: solid 1px #5CC6FF;}/*“立刻进入报表组”框架右边框*/
+
+/*新增其他资源类型页面标题行*/
+ .filterTitle{background-color: #ebeffa;border-top: 1px solid #b0c2ce}
+
+/*新增脚本页面的--参数设置文字颜色*/
+.editScript_parameterSetting{color:#0099CC;}
+
+/**
+ *新建资源--ETL适配器实例
+ */
+.adapter .hover{background-color:#E0EFFE;border:1px solid #CAE3FE;}/*鼠标移入实例*/
+
+/**
+ *引导页样式
+ */
+ .guideDiv{	border:1px solid #9fc1e5;color:#666666;}/*引导页整体框架边框及文字颜色*/
+ .guidingLeftContent{border:0;background-color:#295c9e;}/*引导页左侧第一列背景色*/
+ .guidingDemo{border:solid 1px #4f86b2;border-left:none;border-right:0;}/*demo示例区域上下边框*/
+ .switchUserTip,.showGuiding_div{color:#86BEE8;}/*引导页左侧第一列文字颜色*/
+ .guidingHelpTips a:link{color:#2a8dd4;}/*引导页右侧连接文字的颜色*/
+ .guidingHelpTips a:hover{color:#2a8dd4;text-decoration:underline;}/*引导页右侧连接文字的颜色*/
+ #box{background-color:#808080;z-index:9998;filter:alpha(opacity:30);_filter:alpha(opacity:30);-moz-opacity:0.3;opacity:0.3;}/*遮罩层颜色*/
+
+/**
+ *别名管理样式
+ */
+ .aliasManager_table{border:1px solid #A6C9E2;}/*别名管理介绍外层框架边框*/
+ .aliasManager_tipContent{border-top:1px solid #A6C9E2;}/*“别名管理介绍”下边框*/
+ .editAlias_line{border-left: 1px solid #A6C9E2;}/*别名编辑中两个列表中间间隔线*/
+ .alias_filterButtons{width: 99%; position:absolute; left:0px;right:0px; bottom:0px;*bottom:0px;height:30px; border-top:#D4DEEC solid 1px;font-size:12px;text-align:right;font-size:12px;}/*别名编辑页面底层按钮区域*/
+
+/*数据表管理、数据集管理两个列表中间间隔线*/
+ .dataset_centerLine{height:400px;width:1px;background:#A6C9E2;}
+
+/**
+ *数据源管理
+ */
+ .datasourceList,.themeManager_list{margin:0px;padding:0 0 18px 0;background:#F6F9FE;}/*数据源列表背景色*/
+ .dataManagerIntroduction{border:1px solid #ADBFEC;border-bottom-style:none;}/*“数据使用管理导读”标题边框*/
+ .jdbc_source_Main{background: #F6F9FE; margin-left: 15px;}/*修改数据源页面的背景色*/
+ #addDel{background:#F6F9FE;}/*修改数据源页面的增加删除工具条背景色*/
+ .line_style{border-top: 1px solid #A7BFD5; margin: 5px 0px;}/*修改数据源页面的分隔线*/
+
+/**
+ *多维分析矩阵
+ */
+ .martix_index_title{background-color:#F6FCFE;border-top:1px solid #B8C7ED;border-bottom:1px solid #D4DEF5;}/*矩阵列表与多维分析导读间隔条*/
+
+/**
+ *机构用户管理左侧树的样式
+ */
+ .treeViewTree{background: url("tree-right.gif") repeat-y right top #f6f9fd;}
+
+ /*主题管理使用导读标题所在div边框*/
+.themeManager_info{border:1px solid #ADBFEC;border-bottom-style:none;}
+
+/**
+ *组织对DBD授权页面样式
+ */
+ .selectedDBD,.reserveDBD{border-top: 1px solid #a1bfde;border-bottom: 1px solid #a1bfde;background-color: #f7fafd;}/*"当前Dashborad"、"被选Dashboard"标题行样式*/
+
+/**
+ *Dashboard配置页面样式
+ */
+ .divStyleDBD {height: 114px;width: 170px;border: 1px solid #fff;}/*待选组件默认样式*/
+ .divStyleDBD:hover{cursor:hand;background:#EEF8FF;border: 1px solid #75C8FF;}/*鼠标移入的待选DBD组件的样式*/
+ .selected{background:#EEF8FF;border: 1px solid #75C8FF;}/*选择的DBD组件的样式*/
+
+/*
+ * 展现DBD组件详细信息页面样式
+ */
+ .dbd_background_style:hover{background: -webkit-gradient(linear, left top, left bottom, from(#ECEFFD), to(#C3D3E2));/*谷歌*/
+ filter:progid:DXImageTransform.Microsoft.Gradient(startColorStr='#ECEFFD', endColorStr='#C3D3E2', gradientType='0');/*IE*/
+ background:-moz-linear-gradient(top,#ECEFFD,#C3D3E2);/*firefox*/}/*鼠标经过按钮背景渐变颜色*/
+ .dbd_background_style{cursor:pointer;border:1px solid #A6C9E2;
+ background: -webkit-gradient(linear, left top, left bottom, from(#F5F8FB), to(#E1E9F1));
+ filter:progid:DXImageTransform.Microsoft.Gradient(startColorStr='#F5F8FB', endColorStr='#E1E9F1', gradientType='0');
+ background:-moz-linear-gradient(top,#F5F8FB,#E1E9F1);}/*按钮背景渐变颜色*/
+/**
+  *新建DBD面板页面样式
+  */
+.addDBDpabelTitle{background-color:#3C6DAE; color:#fff;}/*标题行背景色、文字颜色*/
+.addPanelBtn{background-color:#204A66;color:#fff;}/*“完成”按钮背景色、文字颜色*/
+.beixuanBrd{background-color:#E4E4E4;border-top:#B8CBDC solid 1px; border-bottom:#9FC1E5 solid 1px}/*"备选组件"标题行*/
+.component_alert{background-color:#dbe8fb;}/*选中组件在面板中展示-修改背景色*/
+.component_panelPosition{border:3px solid #3276DC !important}/*其他方式中选中边框颜色*/
+
+/**
+ *新建DBD组件页面样式
+ */
+.addDBDcompBtn{color:#FFF;background:#4070B3;border:0px;}/*"新建组件"、"统计图表"按钮样式*/
+/*.createComponent_toolbar{background:#E4E9F3 !important;padding:0px !important;border-bottom:5px solid #5FA4D7;}*//*新建组件属性设置面板样式*/
+.filter_info{border:1px solid #3B74B4;}/*过滤面板边框线颜色*/
+.compType_currBtn{color:#FFF !important;background:#4070B3 !important;border:0px !important;}/*左侧分类中被选中按钮的样式*/
+.createCom_main{background:#E2EAF6;overflow:hidden}
+.panelLeftBar{background-color:#E2EAF6;width:222px;border-right:#CCCCCC solid 1px;}
+
+/**
+ *快速展现框架页面样式
+ */
+ .fs-frameDiv {border: 1px solid #9EBFDA;background-color: #F0F8F8;}/*每列框架样式*/
+ .fs-conGroupTitle{border-top:solid 1px #9EBFDA;border-bottom:solid 1px #9EBFDA;background-color:#E3EFFF;}/*条件分组组名样式*/
+ .fs-query-panel,#fs_query{background-color:#E3EFFF;}/*查询面板背景色*/
+ .qryBoolenValueCheckBox{background-color:#E3EFFF !important;}/*查询面板中复选框背景色*/
+ .fs-table #gbox_groupTable{border-top:solid 1px #9EBFDA !important;border-left:solid 0px #9EBFDA !important;border-right:solid 0px #9EBFDA !important;}
+ .fs-table .ui-jqgrid-htable tr{border-bottom-color:#9EBFDA !important;color:#999999 !important}/*任务列表标题行下边框颜色*/
+ .fs-table #gbox_groupTable tr td{border-top-color:#E9E9E9 !important;}/*任务列表数据行上边框颜色*/
+ .fs-titleDiv {border-bottom: 1px solid #9EBFDA;background-color:#E3EFFF;}/*标题区域样式*/
+ #advancedQuery {border-bottom: 1px solid #9DB0E1;}/*中间列任务列表表头上边框线*/
+ .fs-defaultDiv{color: #9DB0E1;}/*右侧报表展现区域默认文字的颜色*/
+
+/**
+ *数据下发页面样式
+ */
+ .interfaceSet,.task_assign_input{background-color:#f2f5fc;font-size:12px}/*数据下发区域、输入框背景色*/
+ .task_submit_div{border-top: #d4deec solid 1px;}/*"下发"按钮区域上边框样式*/
+ .task_assign_left{border-right:#9eb0c0 solid 1px;}/*数据下发与邮件下发中间分隔线*/
+ .task_treeDiv{background-color:#f6f9fe;border:1px solid #adbcca;}/*可选机构树、已选机构树背景色和边框*/
+ .authorizationTitle{border-bottom:1px solid #b9c7d3}/*机构树标题行下边框*/
+
+/**
+ *新建流程页面样式
+ */
+ .popup{border: solid 1px #586996;background-color: #dee9f7;}/*流程名称信息下拉列表样式*/
+ .lineDefault{color:#CCCCCC}/*线失去焦点时颜色*/
+ .lineSelected{color:#376296}/*被选中线的颜色*/
+ .lineConfigDiv{background-color: #EEEEEE;border: #386296 5px solid;}/*工作流线编辑弹出框div样式*/
+ .lineEditDiv{background-color: #FFFFFF;border:1px solid #60C9FF;}/*修改节点连接线弹出层的div样式*/
+ .lineEditTitle{background-color:#F4F4F4;color:#3265FE}/*修改节点连接线弹出层的标题样式*/
+ .newnode_div{border: 10px solid rgba(0,0,0,0.3);background-color: #FFFFFF;}/*新增节点弹出框样式*/
+ .workflow_nodeDivDefault{border:5px solid rgba(238,238,238,1);}/*流程节点样式*/
+ .workflow_nodeDivSelected{background-clip:padding-box;border:5px solid rgba(56,98,150,1);}/*被选中流程节点样式*/
+ .workflow_nodeDivHover{border:5px solid rgba(0,167,60,1);}/*鼠标移入节点样式*/
+ .startNode,.endNode{color: #386296;}/*开始结束节点文字颜色*/
+ .searchResult{border:solid 1px #ABADB3;}/*新增节点弹出层中搜索结果所在区域边框*/
+ .nodeDefault{background-color:#FFFFFF;border:0px;}/*新增节点弹出框，待选节点默认样式*/
+ .nodeSelected{background-color:#EBF0F6;border:solid 1px #DDD}/*新增节点弹出框，被选中节点的样式*/
+ .workNodeContext{background-color: #d3e0ef;border: solid 1px #586996;}/*右侧流程信息样式*/
+ .nodeDesc{background-color:#D3E0EF;}/*右侧节点描述区域背景色*/
+
+/**
+ *各种资源树所在div的样式
+ */
+ .popUpOnlytree{background: #f6f9fd;}/*资源转移moveDic.jsp页面资源树背景色*/
+ .popUpOnlytree0{border: 1px solid #adbcca;}/*备选资源树边框*/
+ .popUpSelected{border: 1px solid #adbcca;}/*已选资源树边框*/
+ .popUpRemark{border: 1px solid #adbcca;}/*数据源授权的权限设置div边框*/
+
+/**
+ *标题下面间隔线样式
+ */
+ .title-content-line{background-color:#CCC;border-top:solid 1px #CCC}
+
+/**
+ *添加订阅“输出设置”标题下横线
+ */
+.sub-base-line{border-bottom:solid 1px #A0A0A0}
+
+/**
+ *新建超链接页面————资源类型选择下横线样式
+ */
+.addLink_line{margin-left:15px;margin-top:5px;padding:0; width:94%;height:1px;background-color:#D4DEEC;overflow:hidden;}
+
+/**
+ *编辑超链接页面样式
+ */
+ .addDsFieldLinkExp_content{border: 1px solid #A6C9E2;}/*参数表达式与字段关联弹出层表格外层边框*/
+ .divStyle{border: 1px solid #e0e0e6}/*参数表达式与字段关联弹出层表格表头边框*/
+ .modifyLink_line{margin-top:20px;padding:0; width:99%;height:1px;background-color:#D4DEEC;overflow:hidden;}/*资源类型分隔线*/
+
+/**
+ *V4升级至V5页面
+ */
+ span.updateBtn{background-color: #3B92CE;}/*升级按钮背景色*/
+.oldChartUpdate{border-bottom: solid 1px #E9EDF9;}/*旧版本统计图下横线*/
+
+/**
+ *移动应用设置页面标题下横线样式
+ */
+ .geeznMobiel-hr{border-top:solid 1px #cccccc;}
+
+/**
+ *资源迁移导入导出所在div边框
+ */
+ .option{border:1px solid #D5DFE5;}/*默认*/
+ .option:hover{border:3px solid #257DBE;}/*鼠标移入*/
+ .resRemove-option-logo{background:#E5EBFB;}/*导入 导出logo所在div背景色*/
+ .outOptionFont{color:#257DBE;}/*导入、导出文字颜色*/
+ .resMoveTree{border: 1px solid #ADBFEC;}/*资源导入页面资源树边框*/
+
+ /**
+ * 通用存取窗工具条div边框样式
+ */
+ .saveAndLoadBar{border-top:solid 1px #CCCCCC;}
+
+ /**
+  * 模拟数据生成器
+  */
+ .rulesSet_borderStyle{width:100%;border-bottom:3px #4D94FF solid;}/*页面中边框线*/
+ .rulesSet_introduce{border:1px #D0D7E5 solid;height:120px;margin-top:15px;background-color:#DBE8FB}/*字段规则设置背景色*/
+ .rulesSet_tempName:hover{color:#295C9E}/*鼠标经过字段名字时字体颜色D94E3D*/
+ .ruleSet_operate{float:right;color:#2a8dd4;font-weight:bold}/*字段设置页面-字段规则显示字体颜色*/
+ 
+ /**
+  * 弹出层下面工具条按钮样式设置
+  */
+  .filterButtons{background-color:#eee!important;;}
+  .filterButtons .rq-ui-toolbar-button-default{background-image:none !important;FILTER: progid:DXImageTransform.Microsoft.Gradient(gradientType=0,startColorStr=#FBFBFB,endColorStr=#EAEAEA);border:solid 1px #CACACA !important;};
+  
+  /**
+  * 通用查询资源样式
+  */
+.groupTitle{
+	border-top: 1px solid #B2D4F7;
+	background-color: #DBE8FB;
+	height: 24px;
+}

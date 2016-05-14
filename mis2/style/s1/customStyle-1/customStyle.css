@@ -1,0 +1,447 @@
+﻿@CHARSET "utf-8";
+/*平台字体样式*/
+*{font-family:Microsoft YaHei!important;}
+/*菜单栏标题"系统菜单"文字颜色*/
+.left .leftTitle span{color:#FFFFFF;}
+
+/**
+ *通用风琴夹可修改的样式
+ */
+ .ui-accordion .ui-accordion-header{ border-bottom: #9fc1e5 solid 1px;}/*按钮未展开时的下边框---修改的jquery.ui.accordion.css*/
+ .ui-state-hover a, .ui-state-hover a:hover { color: #fffdb4;}/*鼠标移入按钮时文字颜色*/
+ .ui-state-default a, .ui-state-default a:link, .ui-state-default a:visited {color: #fff;}/*按钮未展开时文字颜色---修改jqueryui-core.css*/
+
+ /**
+  *通用横向tab可修改的样式
+  */
+ #tabs{border: 1px solid #CCCCCC;}/** tab整体外边框 */
+ .rq-ui-tab-ul{border-top:0px!impotant;}
+ .rq-ui-tab-div{border: 0px solid #ffa265;}/* 设置tab页的外边框*/
+ .rq-ui-tab-div .rq-ui-tab-ul li.ui-state-default{background: #FAFAFA;}/*设置tab按钮的背景色*/
+ .rq-ui-tab-div .ui-widget-header.rq-ui-tab-ul {border:0px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-radius: 0;background: #FAFAFA;font-weight: bold;line-height:1;}/*tab条样式*/
+ .rq-ui-tab-div .rq-ui-tab-ul li.ui-state-default a{color:#666666;}/*设置tab按钮未选中时文字的颜色*/ 
+ .rq-ui-tab-div ul.rq-ui-tab-ul li.ui-tabs-selected{background: #fff repeat-x 50% 50%;border-bottom:2px solid #FF5500 !important;border-right:1px solid #EEEEEE !important;}/* 设置横向tab按钮被选中时的背景色*/
+ .rq-ui-tab-div ul.rq-ui-tab-ul li.ui-state-active a{color: #333333;}/*设置tab按钮被选中时的文字的颜色*/
+ .ui-widget-content .ui-widget-header .ui-state-default{border:0;border-right: 1px solid #EEEEEE;}/*设置tab按钮边框样式---jqueryui.css*/
+ div.rq-ui-tab-div ul.rq-ui-tab-ul li.ui-corner-top.ui-state-hover{background: #FAFAFA;}/*鼠标移入没有选中tab的样式*/
+ div.rq-ui-tab-div ul.rq-ui-tab-ul li.ui-corner-top.ui-state-hover a{color:#66666;}/*设置鼠标移动到横向tab按钮上时文字的颜色*/
+ div.rq-ui-tab-div ul.rq-ui-tab-ul li.ui-corner-top.ui-tabs-selected.ui-state-hover{background: #FFFFFF repeat-x 50% 50%;}/* 鼠标移入被选中tab按钮的背景色*/
+ .tabInDiv{border:0px !important;}
+ .tabInTab{width:369px !important;margin-top:10px;margin-left:10px;border:1px solid #cccccc !important;}
+ 
+ /**
+  *通用纵向tab可修改的样式
+  */
+ #vertabs{border: 1px solid #CCCCCC;}
+ .rq-ui-tab-div .rq-ui-tab-ul{border-right:1px solid #CCCCCC!important}
+ .rq-ui-tab-div .rq-ui-tab-ul li.ui-corner-left.ui-tabs-selected{background: #fff repeat-x 50% 50%;border-right:2px solid #FF5500 !important;border-bottom:1px solid #EEEEEE !important}/* 设置纵向tab按钮被选中时的背景色*/
+ .rq-ui-tab-div .rq-ui-tab-ul li.ui-corner-left{border-bottom: 1px solid #EEEEEE !important; }
+
+/**
+ *日历控件可修改样式
+ */
+ .ui-datepicker-calendar thead,.ui-timepicker-div{color:#FF5500;}/*时间、日期文字颜色*/
+ #ui-datepicker-div{border:1px solid #FF8243;background:#FAFAFA;}/*整体框架边框和背景色*/
+ div.ui-datepicker .ui-timepicker-div{border-top:solid 0.1em #FF8243;padding-top:10px;padding-bottom:10px;}/*时间区域上边框样式*/
+ div.ui-datepicker .ui-widget-header{color:#FF5500;border:0px;border-bottom:0.1em solid #FF8243;}/*标题样式*/
+ div.ui-datepicker.ui-widget-content .ui-state-default{border:solid 0.2em #FAFAFA;background:#FAFAFA;color:#FF5500;}/*日期块默认样式*/
+ div.ui-datepicker.ui-widget-content .ui-state-active{border-bottom:0.2em solid #FF5500;}/*被选中日期块样式*/
+ div.ui-datepicker.ui-widget-content .ui-state-hover,div.ui-datepicker.ui-widget-content .ui-datepicker-today a{border:0.2em solid #FFEA7F;background:#FFEA7F;}/*当前日期按钮样式和鼠标移入日期块样式*/
+ div.ui-datepicker .ui-datepicker-buttonpane{background:#EEEEEE;}/*日历按钮区域*/
+ .rqdatetimeFocus{border:solid 1px #FF5500;}/*日历输入框获得焦点*/
+
+ /**
+  *通用弹出层可修改样式
+  */
+ body div.ui-widget-content {border:1px solid #feaa9d;}/*弹出层边框颜色以及日期控件弹出层边框和底层Button区域上边框颜色*/
+ .ui-dialog .ui-dialog-titlebar{border-top:1px solid #FFF; color: #FFF !important;}/*设置弹出层标题栏的上边框以及标题文字颜色*/
+ .ui-dialog .ui-dialog-buttonpane{ margin:auto -2px -4px -2px; background:#FDEDE2; border-top:1px solid #ffa265;}/*confirmUI的操作条样式*/
+ div.ui-dialog.ui-widget div.ui-dialog-buttonpane button.ui-button{border:1px solid #ffa265;}/*confirmUI操作按钮边框*/
+ .RQAlertMessage{color:#FFFFFF;}/*提示信息框架样式*/
+ .alertTips{background:#4D94FF;border:solid 1px #4D94FF;}/*弹出提示信息框*/
+ .alertTipsSpan{background:#3276DC url("alert_tip.png") 50% 50% no-repeat;}/*弹出提示信息框左侧背景*/
+ .alertSucc{background:#1FAD38;border:solid 1px #1FAD38;}/*弹出成功信息框*/
+ .alertSuccSpan{background:#009A1C url("alert_sure.png") 50% 50% no-repeat;}/*弹出成功信息框左侧背景*/
+ .alertWarn{background:#DD3A2D;border:solid 1px #DD3A2D;}/*弹出警告信息框*/
+ .alertWarnSpan{background:#D02F22 url("alert_warn.png") 50% 50% no-repeat;}/*弹出警告信息框左侧背景*/
+ .confirmUiFlag{display:inline-block;width:80px;height:60px;background:url("confirmUi.png") 50% 50% no-repeat;}
+ #alertcontent{color:#FFFFFF;}/*alert提示信息内容文字颜色*/
+
+/**
+ *通用列表可修改样式
+ */
+ .ui-jqgrid{border:1px solid #CCCCCC !important;}/*表格内容表格外边框*/
+ .ui-jqgrid .ui-userdata{border-bottom:solid 1px #CCCCCC;}/*列表工具条与表头间分隔线*/
+ .ui-jqgrid-htable{border-bottom:solid 2px #FF5500 !important;}/*表头下横线*/
+ .ui-jqgrid-htable .ui-state-default{border-right:solid 1px #EDBFA6 !important;border-left:solid 1px #FFF4EE !important;border-bottom:solid 1px #CCCCCC !important;}/*列表表头边框*/
+ .ui-th-column, .ui-jqgrid .ui-jqgrid-htable th.ui-th-column{color:#666666;}/*表头文字颜色*/
+ .ui-widget-content .ui-priority-secondary{background:#F8F8F8;}/*列表内容偶数行背景色*/
+ .ui-jqgrid-bdiv table{border-bottom:none !important;}
+ div.ui-jqgrid .ui-jqgrid-view .ui-state-hover{background:#FFE6D9 !important;}/*鼠标移入列表改变行背景色*/
+ div.ui-jqgrid .ui-jqgrid-view .ui-state-hover a, div.ui-jqgrid .ui-jqgrid-view .ui-state-hover a:hover{color:#87331d;}/*鼠标移入表格文字颜色*/
+ .ui-jqgrid-btable.jqGrid tr.jqgrow.ui-widget-content.ui-state-highlight{background:rgb(255, 255, 202);border:0px;}/*选中行背景色*/
+ .jqgroup td{background-color:#EAEAEA;color:#FF5500;background-image:none;*line-height:22px;border-top:solid 1px #CCCCCC !important;border-bottom:solid 1px #CCCCCC !important}/*分组列表分组行样式*/
+
+/**
+ *通用帮助提示可修改样式
+ */
+.helpDivMsg{border:3px solid #FF8243 !important;background-color:#FFFFFF;}/*第一种帮助提示信息的弹出框的背景色以及边框的设置*/
+
+/**
+ *通用浏览服务器文件组件可修改样式
+ */
+ .mesWindow{border:1px solid #feaa9d;}/*组件外层框架边框样式*/
+ .mesWindowTop {border-bottom:#feaa9d solid 1px;}/*标题区下划线*/
+ #topbar{ border-bottom:#a7a6aa solid 1px; background-color:#f0f0f0;}/*显示选择文件路径区域的背景色设置和该区域的下边框*/
+ #footer{background-color:#f0f0f0 !important;}/*Button区域的背景色*/
+
+/**
+ *文件上传组件样式
+ */
+ .rquploadTitleSpan{color:#333333;}/*标题文字颜色*/
+ .rquploadContainer .top{border-bottom:#CCCCCC solid 1px;}/*标题行下边框*/
+ .rquploadContainer{background-color:#FFFFFF; border:solid 1px #CCCCCC;}/*组件容器样式*/
+ .rquploadContainer .foot{background:#EEEEEE; border-top:1px solid #CCCCCC;color:#999999}/*底层按钮区域样式*/
+ .rquploadContainer .foot #finishNum{color:#039B1E;}/*已经上传文件完成个数*/
+ .rquploadContainer .foot #remainNum{color:#DD3A2D;}/*上传文件未完成个数*/
+ .rquploadContainer .foot .uploadInfoSpan,.rquploadContainer .foot .uploadBtn{border-right:solid 1px #DDDDDD;border-left:solid 1px #FAFAFA;}/*底层按钮边框*/
+ .rquploadContainer tr td{border-bottom:solid 1px #EEEEEE;}/*文件列表下边框*/
+
+/**
+ *通用工具条可修改的样式
+ */
+.toolbar{background:none!important;}
+ .ui-button.ui-state-default{border:1px solid #ffa265;}
+.toolbar.rq-ui-toolbar-div .rq-ui-toolbar-button-default{border:1px solid #ffa265;background: rgb(255, 233, 218) url(toolbarNormalBack.png) repeat-x;color:#333333;}/*工具条按钮默认背景色、边框以及文字颜色*/
+.toolbar.rq-ui-toolbar-div .rq-ui-toolbar-button-hover{border:1px solid #ffa265;background:rgb(255, 233, 218) url(toolbarOverBack.png) repeat-x;}/*鼠标移入按钮边框设置*/
+.toolbar.rq-ui-toolbar-div .rq-ui-toolbar-button-active{border:1px solid #ffa265;background:rgb(255, 233, 218) url(toolbarDownBack.png) repeat-x;}/*鼠标点击按钮时边框设置*/
+ 
+/**
+ *下拉列表可修改样式
+ */
+ .rqChooseAllDiv{background-color:#EEEEEE;border-bottom:#CCCCCC solid thin;}/*"搜索,排序"区域背景色及下边框设置*/
+ .rqDropDownListDataOver{background-color:#FFE6D9;}/*下拉列表选项鼠标移入背景色*/
+ .rqDropDownList{border:#CCCCCC solid 1px;}/*下拉列表框边框颜色*/
+ .rqdataDivleft{border-left:4px #FF5500 solid;padding-left:4px !important;}/*单选下拉列表反显数据时左边框颜色*/
+
+/**
+ *通用树树节点被选中的样式
+ */
+ .fontbgcolor a{background-color: #FFFFCA;}/*鼠标移入节点背景色*/
+ .treeNodeSelected {background-color:#FEF3D9; border:solid 1px #FFD6B1;}/*树节点被选中的样式*/
+ .treeNodeOver{background-color:#FFE6D9;}
+
+/**
+ *通用下拉面板样式
+ */
+ .rqPullDownPanelDataOver{background-color:#FFFFCA;}/*下拉面板选项鼠标移入背景色*/
+
+/**
+ *资源管理tab页框架边框
+ */
+ .resContent{border: solid 5px #feaa9c !important;}
+ .resLeftContent{border-right: solid 5px #feaa9c !important;}
+ .resRightContent{border: solid 0px #feaa9c !important;}
+
+/**
+ *菜单平铺页样式
+ */
+ .menuFlatFistCol{background:#ac131b;}/*左侧第一列背景色*/
+ .menuFlatFistCol div{background:#d94e3d;color:#fff}/*左侧第一列内容的背景色以及字色*/
+ .menuFlatFistCol div a{color:#FFFFFF;}/*左侧第一列超链接字色*/
+ .changeWeiZhi{color:#d94e3d!important;}/*“更改当前位置”字色*/
+ .menuFlatInfos ul li a{color:#ac131b}/*菜单平铺功能点文字颜色*/
+ .menuFlatInfos ul li a:hover{color:#d94e3d}/*菜单平铺功能点文字鼠标移入的文字颜色*/
+
+/*订阅调度查询面板背景色及边框颜色样式*/
+ .queryForm_sche {background: #FFE7CE;border-bottom: #F8B878 solid 1px;padding: 10px 10px 10px 15px;}
+
+/*调度器管理(任务管理、新增任务、新增任务组、实例管理、日志管理)标题背景图片*/
+ .schedule-title{background-image: url("logmanage_title.png");background-repeat: repeat-x;height: 30px;margin: 0;padding:0px;}
+
+/*调度器管理(任务管理、实例管理)查询面板背景图片*/
+ #param_page{height: 75px !important;background-color:#FFE7CE;border-bottom:solid 1px #F8B878; margin:0px;font-size: 12px;}
+
+/*调度器-任务管理标题下的横线*/
+ .schedule-taskmanage-title{border-bottom:1px solid #ffbc7e;width:300px}
+
+/*调度器配置管理--推送服务配置标题*/
+ .pushHover,.pushSelected{border:solid 1px #ffa265;}/*鼠标移入样式、被选中样式*/
+
+/*任务管理-新增任务、新增任务组地层button区域样式*/
+ #task_option {position: absolute;bottom: 12px;left:0px;height:40px;*height:50px;width: 100%;border-top: ridge 1px #F8A060;padding-top:10px;}
+
+/*任务管理-新增任务中基本属性和调度对象设置框架背景色*/
+ .taskEditBg{background-color: #FFFFFF;}
+
+/*系统配置及控制台标题行样式*/
+ .config-title-div{ background-color: #ffddc2;border-top:solid 1px #ffa265;}/*背景色、上边框*/
+
+/**
+ *系统管理机构用户管理和业务角色管理基本信息区域样式
+ */
+ .config-title-bg{background:url("systemRoleTitleBack.gif") 0 50% no-repeat;color:#333333;font-weight:bold;padding-left:7px}/*左上角标题的背景图片和文字样式*/
+ .config-title-div-bg{border:1px solid #ffba78;background:url("systemRoleBack.png")}/*div背景图片*/
+ .list table{border-bottom: 1px solid #ffba78;}/*功能授权列表下边框*/
+ .list th{border-bottom: 1px solid #ffba78;border-right: 1px solid #ffba78;}/*功能授权列表表头边框*/
+
+/**
+ *控制台服务器参数管理和性能优化管理表格样式
+ */
+ .unitaryDiv{border:#feaa9d 1px solid;margin:2px;}/*外层div边框样式*/
+ .unitary-button{border-right:1px solid #feaa9d;margin-right:5px;}/*保存按钮右侧间隔线*/
+ .unitary-showTable td{font-size:13px;border:1px solid #f1f0f0;height:30%;}/*表格单元格样式*/
+ .unitaryTable-td{padding:3px;padding-left:7px;border-bottom:1px solid #ffba78 !important;border-right:1px solid #ffba78 !important;background-image:url('ui-bg_cccccc_1x23.png');background-repeat:repeat-x;} /*表格表头*/
+
+/**
+ *控制台——全局展现配置、初始化属性设置底层保存按钮区域的样式
+ */
+.proconsoleBtnDiv{height:40px;line-height:40px;padding-top:0px !important;width:100%;margin:0px;border-top:solid 1px #F8A060;position:absolute;}
+
+/**
+ *初始化属性设置页面tab页上边框
+ */
+.initAttributeTab{border-top:solid 1px #ffa265 !important;}
+
+/**
+ * 资源管理左侧顶部标题条颜色及下边框颜色
+ */
+ .resDir{border-bottom:1px solid #FFBC7E !important;background-color:#FFF2E9 !important;}
+
+/**
+ *资源中心新增资源弹出层被选中资源类型样式
+ */
+ .typeButtonSelect{background-color:#FFFFCA;border:1px solid #FFBD5C;}
+
+/**
+ *资源中心一系列操作弹出层页面底层按钮区域
+ */
+ .filterButtons,.schedule-config-buttonDiv{border-top: #F8A060 solid 1px;}/*弹出层按钮区域和调度器按钮区域样式*/
+ .popUpButton{border-top: #F8A060 solid 1px}/*重命名页面*/
+
+/**
+ *新增报表组资源--选择新建报表组方式页面样式
+ */
+ .selectTypeDiv{background-color:#FFE7CE;border:1px solid #FFBD5C;}/*两种选项div样式*/
+ .selectTypeDivOver{background-color:#ffffca;border:solid 1px #FFBD5C;}/*鼠标移入div背景色*/
+ .newReportLi{border-right: solid 1px #FFBD5C;}/*“立刻进入报表组”框架右边框*/
+
+/*新增其他资源类型页面标题行*/
+ .filterTitle{background-color: #ffddc2; border-top: solid 1px #ffa265}
+
+/*新增脚本页面的--参数设置文字颜色*/
+ .editScript_parameterSetting{color:#FA6455;}
+
+/**
+ *新建资源--ETL适配器实例
+ */
+.adapter .hover{background-color:#FFFFCA;border:1px solid #FFBD5C;}/*鼠标移入实例*/
+
+/**
+ *引导页样式
+ */
+ .guideDiv{	border:1px solid #F8B878;color:#666666;}/*引导页整体框架边框及文字颜色*/
+ .guidingLeftContent{border:0;background-color:#AC131B;}/*引导页左侧第一列背景色*/
+ .guidingDemo{border:solid 1px #cd7176;border-left:none;border-right:0;}/*demo示例区域上下边框*/
+ .switchUserTip,.showGuiding_div{color:#cd7176;}/*引导页左侧第一列文字颜色*/
+ .guidingHelpTips a:link{color:#AC131B;}/*引导页右侧连接文字的颜色*/
+ .guidingHelpTips a:hover{color:#d94e3d;text-decoration:underline;}/*引导页右侧连接文字的颜色*/
+ #box{background-color:#BBB;z-index:9998;filter:alpha(opacity:30);_filter:alpha(opacity:30);-moz-opacity:0.3;opacity:0.3;}/*遮罩层颜色*/
+
+/**
+ *别名管理样式
+ */
+ .aliasManager_table{border:1px solid #F8B878;}/*别名管理介绍外层框架边框*/
+ .aliasManager_tipContent{border-top:1px solid #F8B878;}/*“别名管理介绍”下边框*/
+ .editAlias_line{border-left: 1px solid #F8B878;}/*别名编辑中两个列表中间间隔线*/
+ .alias_filterButtons{width: 99%; position:absolute; left:0px;right:0px; bottom:0px;*bottom:0px;height:30px; border-top:#F8A060 solid 1px;font-size:12px;text-align:right;font-size:12px;}/*别名编辑页面底层按钮区域*/
+
+/*数据表管理、数据集管理两个列表中间间隔线*/
+ .dataset_centerLine{height:400px;width:1px;background:#F8B878;}
+
+/**
+ *数据源管理
+ */
+ .datasourceList,.themeManager_list{margin:0px;padding:0 0 18px 0;background:#FFE7CE;}/*数据源列表、主题列表背景色*/
+ .dataManagerIntroduction{border:1px solid #feaa9d;border-bottom-style:none;}/*“数据使用管理导读”标题边框*/
+ .jdbc_source_Main{background: #FFE7CE; margin-left: 15px;}/*修改数据源页面的背景色*/
+ #addDel{background:#FFE7CE;}/*修改数据源页面的增加删除工具条背景色*/
+ .line_style{border-top: 1px solid #F8A060; margin: 5px 0px;}/*修改数据源页面的分隔线*/
+
+/**
+ *多维分析矩阵
+ */
+ .martix_index_title{background-color:#FFE7CE;border-top:1px solid #FFBA78 ;border-bottom:1px solid #F8B878;}/*矩阵列表与多维分析导读间隔条*/
+
+/**
+ *机构用户管理左侧树的样式
+ */
+ .treeViewTree{	background: url("tree-right.gif") repeat-y right top #fff7eb;}
+
+/*主题管理使用导读标题所在div边框*/
+.themeManager_info{border:1px solid #feaa9d;border-bottom-style:none;}
+
+/**
+ *组织对DBD授权页面样式
+ */
+ .selectedDBD,.reserveDBD{border-top: 1px solid #ffa265;border-bottom: 1px solid #FFBA78;background-color: #fff7eb;}/*"当前Dashborad"标题行样式*/
+
+/**
+ *Dashboard配置页面样式
+ */
+ .divStyleDBD {height: 114px;width: 170px;border: 1px solid #fff;}/*待选组件默认样式*/
+ .divStyleDBD:hover{cursor:hand;background:#ffddc2;border: 1px solid #ffa265;}/*鼠标移入的待选DBD组件的样式*/
+ .selected{background:#ffddc2;border: 1px solid #ffa265;}/*选择的DBD组件的样式*/
+
+/*
+ * 展现DBD组件详细信息页面样式
+ */
+ .dbd_background_style:hover{background: -webkit-gradient(linear, left top, left bottom, from(#FFE5CE), to(#FFD7B5));/*谷歌*/
+ filter:progid:DXImageTransform.Microsoft.Gradient(startColorStr='#FFE5CE', endColorStr='#FFD7B5', gradientType='0');/*IE*/
+ background:-moz-linear-gradient(top,#FFE5CE,#FFD7B5);/*firefox*/}/*鼠标经过按钮背景渐变颜色*/
+ .dbd_background_style{cursor:pointer;border:1px solid #FFA265;
+ background: -webkit-gradient(linear, left top, left bottom, from(#FCFAFA), to(#FFE7D2));
+ filter:progid:DXImageTransform.Microsoft.Gradient(startColorStr='#FCFAFA', endColorStr='#FFE7D2', gradientType='0');
+ background:-moz-linear-gradient(top,#FCFAFA,#FFE7D2);}/*按钮背景渐变颜色*/
+
+/**
+ *新建DBD面板页面样式
+ */
+.addDBDpabelTitle{background-color:#D24726; color:#fff;}/*标题行背景色、文字颜色*/
+.addPanelBtn{background-color:#AB3A1F;color:#fff;}/*“完成”按钮背景色、文字颜色*/
+.beixuanBrd{background-color:#E4E4E4;border-top:#C6C6C6 solid 1px; border-bottom:#C6C6C6 solid 1px}/*"备选组件"标题行*/
+.component_alert{background-color:#DDDDDD;}/*选中组件在面板中展示-修改背景色*/
+.component_panelPosition{border:3px solid #FF5500 !important}/*其他方式中选中边框颜色*/
+
+/**
+  *新建DBD组件页面样式
+  */
+.addDBDcompBtn{color:#FFF;background:#D24726 !important;border:0px;}/*"新建组件"、"统计图表"按钮样式*/
+/*.createComponent_toolbar{background:#F0F0F0 !important;padding:0px !important;border-bottom:5px solid #AB3A1F;}*//*新建组件属性设置面板样式*/
+.filter_info{border:1px solid #C6C6C6;}/*过滤面板边框线颜色*/
+.compType_currBtn{color:#FFF !important;background:#D24726 !important;border:0px !important;}/*左侧分类中被选中按钮的样式*/
+.createCom_main{background:#FFE6D9;overflow:hidden}
+.panelLeftBar{background-color:#FFE6D9;width:222px;border-right:#CCCCCC solid 1px;}
+
+/**
+ *快速展现框架页面样式
+ */
+ .fs-frameDiv {border: 1px solid #E3A295;background-color: #F9E3DF;}/*每列框架样式*/
+ .fs-conGroupTitle{border-top:solid 1px #E3A295;border-bottom:solid 1px #E3A295;background-color:#EBBAAF;}/*条件分组组名样式*/
+ .fs-table #gbox_groupTable{border-top:solid 1px #E3A295 !important;border-left:solid 0px #E3A295 !important;border-right:solid 0px #E3A295 !important;}
+ .fs-table #gbox_groupTable .ui-priority-secondary{background-color:#F6F6F6 !important;}
+ .fs-titleDiv {color: #333333;border-bottom: 1px solid #E3A295;}/*标题区域样式*/
+ .fs-thSpan{border-right:solid 1px #E3A295;border-left:solid 1px #F6F6F6;}/*任务列表表头字段名称所在span*/
+ #advancedQuery {border-bottom: 1px solid #9DB0E1;}/*中间列任务列表表头上边框线*/
+ .fs-defaultDiv{color: #E3A295;}/*右侧报表展现区域默认文字的颜色*/
+
+
+/**
+ *任务列表页面样式
+ */
+ .workListMain{background-color: #F2C7B0;}/*整体框架背景色*/
+ .frameDiv {border: 1px solid #E3A295;background-color: #F9E3DF;}/*每列框架样式*/
+ .titleDiv {color: #E48D7C;border-bottom: 1px solid #E3A295;}/*标题区域样式*/
+ #advancedQuery {border-bottom: 1px solid #E19DC6;}/*中间列任务列表表头上边框线*/
+ .task_leftContent {background-color: #F8F0F0;border-bottom: 1px solid #E3A295;color: black;padding: 5px;}/*左侧第一列各个分类区域的样式*/
+ .defaultDiv{color: #E3A295;}/*右侧报表展现区域默认文字的颜色*/
+
+/**
+ *数据下发页面样式
+ */
+ .interfaceSet,.task_assign_input{background-color:#F8F0F0;font-size:12px}/*数据下发区域、下发按钮区域、输入框背景色*/
+ .task_submit_div{border-top: #E3A295 solid 1px;}/*"下发"按钮区域上边框样式*/
+ .task_assign_left{border-right:#E3A295 solid 1px;}/*数据下发与邮件下发中间分隔线*/
+ .task_treeDiv{background-color:#F9E3DF;border:solid 1px #E3A295;}/*可选机构树、已选机构树背景色*/
+ .authorizationTitle{border-bottom:1px solid #E3A295}/*机构树标题行下边框*/
+
+/**
+ *新建流程页面样式
+ */
+ .popup{border: solid 1px #AF5E3F;background-color: #FACBC7;}/*流程信息下拉列表样式*/
+ .lineDefault{color:#CCCCCC}/*线失去焦点时颜色*/
+ .lineSelected{color:#AC131B}/*被选中线的颜色*/
+ .lineConfigDiv{background-color: #EEEEEE;border: #AC131B 5px solid;}/*工作流线编辑弹出框div样式*/
+ .lineEditDiv{background-color: #FFFFFF;border:10px solid #60C9FF;}/*修改节点连接线弹出层的div样式*/
+ .lineEditTitle{background-color:#F4F4F4;color:#3265FE}/*修改节点连接线弹出层的标题样式*/
+ .newnode_div{border: 10px solid rgba(0,0,0,0.3);background-color: #FFFFFF;}/*新增节点弹出框样式*/
+ .workflow_nodeDivDefault{border:5px solid rgba(238,238,238,1);}/*节点默认样式*/
+ .workflow_nodeDivSelected{border:5px solid #AC131B;}/*被选中流程节点样式*/
+ .workflow_nodeDivHover{border:5px solid rgba(0,167,60,1);}/*鼠标移入节点样式*/
+ .startNode,.endNode{color: #AC131B;}/*开始结束节点文字颜色*/
+ .searchResult{border:solid 1px #ABADB3;}/*新增节点弹出层中搜索结果所在区域边框*/
+ .nodeDefault{background-color:#FFFFFF;border:0px;}/*新增节点弹出框，待选节点默认样式*/
+ .nodeSelected{background-color:#EBF0F6;border:solid 1px #DDD}/*新增节点弹出框，被选中节点的样式*/
+ .workNodeContext{background-color: #FACBC7;border: solid 1px #AF5E3F;}/*右侧流程信息样式*/
+ .nodeDesc{background-color:#FACBC7;}/*右侧节点描述区域背景色*/
+
+ /**
+ *备选、已选树所在div的样式
+ */
+ .popUpOnlytree{background: #fff7eb;}/*资源转移moveDic.jsp页面资源树背景色*/
+ .popUpOnlytree0{border: 1px solid #E3A295;}/*备选资源树边框*/
+ .popUpSelected{border: 1px solid #E3A295;}/*已选资源树边框*/
+ .popUpRemark{border: 1px solid #E3A295;}/*数据源授权的权限设置div边框*/
+
+/**
+ *变量管理标题下面间隔线样式
+ */
+ .title-content-line{background-color:#F8A060;border-top:solid 1px #F8A060}
+
+/**
+ *添加订阅“输出设置”标题下横线
+ */
+.sub-base-line{border-bottom:solid 1px #F8A060}
+
+/**
+ *新建超链接页面————资源类型选择下横线样式
+ */
+.addLink_line{margin-left:15px;margin-top:5px;padding:0; width:94%;height:1px;background-color:#F8A060;overflow:hidden;}
+
+/**
+ *编辑超链接页面样式
+ */
+ .addDsFieldLinkExp_content{border: 1px solid #FFBA78;}/*参数表达式与字段关联弹出层表格外层边框*/
+ .divStyle{border: 1px solid #FFBA78;border-top:0px;border-left:0px;}/*参数表达式与字段关联弹出层表格表头边框*/
+ .modifyLink_line{margin-top:20px;padding:0; width:99%;height:1px;background-color:#F8A060;overflow:hidden;}/*资源类型分隔线*/
+/**
+ *V4升级至V5页面
+ */
+ span.updateBtn{background-color: #AC131B;}/*升级按钮背景色*/
+.oldChartUpdate{border-bottom: solid 1px #F8A060;}/*旧版本统计图下横线*/
+
+/**
+ *移动应用设置页面标题下横线样式
+ */
+ .geeznMobiel-hr{border-top:solid 1px #ffddc2;}
+
+/**
+ *资源迁移导入导出所在div样式
+ */
+ .option{border:1px solid #FFBD5C;}/*默认*/
+ .option:hover{border:3px solid #ffa265;}/*鼠标移入*/
+ .resRemove-option-logo{background:#FFE7CE;}/*导入 导出logo所在div背景色*/
+ .outOptionFont{color:#373D46;}/*导入、导出文字颜色*/
+ .resMoveTree{border: 1px solid #F8A060;}/*资源导入页面资源树边框*/
+
+/**
+ * 通用存取窗工具条div边框样式
+ */
+ .saveAndLoadBar{border-top:solid 1px #F8A060;}
+
+  /**
+  * 模拟数据生成器
+  */
+ .rulesSet_borderStyle{width:100%;border-bottom:3px #FFEA7F solid;}/*页面中边框线*/
+ .rulesSet_introduce{border:1px #D0D7E5 solid;height:120px;margin-top:15px;background-color:#FFE6D9}/*字段规则设置背景色*/
+ .rulesSet_tempName:hover{color:#D94E3D}/*鼠标经过字段名字时字体颜色*/
+ .ruleSet_operate{float:right;color:#ac131b;font-weight:bold}/*字段设置页面-字段规则显示字体颜色*/
+ 
+ /**
+  * 通用查询资源样式
+  */
+.groupTitle{
+	border-top: 1px solid #FF8243;
+	background-color: #FFE6D9;
+	height: 24px;
+}

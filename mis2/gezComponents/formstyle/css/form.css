@@ -1,0 +1,284 @@
+﻿/** dropdownlist */
+/** dropdownlist input后边的选择图片 <div><img></img></div> */
+img {
+	border: 0;
+}
+
+.selectDiv{
+}
+.selectImg{
+	background:url("../../../style/s1/customStyle/select-blue.gif");
+}
+.selectImgWrite{
+	background:url("../../../style/s1/customStyle/seect-write.gif");
+}
+
+.selectIconFont{
+	background:#ffffff;
+}
+.selectIconFont .dropDownIcon{
+	color:#727272 !important;
+}
+
+.selectedIconFont{
+	background:#1D7AD9;
+}
+.selectedIconFont .dropDownIcon{
+	color:#FFFFFF !important;
+}
+
+.selectIconFontPopUp{
+	background:#ffffff;
+}
+
+.selectedIconFontPopUp{
+	background:#1D7AD9;
+}
+
+.childIconFont{
+    margin: 3px 0px 0px 2px;
+}
+
+.childIconFontDatetime{
+    margin: 1px 0px 0px 2px;
+}
+
+/** dropdownlist 点击选择图片后，弹出的DIV层，外层大框架的DIV */
+.rqDropDown{
+
+	}
+.rqDropDownList{
+	position: absolute;
+	background-color:#ffffff;
+	z-index: 10000;
+}
+/** dropdownlist 全选复选框图片+font 外层div */
+.rqChooseAllDiv{ 
+	padding-left:3px;	
+	line-height:30px; 
+	overflow:hidden;
+	height:30px;
+	vertical-align:middle;
+	font-family:"宋体", Times, serif;
+	text-align:left;
+	font-size:12px;
+	position:relative;
+	
+}
+/** dropdownlist 全选复选框图片img -*/
+.rqUnChooseAllImg{
+	position:absolute;
+	margin-top:8px;
+	height:30px;
+	margin-left:5px;
+	padding-right:20px;
+	background:url("images/no_checked.png") no-repeat;
+}
+.rqChooseAllImg{
+	position:absolute;
+	margin-top:8px;
+	height:30px;
+	margin-left:5px;
+	padding-right:20px;
+	background:url("images/all_checked.png") no-repeat;
+}
+/** dropdownlist 全选文字 font */
+.rqChooseAllFont{
+	position:absolute;
+	padding-top:0px;
+	margin-left:28px;
+}
+/** dropdownlist 数据列表外层div */
+.rqDataList{
+	overflow:scroll；
+	position:relative;
+}
+/** dropdownlist 数据列表每个数据，复选框+文字 外层div */
+.rqdataDiv{
+	height:30px;
+	line-height:30px;
+	/*position:relative;*/
+	padding-left:8px;
+}
+
+/** dropdownlist 数据列表每个数据文字font */
+.rqDataFont{
+	font-family:"宋体", Times, serif; 
+	font-size:12px;
+	text-align:left;
+	margin-left:0px;
+}
+.rqDataFonttwo{
+	font-family:"宋体", Times, serif; 
+	font-size:12px;
+	text-align:left;
+	margin-left:17px;
+	color:#DCDCDC;
+}
+/**分页按钮工具条样式*/
+.pageFuncDiv{
+	float:left;
+	width:100%;
+	margin-top:-1px;
+	text-align:right;
+	line-height:28px;
+	background-color:#EEEEEE;
+}
+/** dropdownlist 总条目数+确定按钮+取消按钮 外层div  增加_bak做为备份 */
+.funcDiv_bak{ 
+    text-align:right;
+	line-height:26px;
+	background-color:#EEEEEE;
+}
+/** dropdownlist 总条目数 外层div */
+.funcDiv2{ 
+	line-height:26px;
+	background-color:#EEEEEE;
+}
+/** dropdownlist 确定按钮+取消按钮  */
+.funcDiv{ 
+	line-height:26px;
+	background-color:#F5F5F5;
+}
+/** dropdownlist 总条目数 font */
+.rqDropDownNum{
+	font-family:"宋体", Times, serif;
+	font-size:12px;
+	color:#5B5B5B;
+	padding-left:4px;
+	vertical-align: middle;
+}
+.OKButton , .CancelButton{
+/*
+    --margin-bottom:2px;
+    float:right;
+    *bottom:2px;
+	*/
+}
+.OKButton{
+	--margin-left:4px;
+	height:25px;
+	width:33px !important;
+	border:none;
+	vertical-align: middle;
+	--*margin-top:-7px;
+}
+.CancelButton{
+	 height:25px;
+	 width:33px !important;
+	 vertical-align: middle;
+	 --margin-right:3px;
+	 --margin-left:40px !important;
+	 --*margin-top:-7px;
+}
+
+.formButtonSpan{
+	height:18px;
+	line-height:18px;
+	width:48px !important;
+	text-align:center;
+	display:inline-block;
+	border:#CCCCCC solid 1px;
+	float:right;
+	margin:3px 5px 0px 0px;
+}
+
+/* 复选框，单选框和后面的文字对齐*/
+.rqFormalign{
+    vertical-align:middle;
+	position:absolute;
+	left:10px;
+	filter:alpha(opacity=0);
+	opacity:0;
+	margin-top:7px;
+	*margin-top:0px;
+	*left:10px;
+	outline-style:none;
+}
+/*搜索输入框*/
+.rqSearchInput{
+	margin-left:0px;
+	height:20px;
+	margin-top:2px;
+	position:absolute;
+	color:grey;
+	
+}
+/*搜索图片*/
+.rqSearchImg{
+	position:absolute;
+	padding:0;
+	left:0;
+}
+.rqSearchSpan{
+	position:absolute;
+	/**vertical-align:middle;
+	_vertical-align:middle;*/
+	display:inline-block;
+	z-index:1;
+	margin-top:3px;
+	padding:0;
+	
+}
+/*复选框被选中状态*/
+.rqFormalignSelected{
+	background: url("images/all_checked.png") no-repeat;
+	height:30px;
+	padding-left:0;
+	padding-right:20px;
+}
+/*复选框未被选中状态*/
+.rqFormalignSelect{
+	height:30px;
+	padding-left:0;
+	padding-right:20px;
+	background: url("images/no_checked.png") no-repeat;
+}
+ /*排序*/
+.rqunsortImg{
+	margin-left:5px;
+	margin-top:2px;
+	background:url("../../../style/s1/customStyle/unsorted.gif");
+	padding:0; 
+	border:0;
+}
+.rqsortImg{
+	margin-left:5px;
+	margin-top:2px;
+	background:url("../../../style/s1/customStyle/sort.gif");
+	padding:0;
+	border:0;
+}
+
+.gezBasicButton{
+	height:26px;
+	padding:0px 3px;
+	margin:0px;
+	-moz-border-radius: 4px;/* 兼容早期火狐浏览器 */
+	-webkit-border-radius: 4px;   /* 兼容早期谷歌浏览器 */
+	border-radius:4px;   
+	line-height:22px;
+	line-height:22px\9;
+	*line-height:22px;
+	_line-height:22px;    
+	font-size:12px;
+	overflow:visible;
+}
+.gezBasicButton:hover{
+	-moz-border-radius: 4px;/* 兼容早期火狐浏览器 */
+	-webkit-border-radius: 4px;   /* 兼容早期谷歌浏览器 */
+	border-radius:4px;   
+}
+/** 高亮显示的按钮样式 */
+.gezBrighterButton{
+	height:26px;
+	line-height:26px;
+	padding:0px 3px;
+	color:#ffffff;
+	-moz-border-radius: 4px;/* 兼容早期火狐浏览器 */
+	-webkit-border-radius: 4px;   /* 兼容早期谷歌浏览器 */
+	border-radius:4px;   
+	border:none;
+	background:#3C6CAC;
+	overflow:visible;
+} 

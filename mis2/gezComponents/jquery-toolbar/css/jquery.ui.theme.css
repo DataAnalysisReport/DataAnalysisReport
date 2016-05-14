@@ -1,0 +1,37 @@
+
+
+/* Component containers
+----------------------------------*/
+.toolbar .ui-widget { font-family: Verdana,Arial,sans-serif/*{ffDefault}*/; font-size: 1.1em/*{fsDefault}*/; }
+.toolbar .ui-widget .ui-widget { font-size: 1.1em; }
+.toolbar .ui-widget input, .ui-widget select, .ui-widget textarea, .ui-widget button { font-family: Verdana,Arial,sans-serif/*{ffDefault}*/; font-size: 1em; }
+.toolbar .ui-widget-content { border: 1px solid #aaaaaa/*{borderColorContent}*/; background: #ffffff/*{bgColorContent}*/ url(images/ui-bg_flat_75_ffffff_40x100.png)/*{bgImgUrlContent}*/ 50%/*{bgContentXPos}*/ 50%/*{bgContentYPos}*/ repeat-x/*{bgContentRepeat}*/; color: #000/*{fcContent}*/; }
+.toolbar .ui-widget-content a { color: #000/*{fcContent}*/; }
+
+
+
+
+
+
+/**{margin:0px; padding:0px;}
+.toolbar{ background:url(../../../style/s1/customStyle/toolbarBack.png) repeat-x ; padding:4px 0px 4px 4px;font-size: 10px;}*/
+.toolbar{ padding:4px 0px 4px 4px;font-size: 10px;}
+.toolbar button{-moz-border-radius:0px;-webkit-border-radius:0px; }
+.ui-state-default, .ui-widget-content .toolbar .ui-state-default{color:#000;background:#E6E6E6/*{bgColorDefault}*/ /*url(../../../style/s1/customStyle/toolbarNormalBack.png) repeat-x*/;font-weight:normal;border-image:initial;}
+.ui-dialog-buttonset .ui-button-text-only,.toolbar .ui-state-default{height:26px;line-height:26px;background-image:none;FILTER: progid:DXImageTransform.Microsoft.Gradient(gradientType=0,startColorStr=#FBFBFB,endColorStr=#EAEAEA);border:solid 1px #CACACA;color:#333333;}
+.ui-dialog-buttonset .ui-button-text-only:hover,.toolbar .ui-state-default:hover{border:1px solid #3B74B4!important;FILTER: progid:DXImageTransform.Microsoft.Gradient(gradientType=0,startColorStr=#ECEFFD,endColorStr=#C5D4E3);}/*鼠标移入按钮边框设置*/
+.ui-dialog-buttonset .ui-button-text-only:active,.toolbar .ui-state-default:active{border:1px solid #3B74B4!important;FILTER: progid:DXImageTransform.Microsoft.Gradient(gradientType=0,startColorStr=#ECEFFD,endColorStr=#C5D4E3);}/*鼠标点击按钮时边框设置*/
+.ui-state-hover{background:#C7D7E7 url(../../../style/s1/customStyle/toolbarOverBack.png) repeat-x;}
+.toolbarCloseToNext{margin-right:1px;margin-right:-2px!important;*margin-right:1px;}
+.toolbarDelete{ font-weight:bold;}
+.toolbarMousedown{background:#F7F8FA url(../../../style/s1/customStyle/toolbarDownBack.png) repeat-x;}
+
+
+/*11.12.26添加的样式*/
+.toolbar.rq-ui-toolbar-div .rq-ui-toolbar-button-default{ font-size:12px;font-family:"宋体";background-image:none;FILTER: progid:DXImageTransform.Microsoft.Gradient(gradientType=0,startColorStr=#FBFBFB,endColorStr=#EAEAEA);border:solid 1px #CACACA; font-size:12px; height:26px;line-height:26px;-moz-border-radius:2px;-webkit-border-radius:2px; border-radius:2px; }
+.toolbar.rq-ui-toolbar-div .toolbarMousedown{font-weight:normal;}
+.toolbar.rq-ui-toolbar-div .rq-ui-toolbar-button-hover{border:1px solid #3B74B4;FILTER: progid:DXImageTransform.Microsoft.Gradient(gradientType=0,startColorStr=#ECEFFD,endColorStr=#C5D4E3);height:26px;line-height:26px;-moz-border-radius:2px;-webkit-border-radius:2px; border-radius:2px;font-size:12px;font-family:"宋体";}
+.toolbar.rq-ui-toolbar-div .rq-ui-toolbar-button-active{border:1px solid #3B74B4;FILTER: progid:DXImageTransform.Microsoft.Gradient(gradientType=0,startColorStr=#ECEFFD,endColorStr=#C5D4E3);height:26px;line-height:26px;-moz-border-radius:2px;-webkit-border-radius:2px; border-radius:2px;font-size:12px;font-family:"宋体";}
+
+/*浏览服务器文件弹出层工具条按钮边框样式*/
+.btn_border{border:1px solid #96BAE2;}

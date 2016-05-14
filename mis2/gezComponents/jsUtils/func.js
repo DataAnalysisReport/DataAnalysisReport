@@ -1,0 +1,1 @@
+function sendXmlReq(b,f){var c;try{c=new XMLHttpRequest()}catch(d){try{c=new ActiveXObject("Msxml2.XMLHTTP")}catch(e){try{c=new ActiveXObject("Microsoft.XMLHTTP")}catch(a){c=false}}}if(c){c.open("GET",b,true);c.onreadystatechange=function(){f(c)};c.send(null)}else{alert("Error initializing XMLHttpRequest!")}}function changeHandStyle(a){a.style.cursor="hand"};

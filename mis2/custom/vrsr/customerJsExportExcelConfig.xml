@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="GBK"?>
+<customer>
+	<func>
+		<name>testExpression4</name>
+		<describe>测试方法</describe>
+		<type>0</type>
+		<define> 
+			<js>
+				function testExpression4(a,b){
+					if(a>b){
+						return true;
+					}else{
+						return false;
+					}
+				}
+			</js>
+			<excel>
+				OR(LEN(${a})=15,LEN(${b})=18)
+			</excel>
+		</define>
+		<params>
+			<param>
+				<name>a</name>
+				<describe>参数：a</describe>
+			</param>
+			<param>
+				<name>b</name>
+				<describe>参数：b</describe>
+			</param>
+		</params>
+	</func>
+	<func>
+		<name>testExpression5</name>
+		<describe>测试方法</describe>
+		<type>0</type>
+		<define> 
+			<js>
+				function testExpression5(a,b){
+					if(a>b){
+						return true;
+					}else{
+						return false;
+					}
+				}
+			</js>
+			<excel>
+				${a}+${a}-${b})
+			</excel>
+		</define>
+		<params>
+			<param>
+				<name>a</name>
+				<describe>参数：a</describe>
+			</param>
+			<param>
+				<name>b</name>
+				<describe>参数：b</describe>
+			</param>
+		</params>
+	</func>
+	<func>
+		<name>testExpression6</name>
+		<describe>测试方法</describe>
+		<type>0</type>
+		<define> 
+			<js>
+				function testExpression6(a,b){
+					if(a>b){
+						return true;
+					}else{
+						return false;
+					}
+				}
+			</js>
+			<excel>
+				${a}+${a}-${b})
+			</excel>
+		</define>
+		<params>
+			<param>
+				<name>a</name>
+				<describe>参数：a</describe>
+			</param>
+			<param>
+				<name>b</name>
+				<describe>参数：b</describe>
+			</param>
+			<param>
+				<name>c</name>
+				<describe>参数：c</describe>
+			</param>
+		</params>
+	</func>
+</customer>

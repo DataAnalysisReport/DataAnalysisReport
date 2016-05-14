@@ -1,0 +1,91 @@
+﻿/**/
+@CHARSET "utf-8";
+/*说明：此文件包含控制台和系统管理模块中统一的样式设置*/
+
+/* 系统配置及控制台标题行样式 **/
+.config-title-div{height:30px;line-height:30px;margin:0 0 10px 0;padding:0 0 0 10px;text-indent:5px;font-family:宋体;font-size: 12px;font-weight: bold;}
+
+/*控制台模块各个功能主框架页面整体样式*/
+.configMainBody{font-size:13px;margin:0;overflow-y:auto;overflow-x:hidden;background-color:#fff}
+/*控制台页面左上角标题容器*/
+.config-header{height:35px;line-height:35px;font-size:16px;font-weight: bold;font-family: 宋体;}
+.config-header span{vertical-align:middle;}
+/*控制台页面左上角标题容器内文字位置*/
+/*.config-header span {float:left; margin:0 0 0 5px;width:auto;font-weight:normal;font-family: 宋体;font-size: 12px;}*/
+/*控制台标题下横线样式*/
+/*.configHrLine{width:100%;height:1px;color:#cccccc;margin:0px;padding:0px;}*/
+/*控制台服务器参数管理与性能优化管理标题区域的样式*/
+/*.headerDiv{width:100%;border-bottom:1px #cccccc solid;}*/
+/*控制台--服务器参数管理与性能优化管理-当前使用配置*/
+.currConfig{padding:10px 0px;}
+.currConfig span{vertical-align:absmiddle;}
+/*控制台服务器参数管理和性能优化管理表格样式*/
+.unitary-showTable{width:100%;border-collapse:collapse;font-size:12px;}
+/*控制台服务器参数管理和性能优化管理表格内容标题标签所在单元格样式*/
+.unitaryTable-label{padding-left:8px;}
+/*控制台日志配置管理与全局展现设置通用表格最大宽度设置*/
+.config-table{width:100%;}
+/*控制台日志配置管理与全局展现设置通用表格上边框*/
+.config-table td{border-top:#f1f0f0 1px solid;height:32px;font-family: 宋体;font-size: 12px;}
+
+/*系统管理机构用户管理和业务角色管理最上排li标签*/
+.config-table li{list-style-type:none;float:left;}
+/*系统管理机构用户管理和业务角色管理最上排table每个TH的css*/
+.config-title-div-bg table th{font-size:12px;font-weight:normal;text-align:left;height:37px}
+/*系统管理机构用户管理和业务角色管理未选择机构或者角色的时候的提示框*/
+.config-content-prompt{margin:10px;padding:10px;color:#454545;font-size:12px;background:#ffc;border:3px solid #dedede}
+
+
+/* 个人信息管理模块中标签文字设置 */
+.personalmanager-table-font{font-size:12px;}
+/* 调度器配置管理模块页面body的样式 **/
+.schedule-config-body{width:100%;height:100%;margin:0px;padding:0px;overflow:hidden;font-family: Arial, Helvetica, sans-serif; }
+/* 移动应用设置（设置分辨率和报表底色）、调度器配置模块表格样式 **/
+.schedule-config-table{width:90%;margin-left:17px;font-size: 12px;border:0px;cellpadding:0px;cellspacing:0px;}
+.schedule-config-table tr td{height:24px;}
+/* 移动应用设置（设置分辨率和报表底色）、调度器配置模块可配置项名称所在td样式 **/
+.schedule-config-param-td{width:140px;text-align: left;}
+/* 调度器配置管理模块底层工具条div样式 **/
+.schedule-config-buttonDiv{height: 45px;width:100%;margin:0px;margin-top:15px;padding-left:15px !important;text-align:left}
+.schedule-config-buttonDiv button{margin:10px;margin-left:0px;}
+
+/* 系统管理-机构管理-新增用户与修改机构、新增机构的 弹出页面底部toolbar **/
+.config-bottom-toolbar{position:absolute;left:0;right:0;bottom:0;*bottom:0;height:30px;background-color:#f0f0f0;border-top:#d4deec solid 1px;width:100%}
+/* 系统管理-机构管理-新增用户与修改机构、新增机构的弹出页面底部toolbar中的按钮的高度**/
+.config-bottom-toolbar button{padding-top:3px;padding-bottom:3px;}
+/* 系统管理-机构管理-新增用户与修改机构、新增机构的 table中的input样式 **/
+.config-input-normal-table input{width:265px;}
+/* 系统管理-机构管理-新增用户与修改机构、新增机构的 table中的td样式 **/
+.config-input-normal-table td{text-align:left;height:30px;}
+
+/*调度器管理(任务管理、实例管理、日志管理)body样式*/
+.noscroll {filter: progid : DXImageTransform . Microsoft . gradient(enabled = 'true', GradientType = 1, startColorstr = #ffffFF,endColorstr = #C8E2F8)}
+/*调度器管理(任务管理、实例管理、日志管理)标题文字样式*/
+.schedule-title span{margin-left:10px;line-height:30px;font-weight: bold;font-size:12px;}
+/*调度器管理(任务管理、实例管理)查询参数模块样式设置*/
+#param_page table tr{height:28px;}
+#param_page table td{width:170px;}
+#param_page table td input{margin-left:10px;height:16px;line-height:16px;width:120px;vertical-align:middle;}
+#param_page table .param_page_title{width:80px;}
+#param_page font{font-size:12px;}
+/*调度器-任务管理标题*/
+.schedule-taskmanage-title p{margin-bottom:2px;font-size:13px;font-family:'微软雅黑';font-weight:bold}
+/*调度器-新增任务-调度对象设置中“设置”按钮弹出层中按钮的样式*/
+.schedule-taskmanage-rbtn{width:100%;position:absolute;bottom:0;height:30px;margin:0px;}
+.schedule-taskmanage-rbtn button{float:right;margin-top:5px;right:5px;}
+/*调度器-新增任务-页面整体设置*/
+.schedule-taskmanage-main{font-size: 12px;margin: 0px;padding:0px;width:100%;overflow: hidden;background-color: #fff;}
+/*调度器-新增任务-调度对象设置-推送文档选择样式*/
+.schedule-taskmanage-edit{vertical-align:-1px;}
+/*调度器-新增对象-调度对象设置-Email设置文字左对齐设置*/
+.schedule-taskmanage-leftjust{vertical-align:2px;margin-left:8px;}
+
+/* 数据别名管理-新增、修改别名集页面表单样式 **/
+.alias_popUpForm{ margin:0px;font-size:12px;}
+.alias_popUpForm .alias_popUpContent{ margin:0px; padding: 10px 0px; color:#333333; }
+.alias_popUpForm .alias_popUpContent table{ margin:0 0 10px 0; font-size:12px;  }
+/* 数据别名管理模块中的*星号的样式 **/
+.alias_red{color:#FF0033; padding:0 5px; font-weight:bold;}
+
+/*系统菜单管理--菜单内容表格样式*/
+.filterContent td{height:24px !important; line-height:24px !important;}

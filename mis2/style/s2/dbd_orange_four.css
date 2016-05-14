@@ -1,0 +1,26 @@
+
+.dashboard{position:relative;height:expression(document.body.clientHeight-10); width:expression(document.body.clientWidth-5); padding:10px;}
+
+/* 橙色orange 样式四 */
+.dashboardList{background-color:#FFFFCC; border-right:1px solid #ED9A01; border-left:1px solid #ED9A01; border-bottom:1px solid #ED9A01; }
+.DBTitleContent{height:30px;line-height:24px;background:#ED9A01;  }
+.DBTitleText{ float:left; background:url(dbd-stylefour/orange/topL.png) no-repeat; color:#993333;font-weight:bold;font-size:12px; padding-left:24px; padding-top:5px;margin-left:-1px;position:absolute; z-index:1;}	       
+.DBTitleIconList{float:right;background:url(dbd-stylefour/orange/topR.png) no-repeat;width:72px;height:30px;padding-top: 7px;margin-right:-1px}
+.DBTitleIconListno{float:right; margin-top:5px;}
+.DBTitleIconList a{width:10px;height:10px;margin-left: 5px;}
+.dashboardTitle .DBTitleIconList a{width:11px;height:10px;margin-left: 5px;}
+.DBTitleIconList a.filter{background:url(dbd-stylefour/orange/icon.png) -13px -10px no-repeat; display:inline-block;width:11px; height:10px;}
+.DBTitleIconList a.filterno{background:url() -0px -0px no-repeat; display:none;width:11px; height:10px;}
+.DBTitleIconList a.set{background:url(dbd-stylefour/orange/icon.png) -37px -10px no-repeat; display:inline-block;width:11px; height:10px;}
+.DBTitleIconList a.setno{background:url() -0px -0px no-repeat; display:none;width:11px; height:8px;}
+.DBTitleIconList a.refresh{margin-left: 15px;background:url(dbd-stylefour/orange/icon.png) -79px -10px no-repeat; display:inline-block;width:11px; height:10px;}
+.DBTitleIconList a.show{background:url(dbd-stylefour/orange/icon.png) -57px -10px no-repeat; display:inline-block;width:11px; height:10px;}
+.DBTitleIconList a.showno{background:url() -0px -0px no-repeat; display:none;width:11px; height:8px;}
+.DBTitleIconList a.filter:hover{ background:url(dbd-stylefour/orange/icon.png) -13px -39px no-repeat;width:11px; height:10px;}
+.DBTitleIconList a.filterno:hover{ background:url() -13px -39px no-repeat;width:11px; height:10px;}
+.DBTitleIconList a.set:hover{ background:url(dbd-stylefour/orange/icon.png) -37px -39px no-repeat;width:11px; height:10px;}
+.DBTitleIconList a.refresh:hover{margin-left: 15px; background:url(dbd-stylefour/orange/icon.png) -79px -39px no-repeat;width:11px; height:10px;}
+.DBTitleIconList a.show:hover{background:url(dbd-stylefour/orange/icon.png) -57px -39px no-repeat; display:inline-block;width:11px; height:10px;}
+.DBContentContent{ margin:-5px 5px;background-color:#F2F2F2;margin-bottom: 5px;}
+
+

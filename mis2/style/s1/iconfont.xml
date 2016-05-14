@@ -1,0 +1,576 @@
+<font>	
+   <gezico_p_daochuexcel><div class="icon_div"><i class="icon iconfont i1">&#xe601;</i> <i class="icon iconfont i3">&#xe602;</i> <i class="icon iconfont i5">&#xe603;</i> </div></gezico_p_daochuexcel>	
+   <gezico_p_dayin><div class="icon_div"><i class="icon iconfont i1">&#xe605;</i> <i class="icon iconfont i3">&#xe606;</i> </div></gezico_p_dayin>	
+   <gezico_p_dayinshezhi><div class="icon_div"><i class="icon iconfont i1">&#xe608;</i> </div></gezico_p_dayinshezhi>	
+   <gezico_p_dingyue><div class="icon_div"><i class="icon iconfont i1">&#xe60a;</i> </div></gezico_p_dingyue>	
+   <gezico_p_excel><div class="icon_div"><i class="icon iconfont i1">&#xe60d;</i> <i class="icon iconfont i5">&#xe60e;</i> </div></gezico_p_excel>	
+   <gezico_p_fangda><div class="icon_div"><i class="icon iconfont i1">&#xe610;</i> <i class="icon iconfont i3">&#xe611;</i> </div></gezico_p_fangda>	
+   <gezico_p_pdf><div class="icon_div"><i class="icon iconfont i1">&#xe613;</i> <i class="icon iconfont i4">&#xe614;</i> </div></gezico_p_pdf>	
+   <gezico_p_suoxiao><div class="icon_div"><i class="icon iconfont i1">&#xe617;</i> <i class="icon iconfont i3">&#xe618;</i> </div></gezico_p_suoxiao>	
+   <gezico_p_txt><div class="icon_div"><i class="icon iconfont i1">&#xe619;</i> </div></gezico_p_txt>	
+   <gezico_p_word><div class="icon_div"><i class="icon iconfont i1">&#xe61b;</i> <i class="icon iconfont i3">&#xe61c;</i> </div></gezico_p_word>	
+   <gezico_f_dayin>{ "attributes":[{"text": "\ue623","fontName":"iconfont","foreColor":"#727272"},{"text": "\ue622","fontName":"iconfont","foreColor":"#EEC87E"},{"text": "\ue621","fontName":"iconfont","foreColor":"#4A7DB1"}]}</gezico_f_dayin>	
+   <gezico_f_sheweikongbaige>{ "attributes":[{"text": "\ue635","fontName":"iconfont","foreColor":"#4A7DB1"}]}</gezico_f_sheweikongbaige>	
+   <gezico_f_hongdingyi>{ "attributes":[{"text": "\ue63c","fontName":"iconfont","foreColor":"#727272"}]}</gezico_f_hongdingyi>	
+   <gezico_f_canshudingyi>{ "attributes":[{"text": "\ue63e","fontName":"iconfont","foreColor":"#4A7DB1"}]}</gezico_f_canshudingyi>	
+   <gezico_f_changgui>{ "attributes":[{"text": "\ue7c9","fontName":"iconfont","foreColor":"#727272"}]}</gezico_f_changgui>	
+   <gezico_f_geshishua>{ "attributes":[{"text": "\ue64e","fontName":"iconfont","foreColor":"#727272"},{"text": "\ue64f","fontName":"iconfont","foreColor":"#EEC87E"}]}</gezico_f_geshishua>	
+   <gezico_f_hebingdanyuange>{ "attributes":[{"text": "\ue651","fontName":"iconfont","foreColor":"#727272"},{"text": "\ue652","fontName":"iconfont","foreColor":"#4A7DB1"}]}</gezico_f_hebingdanyuange>	
+   <gezico_f_huanghang>{ "attributes":[{"text": "\ue654","fontName":"iconfont","foreColor":"#727272"}]}</gezico_f_huanghang>	
+   <gezico_f_huanhang>{ "attributes":[{"text": "\ue655","fontName":"iconfont","foreColor":"#4A7DB1"}]}</gezico_f_huanhang>	
+   <gezico_f_paixu>{ "attributes":[{"text": "\ue65d","fontName":"iconfont","foreColor":"#727272"},{"text": "\ue65e","fontName":"iconfont","foreColor":"#4A7DB1"}]}</gezico_f_paixu>	
+   <gezico_f_shangduiqi>{ "attributes":[{"text": "\ue668","fontName":"iconfont","foreColor":"#727272"}]}</gezico_f_shangduiqi>	
+   <gezico_f_xiaduiqi>{ "attributes":[{"text": "\ue66c","fontName":"iconfont","foreColor":"#727272"}]}</gezico_f_xiaduiqi>	
+   <gezico_f_xiantiaokuandu>{ "attributes":[{"text": "\ue672","fontName":"iconfont","foreColor":"#727272"}]}</gezico_f_xiantiaokuandu>	
+   <gezico_f_xianxing>{ "attributes":[{"text": "\ue677","fontName":"iconfont","foreColor":"#727272"}]}</gezico_f_xianxing>	
+   <gezico_f_youduiqi>{ "attributes":[{"text": "\ue67d","fontName":"iconfont","foreColor":"#727272"}]}</gezico_f_youduiqi>	
+   <gezico_f_yousuojin>{ "attributes":[{"text": "\ue67f","fontName":"iconfont","foreColor":"#727272"},{"text": "\ue680","fontName":"iconfont","foreColor":"#4A7DB1"}]}</gezico_f_yousuojin>	
+   <gezico_f_zhantie>{ "attributes":[{"text": "\ue68e","fontName":"iconfont","foreColor":"#727272"},{"text": "\ue68f","fontName":"iconfont","foreColor":"#EEC87E"}]}</gezico_f_zhantie>	
+   <gezico_f_zuoduiqi>{ "attributes":[{"text": "\ue690","fontName":"iconfont","foreColor":"#727272"}]}</gezico_f_zuoduiqi>	
+   <gezico_f_zuosuojin>{ "attributes":[{"text": "\ue692","fontName":"iconfont","foreColor":"#727272"},{"text": "\ue693","fontName":"iconfont","foreColor":"#4A7DB1"}]}</gezico_f_zuosuojin>	
+   <gezico_f_changriqi>{ "attributes":[{"text": "\ue69c","fontName":"iconfont","foreColor":"#727272"},{"text": "\ue69d","fontName":"iconfont","foreColor":"#4A7DB1"}]}</gezico_f_changriqi>	
+   <gezico_f_changriqishijian>{ "attributes":[{"text": "\ue69f","fontName":"iconfont","foreColor":"#727272"},{"text": "\ue6a0","fontName":"iconfont","foreColor":"#EEC87E"},{"text": "\ue6a1","fontName":"iconfont","foreColor":"#4A7DB1"}]}</gezico_f_changriqishijian>	
+   <gezico_f_fenshu>{ "attributes":[{"text": "\ue6a2","fontName":"iconfont","foreColor":"#727272"}]}</gezico_f_fenshu>	
+   <gezico_f_huobi>{ "attributes":[{"text": "\ue6a4","fontName":"iconfont","foreColor":"#727272"},{"text": "\ue6a5","fontName":"iconfont","foreColor":"#4A7DB1"}]}</gezico_f_huobi>	
+   <gezico_f_kexuejishu>{ "attributes":[{"text": "\ue6a6","fontName":"iconfont","foreColor":"#727272"}]}</gezico_f_kexuejishu>	
+   <gezico_f_shijian>{ "attributes":[{"text": "\ue6a8","fontName":"iconfont","foreColor":"#EEC87E"}]}</gezico_f_shijian>	
+   <gezico_f_shuzifenge>{ "attributes":[{"text": "\ue6a9","fontName":"iconfont","foreColor":"#727272"}]}</gezico_f_shuzifenge>	
+   <gezico_f_buguizefenzu>{ "attributes":[{"text": "\ue6c7","fontName":"iconfont","foreColor":"#727272"},{"text": "\ue6c8","fontName":"iconfont","foreColor":"#4A7DB1"}]}</gezico_f_buguizefenzu>	
+   <gezico_f_chaolianjie>{ "attributes":[{"text": "\ue86b","fontName":"iconfont","foreColor":"#FFFFFF"},{"text": "\ue86c","fontName":"iconfont","foreColor":"#4A7DB1"},{"text": "\ue86d","fontName":"iconfont","foreColor":"#F0998B"},{"text": "\ue86e","fontName":"iconfont","foreColor":"#2DA262"},{"text": "\ue86f","fontName":"iconfont","foreColor":"#0E5430"}]}</gezico_f_chaolianjie>	
+   <gezico_f_dongtaibeijinse>{ "attributes":[{"text": "\ue6d2","fontName":"iconfont","foreColor":"#727272"},{"text": "\ue6d3","fontName":"iconfont","foreColor":"#EEC87E"},{"text": "\ue6d4","fontName":"iconfont","foreColor":"#4A7DB1"}]}</gezico_f_dongtaibeijinse>	
+   <gezico_f_teshufuhao>{ "attributes":[{"text": "\ue6d9","fontName":"iconfont","foreColor":"#4A7DB1"}]}</gezico_f_teshufuhao>	
+   <gezico_f_tongjitu>{ "attributes":[{"text": "\ue6dc","fontName":"iconfont","foreColor":"#727272"},{"text": "\ue6dd","fontName":"iconfont","foreColor":"#EEC87E"},{"text": "\ue6de","fontName":"iconfont","foreColor":"#4A7DB1"}]}</gezico_f_tongjitu>	
+   <gezico_f_xuhao>{ "attributes":[{"text": "\ue6e0","fontName":"iconfont","foreColor":"#727272"},{"text": "\ue6e1","fontName":"iconfont","foreColor":"#4A7DB1"}]}</gezico_f_xuhao>	
+   <gezico_f_yema>{ "attributes":[{"text": "\ue6e3","fontName":"iconfont","foreColor":"#EEC87E"},{"text": "\ue6e4","fontName":"iconfont","foreColor":"#4A7DB1"}]}</gezico_f_yema>	
+   <gezico_f_daoruexcelwenjian>{ "attributes":[{"text": "\ue81b","fontName":"iconfont","foreColor":"#FFFFFF"},{"text": "\ue6ea","fontName":"iconfont","foreColor":"#727272"},{"text": "\ue6eb","fontName":"iconfont","foreColor":"#EEC87E"},{"text": "\ue6ed","fontName":"iconfont","foreColor":"#2DA262"}]}</gezico_f_daoruexcelwenjian>	
+   <gezico_f_dakaimulu>{ "attributes":[{"text": "\ue6f9","fontName":"iconfont","foreColor":"#727272"}]}</gezico_f_dakaimulu>	
+   <gezico_f_shanchu>{ "attributes":[{"text": "\ue6fc","fontName":"iconfont","foreColor":"#727272"}]}</gezico_f_shanchu>	
+   <gezico_f_zuijinfangwen>{ "attributes":[{"text": "\ue700","fontName":"iconfont","foreColor":"#727272"}]}</gezico_f_zuijinfangwen>	
+   <gezico_f_sousuo>{ "attributes":[{"text": "\ue702","fontName":"iconfont","foreColor":"#727272"},{"text": "\ue703","fontName":"iconfont","foreColor":"#EEC87E"}]}</gezico_f_sousuo>	
+   <gezico_p_yuanchengdaochu><div class="icon_div"><i class="icon iconfont i1">&#xe709;</i> </div></gezico_p_yuanchengdaochu>	
+   <gezico_p_daochuCSV><div class="icon_div"><i class="icon iconfont i1">&#xe70c;</i> <i class="icon iconfont i3">&#xe70b;</i> <i class="icon iconfont i5">&#xe70a;</i> </div></gezico_p_daochuCSV>	
+   <gezico_p_shuaxin><div class="icon_div"><i class="icon iconfont i5">&#xe70e;</i> </div></gezico_p_shuaxin>	
+   <gezico_p_rat><div class="icon_div"><i class="icon iconfont i1">&#xe711;</i> <i class="icon iconfont i2">&#xe710;</i> </div></gezico_p_rat>	
+   <gezico_p_charuhang><div class="icon_div"><i class="icon iconfont i1">&#xe714;</i> <i class="icon iconfont i2">&#xe715;</i> <i class="icon iconfont i3">&#xe716;</i> </div></gezico_p_charuhang>	
+   <gezico_p_shanchuhang><div class="icon_div"><i class="icon iconfont i1">&#xe718;</i> <i class="icon iconfont i2">&#xe719;</i> <i class="icon iconfont i3">&#xe71a;</i> </div></gezico_p_shanchuhang>	
+   <gezico_p_zhuijiahang><div class="icon_div"><i class="icon iconfont i1">&#xe71c;</i> <i class="icon iconfont i2">&#xe71d;</i> <i class="icon iconfont i3">&#xe71e;</i> </div></gezico_p_zhuijiahang>	
+   <gezico_p_baocun><div class="icon_div"><i class="icon iconfont i1">&#xe71f;</i> </div></gezico_p_baocun>	
+   <gezico_p_go><div class="icon_div"><i class="icon iconfont i3">&#xe721;</i> </div></gezico_p_go>	
+   <gezico_p_jibenshezhi><div class="icon_div"><i class="icon iconfont i1">&#xe722;</i> </div></gezico_p_jibenshezhi>	
+   <gezico_p_paixu><div class="icon_div"><i class="icon iconfont i1">&#xe724;</i> <i class="icon iconfont i3">&#xe725;</i> <i class="icon iconfont i4">&#xe726;</i> </div></gezico_p_paixu>	
+   <gezico_p_quxiaoyincanglie><div class="icon_div"><i class="icon iconfont i1">&#xe728;</i> <i class="icon iconfont i2">&#xe729;</i> </div></gezico_p_quxiaoyincanglie>	
+   <gezico_p_zhanxianshuju><div class="icon_div"><i class="icon iconfont i1">&#xe72b;</i> <i class="icon iconfont i2">&#xe72c;</i> </div></gezico_p_zhanxianshuju>	
+   <gezico_p_zidingyiguolv><div class="icon_div"><i class="icon iconfont i1">&#xe72d;</i> </div></gezico_p_zidingyiguolv>	
+   <gezico_p_ziduanshezhi><div class="icon_div"><i class="icon iconfont i1">&#xe72f;</i> <i class="icon iconfont i2">&#xe730;</i> <i class="icon iconfont i3">&#xe731;</i> </div></gezico_p_ziduanshezhi>	
+   <gezico_p_tongyongchaxun><div class="icon_div"><i class="icon iconfont i0">&#xe88f;</i> <i class="icon iconfont i1">&#xe890;</i> <i class="icon iconfont i2">&#xe75f;</i> <i class="icon iconfont i3">&#xe891;</i> </div></gezico_p_tongyongchaxun>	
+   <gezico_f_shezhi>{ "attributes":[{"text": "\ue736","fontName":"iconfont","foreColor":"#727272"}]}</gezico_f_shezhi>	
+   <gezico_p_jiaji><div class="icon_div"><i class="icon iconfont i4">&#xe737;</i> </div></gezico_p_jiaji>	
+   <gezico_p_yuqi><div class="icon_div"><i class="icon iconfont i4">&#xe738;</i> </div></gezico_p_yuqi>	
+   <gezico_p_daichulirenwu><div class="icon_div"><i class="icon iconfont i3">&#xe739;</i> </div></gezico_p_daichulirenwu>	
+   <gezico_p_yichulirenwu><div class="icon_div"><i class="icon iconfont i3">&#xe73a;</i> </div></gezico_p_yichulirenwu>	
+   <gezico_p_yixiafarenwu><div class="icon_div"><i class="icon iconfont i3">&#xe73b;</i> </div></gezico_p_yixiafarenwu>	
+   <gezico_p_liuchengxiangqing><div class="icon_div"><i class="icon iconfont i3">&#xe73c;</i> </div></gezico_p_liuchengxiangqing>	
+   <gezico_f_shousuochaxunmianban>{ "attributes":[{"text": "\ue79a","fontName":"iconfont","foreColor":"#727272"}]}</gezico_f_shousuochaxunmianban>	
+   <gezico_f_qianjingse>{ "attributes":[{"text": "\ue79b","fontName":"iconfont","foreColor":"#000000"}]}</gezico_f_qianjingse>	
+   <gezico_f_zhankaichaxunmianban>{ "attributes":[{"text": "\ue79c","fontName":"iconfont","foreColor":"#727272"}]}</gezico_f_zhankaichaxunmianban>	
+   <gezico_f_zhankairenwumianban>{ "attributes":[{"text": "\ue79d","fontName":"iconfont","foreColor":"#727272"}]}</gezico_f_zhankairenwumianban>	
+   <gezico_f_zhankairenwumianbangaoliang>{ "attributes":[{"text": "\ue79f","fontName":"iconfont","foreColor":"#4A7DB1"}]}</gezico_f_zhankairenwumianbangaoliang>	
+   <gezico_f_zhedierenwumianban>{ "attributes":[{"text": "\ue7a0","fontName":"iconfont","foreColor":"#727272"}]}</gezico_f_zhedierenwumianban>	
+   <gezico_f_zhedierenwumianbangaoliang>{ "attributes":[{"text": "\ue7a2","fontName":"iconfont","foreColor":"#4A7DB1"}]}</gezico_f_zhedierenwumianbangaoliang>	
+   <gezico_f_xinjianshujujicunchuguocheng>{ "attributes":[{"text": "\ue7a4","fontName":"iconfont","foreColor":"#727272"},{"text": "\ue7a5","fontName":"iconfont","foreColor":"#EEC87E"},{"text": "\ue7a6","fontName":"iconfont","foreColor":"#4A7DB1"}]}</gezico_f_xinjianshujujicunchuguocheng>	
+   <gezico_f_xinjianshujujiexcelshujuji>{ "attributes":[{"text": "\ue7a8","fontName":"iconfont","foreColor":"#727272"},{"text": "\ue7a9","fontName":"iconfont","foreColor":"#EEC87E"},{"text": "\ue7aa","fontName":"iconfont","foreColor":"#2DA262"}]}</gezico_f_xinjianshujujiexcelshujuji>	
+   <gezico_f_xinjianshujujifuzaSQL>{ "attributes":[{"text": "\ue7ac","fontName":"iconfont","foreColor":"#727272"},{"text": "\ue7ad","fontName":"iconfont","foreColor":"#EEC87E"},{"text": "\ue7ae","fontName":"iconfont","foreColor":"#4A7DB1"}]}</gezico_f_xinjianshujujifuzaSQL>	
+   <gezico_f_xinjianshujujineijianshujuji>{ "attributes":[{"text": "\ue7b0","fontName":"iconfont","foreColor":"#727272"},{"text": "\ue7b1","fontName":"iconfont","foreColor":"#EEC87E"}]}</gezico_f_xinjianshujujineijianshujuji>	
+   <gezico_f_xinjianshujujiSQLjiansuo>{ "attributes":[{"text": "\ue7b3","fontName":"iconfont","foreColor":"#727272"},{"text": "\ue7b4","fontName":"iconfont","foreColor":"#EEC87E"}]}</gezico_f_xinjianshujujiSQLjiansuo>	
+   <gezico_f_xinjianshujujitxtwenjian>{ "attributes":[{"text": "\ue7b5","fontName":"iconfont","foreColor":"#727272"}]}</gezico_f_xinjianshujujitxtwenjian>	
+   <gezico_f_xinjianshujujixmlwenjian>{ "attributes":[{"text": "\ue7b6","fontName":"iconfont","foreColor":"#727272"}]}</gezico_f_xinjianshujujixmlwenjian>	
+   <gezico_f_xinjianshujujizidingyishujuji>{ "attributes":[{"text": "\ue7b8","fontName":"iconfont","foreColor":"#727272"},{"text": "\ue7b9","fontName":"iconfont","foreColor":"#EEC87E"}]}</gezico_f_xinjianshujujizidingyishujuji>	
+   <gezico_f_beijingse>{ "attributes":[{"text": "\ue7bb","fontName":"iconfont","foreColor":"#727272"},{"text": "\ue7bc","fontName":"iconfont","foreColor":"#4A7DB1"}]}</gezico_f_beijingse>	
+   <gezico_p_shanchufushuxinxi><div class="icon_div"><i class="icon iconfont i1">&#xe73e;</i> <i class="icon iconfont i4">&#xe73d;</i> </div></gezico_p_shanchufushuxinxi>	
+   <gezico_p_shanchuchaxuntiaojian><div class="icon_div"><i class="icon iconfont i4">&#xe740;</i> </div></gezico_p_shanchuchaxuntiaojian>	
+   <gezico_p_chaxuntiaojian><div class="icon_div"><i class="icon iconfont i1">&#xe743;</i> <i class="icon iconfont i2">&#xe742;</i> <i class="icon iconfont i4">&#xe741;</i> </div></gezico_p_chaxuntiaojian>	
+   <gezico_p_shezhi><div class="icon_div"><i class="icon iconfont i1">&#xe745;</i> </div></gezico_p_shezhi>	
+   <gezico_p_zhankairenwumianbangaoliang><div class="icon_div"><i class="icon iconfont i3">&#xe746;</i> </div></gezico_p_zhankairenwumianbangaoliang>	
+   <gezico_p_zhankairenwumianban><div class="icon_div"><i class="icon iconfont i1">&#xe747;</i> </div></gezico_p_zhankairenwumianban>	
+   <gezico_p_zhedierenwumianban><div class="icon_div"><i class="icon iconfont i1">&#xe748;</i> </div></gezico_p_zhedierenwumianban>	
+   <gezico_p_zhedierenwumianbangaoliang><div class="icon_div"><i class="icon iconfont i3">&#xe749;</i> </div></gezico_p_zhedierenwumianbangaoliang>	
+   <gezico_p_shousuochaxunmianban><div class="icon_div"><i class="icon iconfont i1">&#xe74a;</i> </div></gezico_p_shousuochaxunmianban>	
+   <gezico_p_zhankaichaxunmianban><div class="icon_div"><i class="icon iconfont i1">&#xe74b;</i> </div></gezico_p_zhankaichaxunmianban>	
+   <gezico_p_anniuxuanzhong><div class="icon_div"><i class="icon iconfont i3">&#xe74c;</i> </div></gezico_p_anniuxuanzhong>	
+   <gezico_p_baobiaozu><div class="icon_div"><i class="icon iconfont i2">&#xe74e;</i> <i class="icon iconfont i3">&#xe74d;</i> </div></gezico_p_baobiaozu>	
+   <gezico_p_zuhefenxi><div class="icon_div"><i class="icon iconfont i1">&#xe750;</i> </div></gezico_p_zuhefenxi>	
+   <gezico_p_ziyoufenxi><div class="icon_div"><i class="icon iconfont i1">&#xe753;</i> <i class="icon iconfont i2">&#xe752;</i> <i class="icon iconfont i3">&#xe751;</i> </div></gezico_p_ziyoufenxi>	
+   <gezico_p_jiaochafenxi><div class="icon_div"><i class="icon iconfont i1">&#xe758;</i> <i class="icon iconfont i2">&#xe757;</i> <i class="icon iconfont i3">&#xe756;</i> <i class="icon iconfont i4">&#xe755;</i> </div></gezico_p_jiaochafenxi>	
+   <gezico_p_fenzufenxi><div class="icon_div"><i class="icon iconfont i1">&#xe75c;</i> <i class="icon iconfont i3">&#xe75b;</i> <i class="icon iconfont i4">&#xe75a;</i> </div></gezico_p_fenzufenxi>	
+   <gezico_p_fuzabaobiao><div class="icon_div"><i class="icon iconfont i1">&#xe763;</i> <i class="icon iconfont i3">&#xe762;</i> </div></gezico_p_fuzabaobiao>	
+   <gezico_p_duoweifenxi><div class="icon_div"><i class="icon iconfont i1">&#xe768;</i> <i class="icon iconfont i2">&#xe767;</i> <i class="icon iconfont i3">&#xe766;</i> <i class="icon iconfont i4">&#xe765;</i> </div></gezico_p_duoweifenxi>	
+   <gezico_p_zhutifenxi><div class="icon_div"><i class="icon iconfont i1">&#xe76c;</i> <i class="icon iconfont i2">&#xe76b;</i> <i class="icon iconfont i3">&#xe76a;</i> </div></gezico_p_zhutifenxi>	
+   <gezico_p_tongjibaobiaozu><div class="icon_div"><i class="icon iconfont i1">&#xe76f;</i> <i class="icon iconfont i3">&#xe76e;</i> </div></gezico_p_tongjibaobiaozu>	
+   <gezico_p_tianbaobiaozu><div class="icon_div"><i class="icon iconfont i1">&#xe771;</i> </div></gezico_p_tianbaobiaozu>	
+   <gezico_p_hangshitianbaobiao><div class="icon_div"><i class="icon iconfont i1">&#xe772;</i> </div></gezico_p_hangshitianbaobiao>	
+   <gezico_p_tongjibaobiao><div class="icon_div"><i class="icon iconfont i3">&#xe774;</i> </div></gezico_p_tongjibaobiao>	
+   <gezico_p_dashboardzujian><div class="icon_div"><i class="icon iconfont i2">&#xe776;</i> <i class="icon iconfont i3">&#xe775;</i> </div></gezico_p_dashboardzujian>	
+   <gezico_p_dashboard><div class="icon_div"><i class="icon iconfont i2">&#xe779;</i> <i class="icon iconfont i3">&#xe778;</i> </div></gezico_p_dashboard>	
+   <gezico_p_ETLshipeiqishili><div class="icon_div"><i class="icon iconfont i1">&#xe77c;</i> <i class="icon iconfont i3">&#xe77b;</i> </div></gezico_p_ETLshipeiqishili>	
+   <gezico_p_ETLjiaoben><div class="icon_div"><i class="icon iconfont i1">&#xe77f;</i> <i class="icon iconfont i2">&#xe77e;</i> </div></gezico_p_ETLjiaoben>	
+   <gezico_p_JSPbaobiao><div class="icon_div"><i class="icon iconfont i1">&#xe783;</i> <i class="icon iconfont i2">&#xe782;</i> <i class="icon iconfont i3">&#xe781;</i> </div></gezico_p_JSPbaobiao>	
+   <gezico_p_jingtaiwendang><div class="icon_div"><i class="icon iconfont i1">&#xe787;</i> <i class="icon iconfont i2">&#xe785;</i> </div></gezico_p_jingtaiwendang>	
+   <gezico_p_tabzhankai><div class="icon_div"><i class="icon iconfont i3">&#xe788;</i> </div></gezico_p_tabzhankai>	
+   <gezico_p_tabguanbi><div class="icon_div"><i class="icon iconfont i3">&#xe789;</i> </div></gezico_p_tabguanbi>	
+   <gezico_p_ziyuanzhongxinxinzengziyuan><div class="icon_div"><i class="icon iconfont i1">&#xe78a;</i> </div></gezico_p_ziyuanzhongxinxinzengziyuan>	
+   <gezico_p_ziyuanzhongxinzhuanyi><div class="icon_div"><i class="icon iconfont i1">&#xe78b;</i> </div></gezico_p_ziyuanzhongxinzhuanyi>	
+   <gezico_p_ziyuanzhongxinxinjianmulu><div class="icon_div"><i class="icon iconfont i1">&#xe78d;</i> <i class="icon iconfont i2">&#xe78c;</i> </div></gezico_p_ziyuanzhongxinxinjianmulu>	
+   <gezico_p_ziyuanzhongxinshuaxin><div class="icon_div"><i class="icon iconfont i1">&#xe78f;</i> </div></gezico_p_ziyuanzhongxinshuaxin>	
+   <gezico_p_ziyuanzhongxinzuijinfangwendeziyuan><div class="icon_div"><i class="icon iconfont i1">&#xe790;</i> </div></gezico_p_ziyuanzhongxinzuijinfangwendeziyuan>	
+   <gezico_p_ziyuanzhongxinzuijinfangwendeweizhi><div class="icon_div"><i class="icon iconfont i1">&#xe792;</i> <i class="icon iconfont i2">&#xe791;</i> </div></gezico_p_ziyuanzhongxinzuijinfangwendeweizhi>	
+   <gezico_p_ziyuanzhongxinzuijinfangwen><div class="icon_div"><i class="icon iconfont i2">&#xe794;</i> </div></gezico_p_ziyuanzhongxinzuijinfangwen>	
+   <gezico_p_shanchu><div class="icon_div"><i class="icon iconfont i4q">&#xe795;</i> </div></gezico_p_shanchu>	
+   <gezico_p_ziyuanzhongxinzhedie><div class="icon_div"><i class="icon iconfont i1">&#xe796;</i> </div></gezico_p_ziyuanzhongxinzhedie>	
+   <gezico_p_ziyuanzhongxinzhankai><div class="icon_div"><i class="icon iconfont i1">&#xe797;</i> </div></gezico_p_ziyuanzhongxinzhankai>	
+   <gezico_p_URLlianjie><div class="icon_div"><i class="icon iconfont i3s">&#xe798;</i> </div></gezico_p_URLlianjie>	
+   <gezico_p_ziyuanzhongxinwenjianjiazhedie><div class="icon_div"><i class="icon iconfont i2">&#xe799;</i> </div></gezico_p_ziyuanzhongxinwenjianjiazhedie>	
+   <gezico_p_yindaochanpinyanshishipin><div class="icon_div"><i class="icon iconfont i0">&#xe7bd;</i> </div></gezico_p_yindaochanpinyanshishipin>	
+   <gezico_p_yindaochanpinzidaishili><div class="icon_div"><i class="icon iconfont i0">&#xe7be;</i> </div></gezico_p_yindaochanpinzidaishili>	
+   <gezico_p_yindaoguanbi><div class="icon_div"><i class="icon iconfont i3">&#xe7bf;</i> <i class="icon iconfont i4">&#xe7c0;</i> </div></gezico_p_yindaoguanbi>	
+   <gezico_p_yindaoqiehuanzhanghu><div class="icon_div"><i class="icon iconfont i0">&#xe7c1;</i> </div></gezico_p_yindaoqiehuanzhanghu>	
+   <gezico_p_yindaoxinjianbaobiao><div class="icon_div"><i class="icon iconfont i1q">&#xe7c2;</i> </div></gezico_p_yindaoxinjianbaobiao>	
+   <gezico_p_yindaoxinjianchaolianjie><div class="icon_div"><i class="icon iconfont i1q">&#xe7c3;</i> </div></gezico_p_yindaoxinjianchaolianjie>	
+   <gezico_p_yindaoxinjianshujuji><div class="icon_div"><i class="icon iconfont i1q">&#xe7c4;</i> <i class="icon iconfont i4">&#xe967;</i> </div></gezico_p_yindaoxinjianshujuji>	
+   <gezico_p_yindaoyangshiku><div class="icon_div"><i class="icon iconfont i1q">&#xe7c5;</i> </div></gezico_p_yindaoyangshiku>	
+   <gezico_p_yindaozhanxianbaobiao><div class="icon_div"><i class="icon iconfont i1q">&#xe7c6;</i> </div></gezico_p_yindaozhanxianbaobiao>	
+   <gezico_p_yindaoziyuanguanli><div class="icon_div"><i class="icon iconfont i1q">&#xe7c7;</i> </div></gezico_p_yindaoziyuanguanli>	
+   <gezico_f_gouxuan>{ "attributes":[{"text": "\ue7cb","fontName":"iconfont","foreColor":"#2DA262"}]}</gezico_f_gouxuan>	
+   <gezico_f_gouxuankuang>{ "attributes":[{"text": "\ue7cd","fontName":"iconfont","foreColor":"#727272"},{"text": "\ue7ce","fontName":"iconfont","foreColor":"#000000"}]}</gezico_f_gouxuankuang>	
+   <gezico_f_jinggao>{ "attributes":[{"text": "\ue7d0","fontName":"iconfont","foreColor":"#FFFFFF"},{"text": "\ue7d1","fontName":"iconfont","foreColor":"#D14524"}]}</gezico_f_jinggao>	
+   <gezico_f_jinggaoyiru>{ "attributes":[{"text": "\ue7d3","fontName":"iconfont","foreColor":"#FFFFFF"},{"text": "\ue7d4","fontName":"iconfont","foreColor":"#6E1318"}]}</gezico_f_jinggaoyiru>	
+   <gezico_f_tanchutishi>{ "attributes":[{"text": "\ue7d6","fontName":"iconfont","foreColor":"#FFFFFF"},{"text": "\ue7d7","fontName":"iconfont","foreColor":"#4A7DB1"}]}</gezico_f_tanchutishi>	
+   <gezico_f_tanchutishiyiru>{ "attributes":[{"text": "\ue7d9","fontName":"iconfont","foreColor":"#FFFFFF"},{"text": "\ue7da","fontName":"iconfont","foreColor":"#2DA262"}]}</gezico_f_tanchutishiyiru>	
+   <gezico_f_xiantiaoyanse>{ "attributes":[{"text": "\ue7dc","fontName":"iconfont","foreColor":"#727272"},{"text": "\ue7dd","fontName":"iconfont","foreColor":"#4A7DB1"}]}</gezico_f_xiantiaoyanse>	
+   <gezico_f_biaodashifangda>{ "attributes":[{"text": "\ue7df","fontName":"iconfont","foreColor":"#FFFFFF"},{"text": "\ue7e0","fontName":"iconfont","foreColor":"#4A7DB1"}]}</gezico_f_biaodashifangda>	
+   <gezico_f_beijintu>{ "attributes":[{"text": "\ue620","fontName":"iconfont","foreColor":"#FFFFFF"},{"text": "\ue625","fontName":"iconfont","foreColor":"#727272"},{"text": "\ue626","fontName":"iconfont","foreColor":"#EEC87E"},{"text": "\ue627","fontName":"iconfont","foreColor":"#4A7DB1"}]}</gezico_f_beijintu>	
+   <gezico_f_danyuangetianbao>{ "attributes":[{"text": "\ue6aa","fontName":"iconfont","foreColor":"#FFFFFF"},{"text": "\ue6ab","fontName":"iconfont","foreColor":"#000000"},{"text": "\ue6ac","fontName":"iconfont","foreColor":"#EEC87E"},{"text": "\ue6ad","fontName":"iconfont","foreColor":"#4A7DB1"}]}</gezico_f_danyuangetianbao>	
+   <gezico_f_daochushezhi>{ "attributes":[{"text": "\ue639","fontName":"iconfont","foreColor":"#FFFFFF"},{"text": "\ue63a","fontName":"iconfont","foreColor":"#727272"},{"text": "\ue63b","fontName":"iconfont","foreColor":"#EEC87E"},{"text": "\ue644","fontName":"iconfont","foreColor":"#4A7DB1"}]}</gezico_f_daochushezhi>	
+   <gezico_f_fenyeshezhi>{ "attributes":[{"text": "\ue6c5","fontName":"iconfont","foreColor":"#FFFFFF"},{"text": "\ue6ce","fontName":"iconfont","foreColor":"#727272"},{"text": "\ue6cf","fontName":"iconfont","foreColor":"#4A7DB1"},{"text": "\ue6d0","fontName":"iconfont","foreColor":"#2DA262"}]}</gezico_f_fenyeshezhi>	
+   <gezico_f_wenjianjiazhedie>{ "attributes":[{"text": "\ue7e8","fontName":"iconfont","foreColor":"#EEC87E"}]}</gezico_f_wenjianjiazhedie>	
+   <gezico_f_wenjianjiazhankai>{ "attributes":[{"text": "\ue7e9","fontName":"iconfont","foreColor":"#EEC87E"}]}</gezico_f_wenjianjiazhankai>	
+   <gezico_f_jiandantianbaobiao>{ "attributes":[{"text": "\ue7eb","fontName":"iconfont","foreColor":"#FFFFFF"},{"text": "\ue7ec","fontName":"iconfont","foreColor":"#000000"},{"text": "\ue7ed","fontName":"iconfont","foreColor":"#EEC87E"},{"text": "\ue7ee","fontName":"iconfont","foreColor":"#4A7DB1"}]}</gezico_f_jiandantianbaobiao>	
+   <gezico_f_tianbaoshezhi>{ "attributes":[{"text": "\ue62e","fontName":"iconfont","foreColor":"#FFFFFF"},{"text": "\ue62f","fontName":"iconfont","foreColor":"#727272"},{"text": "\ue637","fontName":"iconfont","foreColor":"#000000"},{"text": "\ue645","fontName":"iconfont","foreColor":"#EEC87E"},{"text": "\ue646","fontName":"iconfont","foreColor":"#4A7DB1"}]}</gezico_f_tianbaoshezhi>	
+   <gezico_f_danyuangetupian>{ "attributes":[{"text": "\ue6c2","fontName":"iconfont","foreColor":"#FFFFFF"},{"text": "\ue6c3","fontName":"iconfont","foreColor":"#727272"},{"text": "\ue704","fontName":"iconfont","foreColor":"#EEC87E"}]}</gezico_f_danyuangetupian>	
+   <gezico_f_dayinshezhi>{ "attributes":[{"text": "\ue773","fontName":"iconfont","foreColor":"#FFFFFF"},{"text": "\ue7e4","fontName":"iconfont","foreColor":"#727272"},{"text": "\ue7e5","fontName":"iconfont","foreColor":"#EEC87E"},{"text": "\ue7e6","fontName":"iconfont","foreColor":"#80C0D3"}]}</gezico_f_dayinshezhi>	
+   <gezico_f_danyuangexiexian>{ "attributes":[{"text": "\ue64a","fontName":"iconfont","foreColor":"#FFFFFF"},{"text": "\ue64b","fontName":"iconfont","foreColor":"#000000"}]}</gezico_f_danyuangexiexian>	
+   <gezico_f_excel>{ "attributes":[{"text": "\ue656","fontName":"iconfont","foreColor":"#FFFFFF"},{"text": "\ue657","fontName":"iconfont","foreColor":"#727272"},{"text": "\ue658","fontName":"iconfont","foreColor":"#EEC87E"},{"text": "\ue659","fontName":"iconfont","foreColor":"#2DA262"}]}</gezico_f_excel>	
+   <gezico_f_fuwenbenyuhtml>{ "attributes":[{"text": "\ue65b","fontName":"iconfont","foreColor":"#FFFFFF"},{"text": "\ue65f","fontName":"iconfont","foreColor":"#727272"},{"text": "\ue660","fontName":"iconfont","foreColor":"#EEC87E"},{"text": "\ue661","fontName":"iconfont","foreColor":"#4A7DB1"}]}</gezico_f_fuwenbenyuhtml>	
+   <gezico_f_fuzhi>{ "attributes":[{"text": "\ue663","fontName":"iconfont","foreColor":"#FFFFFF"},{"text": "\ue664","fontName":"iconfont","foreColor":"#727272"},{"text": "\ue665","fontName":"iconfont","foreColor":"#4A7DB1"}]}</gezico_f_fuzhi>	
+   <gezico_f_geshichushihua>{ "attributes":[{"text": "\ue667","fontName":"iconfont","foreColor":"#727272"},{"text": "\ue669","fontName":"iconfont","foreColor":"#F0998B"}]}</gezico_f_geshichushihua>	
+   <gezico_f_huizong>{ "attributes":[{"text": "\ue66a","fontName":"iconfont","foreColor":"#727272"}]}</gezico_f_huizong>	
+   <gezico_f_jiacu>{ "attributes":[{"text": "\ue66b","fontName":"iconfont","foreColor":"#000000"}]}</gezico_f_jiacu>	
+   <gezico_f_jianqie>{ "attributes":[{"text": "\ue678","fontName":"iconfont","foreColor":"#FFFFFF"},{"text": "\ue697","fontName":"iconfont","foreColor":"#727272"},{"text": "\ue698","fontName":"iconfont","foreColor":"#EEC87E"},{"text": "\ue699","fontName":"iconfont","foreColor":"#4A7DB1"}]}</gezico_f_jianqie>	
+   <gezico_f_kuozhan>{ "attributes":[{"text": "\ue6d5","fontName":"iconfont","foreColor":"#FFFFFF"},{"text": "\ue6d6","fontName":"iconfont","foreColor":"#727272"},{"text": "\ue6d7","fontName":"iconfont","foreColor":"#4A7DB1"}]}</gezico_f_kuozhan>	
+   <gezico_f_lingcunwei>{ "attributes":[{"text": "\ue6ef","fontName":"iconfont","foreColor":"#FFFFFF"},{"text": "\ue6f0","fontName":"iconfont","foreColor":"#727272"},{"text": "\ue6f1","fontName":"iconfont","foreColor":"#EEC87E"},{"text": "\ue6f2","fontName":"iconfont","foreColor":"#4A7DB1"},{"text": "\ue6f3","fontName":"iconfont","foreColor":"#2DA262"}]}</gezico_f_lingcunwei>	
+   <gezico_f_qingchugeshi>{ "attributes":[{"text": "\ue6f5","fontName":"iconfont","foreColor":"#000000"},{"text": "\ue6f6","fontName":"iconfont","foreColor":"#104970"},{"text": "\ue6f7","fontName":"iconfont","foreColor":"#F0998B"}]}</gezico_f_qingchugeshi>	
+   <gezico_f_quanjuyangshi>{ "attributes":[{"text": "\ue706","fontName":"iconfont","foreColor":"#FFFFFF"},{"text": "\ue707","fontName":"iconfont","foreColor":"#727272"},{"text": "\ue708","fontName":"iconfont","foreColor":"#F5E1BE"},{"text": "\ue7e7","fontName":"iconfont","foreColor":"#4A7DB1"}]}</gezico_f_quanjuyangshi>	
+   <gezico_f_quankuangxian>{ "attributes":[{"text": "\ue7f0","fontName":"iconfont","foreColor":"#FFFFFF"},{"text": "\ue7f1","fontName":"iconfont","foreColor":"#000000"}]}</gezico_f_quankuangxian>	
+   <gezico_f_shangkuangxian>{ "attributes":[{"text": "\ue7f3","fontName":"iconfont","foreColor":"#FFFFFF"},{"text": "\ue7f4","fontName":"iconfont","foreColor":"#000000"}]}</gezico_f_shangkuangxian>	
+   <gezico_f_tiaoseban>{ "attributes":[{"text": "\ue7f6","fontName":"iconfont","foreColor":"#F5E1BE"},{"text": "\ue7f7","fontName":"iconfont","foreColor":"#4A7DB1"},{"text": "\ue7f8","fontName":"iconfont","foreColor":"#D14524"},{"text": "\ue7f9","fontName":"iconfont","foreColor":"#2DA262"}]}</gezico_f_tiaoseban>	
+   <gezico_f_tongyongchaxun>{ "attributes":[{"text": "\ue7fb","fontName":"iconfont","foreColor":"#FFFFFF"},{"text": "\ue7fc","fontName":"iconfont","foreColor":"#727272"},{"text": "\ue7fd","fontName":"iconfont","foreColor":"#4A7DB1"}]}</gezico_f_tongyongchaxun>	
+   <gezico_f_waicekuangxian>{ "attributes":[{"text": "\ue7ff","fontName":"iconfont","foreColor":"#FFFFFF"},{"text": "\ue800","fontName":"iconfont","foreColor":"#000000"}]}</gezico_f_waicekuangxian>	
+   <gezico_f_xiahuaxian>{ "attributes":[{"text": "\ue801","fontName":"iconfont","foreColor":"#000000"}]}</gezico_f_xiahuaxian>	
+   <gezico_f_xiakuangxian>{ "attributes":[{"text": "\ue803","fontName":"iconfont","foreColor":"#FFFFFF"},{"text": "\ue804","fontName":"iconfont","foreColor":"#000000"}]}</gezico_f_xiakuangxian>	
+   <gezico_f_xietizi>{ "attributes":[{"text": "\ue805","fontName":"iconfont","foreColor":"#000000"}]}</gezico_f_xietizi>	
+   <gezico_f_youkuangxian>{ "attributes":[{"text": "\ue807","fontName":"iconfont","foreColor":"#FFFFFF"},{"text": "\ue808","fontName":"iconfont","foreColor":"#000000"}]}</gezico_f_youkuangxian>	
+   <gezico_f_yulan>{ "attributes":[{"text": "\ue80a","fontName":"iconfont","foreColor":"#FFFFFF"},{"text": "\ue80b","fontName":"iconfont","foreColor":"#727272"},{"text": "\ue80c","fontName":"iconfont","foreColor":"#EEC87E"},{"text": "\ue80d","fontName":"iconfont","foreColor":"#4A7DB1"}]}</gezico_f_yulan>	
+   <gezico_f_zhongduiqi>{ "attributes":[{"text": "\ue80e","fontName":"iconfont","foreColor":"#727272"}]}</gezico_f_zhongduiqi>	
+   <gezico_f_zuokuangxian>{ "attributes":[{"text": "\ue810","fontName":"iconfont","foreColor":"#FFFFFF"},{"text": "\ue811","fontName":"iconfont","foreColor":"#000000"}]}</gezico_f_zuokuangxian>	
+   <gezico_f_wukuangxian>{ "attributes":[{"text": "\ue813","fontName":"iconfont","foreColor":"#FFFFFF"},{"text": "\ue812","fontName":"iconfont","foreColor":"#000000"}]}</gezico_f_wukuangxian>	
+   <gezico_p_xinjianmulu><div class="icon_div"><i class="icon iconfont i1">&#xe815;</i> </div></gezico_p_xinjianmulu>	
+   <gezico_p_zhuanyiziyuan><div class="icon_div"><i class="icon iconfont i1">&#xe816;</i> </div></gezico_p_zhuanyiziyuan>	
+   <gezico_p_gengduo><div class="icon_div"><i class="icon iconfont i1">&#xe817;</i> </div></gezico_p_gengduo>	
+   <gezico_p_shanchuziyuan><div class="icon_div"><i class="icon iconfont i0">&#xe818;</i> </div></gezico_p_shanchuziyuan>	
+   <gezico_p_xiayi><div class="icon_div"><i class="icon iconfont i1">&#xe819;</i> </div></gezico_p_xiayi>	
+   <gezico_p_shangyi><div class="icon_div"><i class="icon iconfont i1">&#xe81a;</i> </div></gezico_p_shangyi>	
+   <gezico_f_baocun>{ "attributes":[{"text": "\ue81e","fontName":"iconfont","foreColor":"#FFFFFF"},{"text": "\ue81f","fontName":"iconfont","foreColor":"#4A7DB1"}]}</gezico_f_baocun>	
+   <gezico_f_charuhang>{ "attributes":[{"text": "\ue66f","fontName":"iconfont","foreColor":"#FFFFFF"},{"text": "\ue670","fontName":"iconfont","foreColor":"#727272"},{"text": "\ue671","fontName":"iconfont","foreColor":"#4A7DB1"},{"text": "\ue679","fontName":"iconfont","foreColor":"#80C0D3"}]}</gezico_f_charuhang>	
+   <gezico_f_charulie>{ "attributes":[{"text": "\ue67b","fontName":"iconfont","foreColor":"#FFFFFF"},{"text": "\ue67c","fontName":"iconfont","foreColor":"#727272"},{"text": "\ue681","fontName":"iconfont","foreColor":"#4A7DB1"},{"text": "\ue682","fontName":"iconfont","foreColor":"#80C0D3"}]}</gezico_f_charulie>	
+   <gezico_f_shanchuhang>{ "attributes":[{"text": "\ue6af","fontName":"iconfont","foreColor":"#FFFFFF"},{"text": "\ue6b0","fontName":"iconfont","foreColor":"#727272"},{"text": "\ue6b1","fontName":"iconfont","foreColor":"#4A7DB1"},{"text": "\ue6b2","fontName":"iconfont","foreColor":"#80C0D3"},{"text": "\ue6b3","fontName":"iconfont","foreColor":"#D14524"}]}</gezico_f_shanchuhang>	
+   <gezico_f_shanchulie>{ "attributes":[{"text": "\ue6b5","fontName":"iconfont","foreColor":"#FFFFFF"},{"text": "\ue6b6","fontName":"iconfont","foreColor":"#727272"},{"text": "\ue6b7","fontName":"iconfont","foreColor":"#4A7DB1"},{"text": "\ue6b8","fontName":"iconfont","foreColor":"#80C0D3"},{"text": "\ue6b9","fontName":"iconfont","foreColor":"#D14524"}]}</gezico_f_shanchulie>	
+   <gezico_f_xianshizhi>{ "attributes":[{"text": "\ue6bb","fontName":"iconfont","foreColor":"#727272"},{"text": "\ue6bc","fontName":"iconfont","foreColor":"#4A7DB1"}]}</gezico_f_xianshizhi>	
+   <gezico_f_yangshiku>{ "attributes":[{"text": "\ue6be","fontName":"iconfont","foreColor":"#FFFFFF"},{"text": "\ue6bf","fontName":"iconfont","foreColor":"#727272"},{"text": "\ue6c0","fontName":"iconfont","foreColor":"#EEC87E"},{"text": "\ue6c1","fontName":"iconfont","foreColor":"#4A7DB1"}]}</gezico_f_yangshiku>	
+   <gezico_f_yujingshuxing>{ "attributes":[{"text": "\ue821","fontName":"iconfont","foreColor":"#727272"},{"text": "\ue822","fontName":"iconfont","foreColor":"#4A7DB1"}]}</gezico_f_yujingshuxing>	
+   <gezico_f_zhuijiahang>{ "attributes":[{"text": "\ue824","fontName":"iconfont","foreColor":"#FFFFFF"},{"text": "\ue825","fontName":"iconfont","foreColor":"#727272"},{"text": "\ue826","fontName":"iconfont","foreColor":"#CCCCCC"},{"text": "\ue827","fontName":"iconfont","foreColor":"#4A7DB1"}]}</gezico_f_zhuijiahang>	
+   <gezico_f_zhuijialie>{ "attributes":[{"text": "\ue829","fontName":"iconfont","foreColor":"#FFFFFF"},{"text": "\ue82a","fontName":"iconfont","foreColor":"#727272"},{"text": "\ue82b","fontName":"iconfont","foreColor":"#4A7DB1"},{"text": "\ue82c","fontName":"iconfont","foreColor":"#80C0D3"}]}</gezico_f_zhuijialie>	
+   <gezico_p_xinzengziyuan><div class="icon_div"><i class="icon iconfont i1">&#xe814;</i> </div></gezico_p_xinzengziyuan>	
+   <gezico_p_shuaxinanniu><div class="icon_div"><i class="icon iconfont i1">&#xe82d;</i> </div></gezico_p_shuaxinanniu>	
+   <gezico_f_chexiaoyiru>{ "attributes":[{"text": "\ue640","fontName":"iconfont","foreColor":"#4A7DB1"}]}</gezico_f_chexiaoyiru>	
+   <gezico_f_chongzuoyiru>{ "attributes":[{"text": "\ue643","fontName":"iconfont","foreColor":"#4A7DB1"}]}</gezico_f_chongzuoyiru>	
+   <gezico_f_dakai>{ "attributes":[{"text": "\ue673","fontName":"iconfont","foreColor":"#FFFFFF"},{"text": "\ue674","fontName":"iconfont","foreColor":"#727272"},{"text": "\ue675","fontName":"iconfont","foreColor":"#EEC87E"}]}</gezico_f_dakai>	
+   <gezico_f_zibaobiao>{ "attributes":[{"text": "\ue6e7","fontName":"iconfont","foreColor":"#FFFFFF"},{"text": "\ue6e8","fontName":"iconfont","foreColor":"#727272"},{"text": "\ue7c8","fontName":"iconfont","foreColor":"#EEC87E"},{"text": "\ue7ca","fontName":"iconfont","foreColor":"#4A7DB1"}]}</gezico_f_zibaobiao>	
+   <gezico_f_biaodashi>{ "attributes":[{"text": "\ue684","fontName":"iconfont","foreColor":"#727272"}]}</gezico_f_biaodashi>	
+   <gezico_f_tianjiadaoyangshi>{ "attributes":[{"text": "\ue6cb","fontName":"iconfont","foreColor":"#EEC87E"},{"text": "\ue696","fontName":"iconfont","foreColor":"#4A7DB1"},{"text": "\ue695","fontName":"iconfont","foreColor":"#D14524"},{"text": "\ue694","fontName":"iconfont","foreColor":"#2DA262"}]}</gezico_f_tianjiadaoyangshi>	
+   <gezico_f_tianjia>{ "attributes":[{"text": "\ue6fa","fontName":"iconfont","foreColor":"#84C89C"},{"text": "\ue6fb","fontName":"iconfont","foreColor":"#0E5430"}]}</gezico_f_tianjia>	
+   <gezico_f_yinyongshujuji>{ "attributes":[{"text": "\ue6fe","fontName":"iconfont","foreColor":"#F5E1BE"},{"text": "\ue6ff","fontName":"iconfont","foreColor":"#DD9C33"}]}</gezico_f_yinyongshujuji>	
+   <gezico_f_hong>{ "attributes":[{"text": "\ue830","fontName":"iconfont","foreColor":"#80C0D3"},{"text": "\ue82f","fontName":"iconfont","foreColor":"#104970"}]}</gezico_f_hong>	
+   <gezico_f_tiaoxingma>{ "attributes":[{"text": "\ue833","fontName":"iconfont","foreColor":"#FFFFFF"},{"text": "\ue832","fontName":"iconfont","foreColor":"#727272"}]}</gezico_f_tiaoxingma>	
+   <gezico_f_danyuangetishi>{ "attributes":[{"text": "\ue837","fontName":"iconfont","foreColor":"#FFFFFF"},{"text": "\ue836","fontName":"iconfont","foreColor":"#727272"},{"text": "\ue835","fontName":"iconfont","foreColor":"#80C0D3"}]}</gezico_f_danyuangetishi>	
+   <gezico_f_kejiankongzhi>{ "attributes":[{"text": "\ue632","fontName":"iconfont","foreColor":"#FFFFFF"},{"text": "\ue61f","fontName":"iconfont","foreColor":"#727272"},{"text": "\ue631","fontName":"iconfont","foreColor":"#000000"},{"text": "\ue630","fontName":"iconfont","foreColor":"#EEC87E"}]}</gezico_f_kejiankongzhi>	
+   <gezico_f_yujingshuxingbangzhuyiru>{ "attributes":[{"text": "\ue83b","fontName":"iconfont","foreColor":"#FFFFFF"},{"text": "\ue634","fontName":"iconfont","foreColor":"#104970"}]}</gezico_f_yujingshuxingbangzhuyiru>	
+   <gezico_f_yujingshuxingbangzhu>{ "attributes":[{"text": "\ue83a","fontName":"iconfont","foreColor":"#FFFFFF"},{"text": "\ue83c","fontName":"iconfont","foreColor":"#4A7DB1"}]}</gezico_f_yujingshuxingbangzhu>	
+   <gezico_f_teshuxiaoguo>{ "attributes":[{"text": "\ue83e","fontName":"iconfont","foreColor":"#FFFFFF"},{"text": "\ue83f","fontName":"iconfont","foreColor":"#727272"},{"text": "\ue840","fontName":"iconfont","foreColor":"#EEC87E"},{"text": "\ue841","fontName":"iconfont","foreColor":"#4A7DB1"}]}</gezico_f_teshuxiaoguo>	
+   <gezico_f_zhibiaozhushou>{ "attributes":[{"text": "\ue849","fontName":"iconfont","foreColor":"#727272"}]}</gezico_f_zhibiaozhushou>	
+   <gezico_f_yujingshuxingshanchu>{ "attributes":[{"text": "\ue686","fontName":"iconfont","foreColor":"#D14524"},{"text": "\ue687","fontName":"iconfont","foreColor":"#6E1318"}]}</gezico_f_yujingshuxingshanchu>	
+   <gezico_f_yujingshuxingchongmingmin>{ "attributes":[{"text": "\ue689","fontName":"iconfont","foreColor":"#FFFFFF"},{"text": "\ue68a","fontName":"iconfont","foreColor":"#727272"},{"text": "\ue68b","fontName":"iconfont","foreColor":"#4A7DB1"},{"text": "\ue68c","fontName":"iconfont","foreColor":"#104970"}]}</gezico_f_yujingshuxingchongmingmin>	
+   <gezico_f_yujingshuxingshangyi>{ "attributes":[{"text": "\ue844","fontName":"iconfont","foreColor":"#4A7DB1"},{"text": "\ue845","fontName":"iconfont","foreColor":"#104970"}]}</gezico_f_yujingshuxingshangyi>	
+   <gezico_f_yujingshuxingxiayi>{ "attributes":[{"text": "\ue847","fontName":"iconfont","foreColor":"#4A7DB1"},{"text": "\ue848","fontName":"iconfont","foreColor":"#104970"}]}</gezico_f_yujingshuxingxiayi>	
+   <gezico_f_chongzuo>{ "attributes":[{"text": "\ue84b","fontName":"iconfont","foreColor":"#CCCCCC"}]}</gezico_f_chongzuo>	
+   <gezico_f_chexiao>{ "attributes":[{"text": "\ue84c","fontName":"iconfont","foreColor":"#CCCCCC"}]}</gezico_f_chexiao>	
+   <gezico_p_wenjianjiazhankai><div class="icon_div"><i class="icon iconfont i2">&#xe676;</i> </div></gezico_p_wenjianjiazhankai>	
+   <gezico_p_ziyuanzhongxinxialaanniu><div class="icon_div"><i class="icon iconfont i1">&#xe6e5;</i> </div></gezico_p_ziyuanzhongxinxialaanniu>	
+   <gezico_p_Dashboardmianban><div class="icon_div"><i class="icon iconfont i2">&#xe84e;</i> <i class="icon iconfont i3">&#xe84f;</i> </div></gezico_p_Dashboardmianban>	
+   <gezico_p_Dashboardmoban><div class="icon_div"><i class="icon iconfont i2">&#xe851;</i> <i class="icon iconfont i3">&#xe852;</i> </div></gezico_p_Dashboardmoban>	
+   <gezico_p_Dashboardzujian><div class="icon_div"><i class="icon iconfont i2">&#xe854;</i> <i class="icon iconfont i3">&#xe855;</i> </div></gezico_p_Dashboardzujian>	
+   <gezico_p_jiandantianbaobiao><div class="icon_div"><i class="icon iconfont i0">&#xe857;</i> <i class="icon iconfont i1s">&#xe858;</i> <i class="icon iconfont i2">&#xe859;</i> <i class="icon iconfont i3">&#xe85a;</i> </div></gezico_p_jiandantianbaobiao>	
+   <gezico_p_shoujibaobiao><div class="icon_div"><i class="icon iconfont i0">&#xe85c;</i> <i class="icon iconfont i1">&#xe85d;</i> <i class="icon iconfont i3">&#xe85e;</i> </div></gezico_p_shoujibaobiao>	
+   <gezico_p_bukejian><div class="icon_div"><i class="icon iconfont i0">&#xe860;</i> <i class="icon iconfont i1">&#xe861;</i> <i class="icon iconfont i1s">&#xe862;</i> <i class="icon iconfont i2">&#xe863;</i> </div></gezico_p_bukejian>	
+   <gezico_p_chaolianjie><div class="icon_div"><i class="icon iconfont i0">&#xe865;</i> <i class="icon iconfont i3">&#xe866;</i> <i class="icon iconfont i4q">&#xe867;</i> <i class="icon iconfont i5">&#xe868;</i> <i class="icon iconfont i5s">&#xe869;</i> </div></gezico_p_chaolianjie>	
+   <gezico_f_duoweifenxi>{ "attributes":[{"text": "\ue871","fontName":"iconfont","foreColor":"#727272"},{"text": "\ue872","fontName":"iconfont","foreColor":"#EEC87E"},{"text": "\ue873","fontName":"iconfont","foreColor":"#4A7DB1"},{"text": "\ue874","fontName":"iconfont","foreColor":"#D14524"}]}</gezico_f_duoweifenxi>	
+   <gezico_f_fenzufenxi>{ "attributes":[{"text": "\ue876","fontName":"iconfont","foreColor":"#727272"},{"text": "\ue877","fontName":"iconfont","foreColor":"#4A7DB1"},{"text": "\ue878","fontName":"iconfont","foreColor":"#D14524"}]}</gezico_f_fenzufenxi>	
+   <gezico_f_gengduo>{ "attributes":[{"text": "\ue879","fontName":"iconfont","foreColor":"#EEC87E"}]}</gezico_f_gengduo>	
+   <gezico_f_guolv>{ "attributes":[{"text": "\ue87a","fontName":"iconfont","foreColor":"#EEC87E"}]}</gezico_f_guolv>	
+   <gezico_f_jiaochafenxi>{ "attributes":[{"text": "\ue87c","fontName":"iconfont","foreColor":"#727272"},{"text": "\ue87d","fontName":"iconfont","foreColor":"#EEC87E"},{"text": "\ue87e","fontName":"iconfont","foreColor":"#4A7DB1"},{"text": "\ue87f","fontName":"iconfont","foreColor":"#D14524"}]}</gezico_f_jiaochafenxi>	
+   <gezico_f_jiaohuanhanglie>{ "attributes":[{"text": "\ue880","fontName":"iconfont","foreColor":"#4A7DB1"}]}</gezico_f_jiaohuanhanglie>	
+   <gezico_f_jibenshezhi>{ "attributes":[{"text": "\ue881","fontName":"iconfont","foreColor":"#727272"}]}</gezico_f_jibenshezhi>	
+   <gezico_f_xinjianmulu>{ "attributes":[{"text": "\ue882","fontName":"iconfont","foreColor":"#727272"}]}</gezico_f_xinjianmulu>	
+   <gezico_p_tongjitu><div class="icon_div"><i class="icon iconfont i1">&#xe884;</i> <i class="icon iconfont i2">&#xe885;</i> <i class="icon iconfont i3">&#xe886;</i> </div></gezico_p_tongjitu>	
+   <gezico_p_lingcunwei><div class="icon_div"><i class="icon iconfont i0">&#xe888;</i> <i class="icon iconfont i1">&#xe889;</i> <i class="icon iconfont i3">&#xe88a;</i> </div></gezico_p_lingcunwei>	
+   <gezico_p_shujufenxi><div class="icon_div"><i class="icon iconfont i1q">&#xe88c;</i> <i class="icon iconfont i2">&#xe88d;</i> </div></gezico_p_shujufenxi>	
+   <gezico_p_zhuti><div class="icon_div"><i class="icon iconfont i1">&#xe892;</i> <i class="icon iconfont i2">&#xe893;</i> <i class="icon iconfont i3">&#xe894;</i> </div></gezico_p_zhuti>	
+   <gezico_p_zhutii><div class="icon_div"><i class="icon iconfont i1">&#xe895;</i> </div></gezico_p_zhutii>	
+   <gezico_p_shujuji><div class="icon_div"><i class="icon iconfont i0">&#xe897;</i> <i class="icon iconfont i2q">&#xe898;</i> <i class="icon iconfont i2s">&#xe899;</i> <i class="icon iconfont i3">&#xe89a;</i> </div></gezico_p_shujuji>	
+   <gezico_p_shujubiao><div class="icon_div"><i class="icon iconfont i0">&#xe89c;</i> <i class="icon iconfont i2q">&#xe89d;</i> <i class="icon iconfont i2s">&#xe89e;</i> <i class="icon iconfont i3">&#xe89f;</i> </div></gezico_p_shujubiao>	
+   <gezico_p_liucheng><div class="icon_div"><i class="icon iconfont i0">&#xe8a3;</i> <i class="icon iconfont i1">&#xe8a2;</i> <i class="icon iconfont i1q">&#xe8a0;</i> <i class="icon iconfont i1s">&#xe8a1;</i> </div></gezico_p_liucheng>	
+   <gezico_p_diaodurenwu><div class="icon_div"><i class="icon iconfont i0">&#xe8a8;</i> <i class="icon iconfont i1">&#xe8a7;</i> <i class="icon iconfont i2">&#xe8a6;</i> <i class="icon iconfont i4">&#xe8a5;</i> </div></gezico_p_diaodurenwu>	
+   <gezico_p_ziyuanwenjian><div class="icon_div"><i class="icon iconfont i0">&#xe8b1;</i> <i class="icon iconfont i1">&#xe8b0;</i> <i class="icon iconfont i3">&#xe8ab;</i> <i class="icon iconfont i3q">&#xe8aa;</i> <i class="icon iconfont i4">&#xe8ac;</i> <i class="icon iconfont i4q">&#xe8af;</i> <i class="icon iconfont i5">&#xe8ad;</i> <i class="icon iconfont i5q">&#xe8ae;</i> </div></gezico_p_ziyuanwenjian>	
+   <gezico_p_renyuanjuese><div class="icon_div"><i class="icon iconfont i2">&#xe8b4;</i> <i class="icon iconfont i3">&#xe8b3;</i> </div></gezico_p_renyuanjuese>	
+   <gezico_f_biaodashizhankai>{ "attributes":[{"text": "\ue7e2","fontName":"iconfont","foreColor":"#FFFFFF"},{"text": "\ue7e3","fontName":"iconfont","foreColor":"#000000"}]}</gezico_f_biaodashizhankai>	
+   <gezico_f_biaodashifanxian>{ "attributes":[{"text": "\ue8b7","fontName":"iconfont","foreColor":"#FFFFFF"},{"text": "\ue8b8","fontName":"iconfont","foreColor":"#4A7DB1"}]}</gezico_f_biaodashifanxian>	
+   <gezico_p_gouxuan><div class="icon_div"><i class="icon iconfont i5">&#xe8b9;</i> </div></gezico_p_gouxuan>	
+   <gezico_m_dengchu></gezico_m_dengchu>	
+   <gezico_m_fangda></gezico_m_fangda>	
+   <gezico_m_fanhui></gezico_m_fanhui>	
+   <gezico_m_gengduo></gezico_m_gengduo>	
+   <gezico_m_gengduoziyuan></gezico_m_gengduoziyuan>	
+   <gezico_m_guanyu></gezico_m_guanyu>	
+   <gezico_m_guolv></gezico_m_guolv>	
+   <gezico_m_jiedian></gezico_m_jiedian>	
+   <gezico_m_lixianchakan></gezico_m_lixianchakan>	
+   <gezico_m_mima></gezico_m_mima>	
+   <gezico_m_qianyiye></gezico_m_qianyiye>	
+   <gezico_m_qingchu></gezico_m_qingchu>	
+   <gezico_m_saoyisao></gezico_m_saoyisao>	
+   <gezico_m_shanchu></gezico_m_shanchu>	
+   <gezico_m_shangliye></gezico_m_shangliye>	
+   <gezico_m_shezhi></gezico_m_shezhi>	
+   <gezico_m_shijian></gezico_m_shijian>	
+   <gezico_m_shouye></gezico_m_shouye>	
+   <gezico_m_shuaxin></gezico_m_shuaxin>	
+   <gezico_m_sousuo></gezico_m_sousuo>	
+   <gezico_m_suoxiao></gezico_m_suoxiao>	
+   <gezico_m_tijiao></gezico_m_tijiao>	
+   <gezico_m_tuichu></gezico_m_tuichu>	
+   <gezico_m_wangluo></gezico_m_wangluo>	
+   <gezico_m_wenjianjiashouqi></gezico_m_wenjianjiashouqi>	
+   <gezico_m_wenjianjiazhankai></gezico_m_wenjianjiazhankai>	
+   <gezico_m_wodeshijianbiao></gezico_m_wodeshijianbiao>	
+   <gezico_m_xialiye></gezico_m_xialiye>	
+   <gezico_m_xiugai></gezico_m_xiugai>	
+   <gezico_m_yonghu></gezico_m_yonghu>	
+   <gezico_m_yuyin></gezico_m_yuyin>	
+   <gezico_m_zengjia></gezico_m_zengjia>	
+   <gezico_m_zhankai></gezico_m_zhankai>	
+   <gezico_m_zhedie></gezico_m_zhedie>	
+   <gezico_m_chongzhi></gezico_m_chongzhi>	
+   <gezico_m_houyiye></gezico_m_houyiye>	
+   <gezico_m_bashi></gezico_m_bashi>	
+   <gezico_m_chuzuche></gezico_m_chuzuche>	
+   <gezico_m_fuxuankuangbuxuan></gezico_m_fuxuankuangbuxuan>	
+   <gezico_m_fuxuankuanggouxuan></gezico_m_fuxuankuanggouxuan>	
+   <gezico_m_jiedianshuxiangshangshousuo></gezico_m_jiedianshuxiangshangshousuo>	
+   <gezico_m_kaiqianniu></gezico_m_kaiqianniu>	
+   <gezico_m_lixian></gezico_m_lixian>	
+   <gezico_m_quxiao></gezico_m_quxiao>	
+   <gezico_m_weizhi></gezico_m_weizhi>	
+   <gezico_m_xian></gezico_m_xian>	
+   <gezico_m_xingzou></gezico_m_xingzou>	
+   <gezico_m_guanbianniu></gezico_m_guanbianniu>	
+   <gezico_p_zuijinfangwen><div class="icon_div"><i class="icon iconfont i1">&#xe8ed;</i> </div></gezico_p_zuijinfangwen>	
+   <gezico_p_dingyuediaodu><div class="icon_div"><i class="icon iconfont i1">&#xe909;</i> </div></gezico_p_dingyuediaodu>	
+   <gezico_p_liuchengtianbao><div class="icon_div"><i class="icon iconfont i0">&#xe90b;</i> <i class="icon iconfont i1">&#xe90c;</i> <i class="icon iconfont i2q">&#xe90d;</i> <i class="icon iconfont i2s">&#xe9d7;</i> <i class="icon iconfont i3">&#xe90e;</i> </div></gezico_p_liuchengtianbao>	
+   <gezico_p_ziyuanguanli><div class="icon_div"><i class="icon iconfont i2">&#xe910;</i> <i class="icon iconfont i2q">&#xe911;</i> <i class="icon iconfont i2s">&#xe912;</i> <i class="icon iconfont i3s">&#xe913;</i> </div></gezico_p_ziyuanguanli>	
+   <gezico_p_zuzhiquanxian><div class="icon_div"><i class="icon iconfont i1">&#xe915;</i> <i class="icon iconfont i3">&#xe916;</i> <i class="icon iconfont i5">&#xe917;</i> </div></gezico_p_zuzhiquanxian>	
+   <gezico_f_dangeshuju>{ "attributes":[{"text": "\ue8fa","fontName":"iconfont","foreColor":"#FFFFFF"},{"text": "\ue8fb","fontName":"iconfont","foreColor":"#727272"}]}</gezico_f_dangeshuju>	
+   <gezico_f_jiaochabiao>{ "attributes":[{"text": "\ue8fd","fontName":"iconfont","foreColor":"#FFFFFF"},{"text": "\ue8fe","fontName":"iconfont","foreColor":"#727272"},{"text": "\ue8ff","fontName":"iconfont","foreColor":"#4A7DB1"},{"text": "\ue900","fontName":"iconfont","foreColor":"#84C89C"}]}</gezico_f_jiaochabiao>	
+   <gezico_f_bug>{ "attributes":[{"text": "\ue906","fontName":"iconfont","foreColor":"#000000"},{"text": "\ue907","fontName":"iconfont","foreColor":"#2DA262"},{"text": "\ue908","fontName":"iconfont","foreColor":"#0E5430"}]}</gezico_f_bug>	
+   <gezico_m_anniuhuise></gezico_m_anniuhuise>	
+   <gezico_m_anniulanse></gezico_m_anniulanse>	
+   <gezico_m_dianhua></gezico_m_dianhua>	
+   <gezico_m_radio_off></gezico_m_radio_off>	
+   <gezico_m_radio_on></gezico_m_radio_on>	
+   <gezico_m_shangjiantou></gezico_m_shangjiantou>	
+   <gezico_m_shoucang></gezico_m_shoucang>	
+   <gezico_m_xiajiantou></gezico_m_xiajiantou>	
+   <gezico_m_youjian></gezico_m_youjian>	
+   <gezico_p_bug><div class="icon_div"><i class="icon iconfont i1s">&#xe925;</i> <i class="icon iconfont i5">&#xe926;</i> <i class="icon iconfont i5s">&#xe927;</i> </div></gezico_p_bug>	
+   <gezic_m_shoucanglanse></gezic_m_shoucanglanse>	
+   <gezico_m_dianhualanse></gezico_m_dianhualanse>	
+   <gezico_m_dingweilanse></gezico_m_dingweilanse>	
+   <gezico_m_fenxianglanse></gezico_m_fenxianglanse>	
+   <gezico_m_shanchuhongse></gezico_m_shanchuhongse>	
+   <gezico_m_shanchuhuise></gezico_m_shanchuhuise>	
+   <gezico_m_shengyinhuise></gezico_m_shengyinhuise>	
+   <gezico_m_shengyinlanse></gezico_m_shengyinlanse>	
+   <gezico_m_shuaxinlanse></gezico_m_shuaxinlanse>	
+   <gezico_m_sousuolanse></gezico_m_sousuolanse>	
+   <gezico_m_tanhaolanse></gezico_m_tanhaolanse>	
+   <gezico_m_tianjiazhengchang></gezico_m_tianjiazhengchang>	
+   <gezico_p_xialashugouxuan><div class="icon_div"><i class="icon iconfont i1">&#xe934;</i> <i class="icon iconfont i1q">&#xe935;</i> <i class="icon iconfont i3">&#xe936;</i> </div></gezico_p_xialashugouxuan>	
+   <gezico_p_xialashuzhankai><div class="icon_div"><i class="icon iconfont i1">&#xe937;</i> </div></gezico_p_xialashuzhankai>	
+   <gezico_m_xiangyou></gezico_m_xiangyou>	
+   <gezico_m_jiazaizhong></gezico_m_jiazaizhong>	
+   <gezico_p_geshishua><div class="icon_div"><i class="icon iconfont i1">&#xe93c;</i> <i class="icon iconfont i2">&#xe93d;</i> </div></gezico_p_geshishua>	
+   <gezico_p_xialashushanchu><div class="icon_div"><i class="icon iconfont i4">&#xe938;</i> </div></gezico_p_xialashushanchu>	
+   <gezico_p_shanchumiaosu><div class="icon_div"><i class="icon iconfont i0">&#xe93f;</i> <i class="icon iconfont i4">&#xe93e;</i> </div></gezico_p_shanchumiaosu>	
+   <gezico_p_bianjimiaosu><div class="icon_div"><i class="icon iconfont i0">&#xe942;</i> <i class="icon iconfont i5">&#xe941;</i> </div></gezico_p_bianjimiaosu>	
+   <gez_m_location></gez_m_location>	
+   <gezico_p_canshudingyi><div class="icon_div"><i class="icon iconfont i3">&#xe946;</i> </div></gezico_p_canshudingyi>	
+   <gezico_p_hong><div class="icon_div"><i class="icon iconfont i3q">&#xe948;</i> <i class="icon iconfont i3s">&#xe949;</i> </div></gezico_p_hong>	
+   <gezico_p_yulan><div class="icon_div"><i class="icon iconfont i0">&#xe94b;</i> <i class="icon iconfont i1">&#xe94c;</i> <i class="icon iconfont i2">&#xe94d;</i> <i class="icon iconfont i3">&#xe94e;</i> </div></gezico_p_yulan>	
+   <gezico_m_denglufuwuqi></gezico_m_denglufuwuqi>	
+   <gezico_m_guanbianniuwuzi></gezico_m_guanbianniuwuzi>	
+   <gezico_m_jiankuohaoxiangxia></gezico_m_jiankuohaoxiangxia>	
+   <gezico_m_kaiqianniuwuzi></gezico_m_kaiqianniuwuzi>	
+   <gezico_m_reportadddisable></gezico_m_reportadddisable>	
+   <gezico_p_bianliangguanli><div class="icon_div"><i class="icon iconfont i3">&#xe958;</i> </div></gezico_p_bianliangguanli>	
+   <gezico_p_yidaoyangshiguanli><div class="icon_div"><i class="icon iconfont i4">&#xe959;</i> </div></gezico_p_yidaoyangshiguanli>	
+   <gezico_p_yindaobangzhu><div class="icon_div"><i class="icon iconfont i4">&#xe95a;</i> </div></gezico_p_yindaobangzhu>	
+   <gezico_p_yindaobangzhuwenhao><div class="icon_div"><i class="icon iconfont i1">&#xe95c;</i> <i class="icon iconfont i1q">&#xe95d;</i> </div></gezico_p_yindaobangzhuwenhao>	
+   <gezico_p_yindaochaolianjieguanli><div class="icon_div"><i class="icon iconfont i4">&#xe95e;</i> </div></gezico_p_yindaochaolianjieguanli>	
+   <gezico_p_yindaodingyuediaodu><div class="icon_div"><i class="icon iconfont i4">&#xe95f;</i> </div></gezico_p_yindaodingyuediaodu>	
+   <gezico_p_yindaoguanlikanban><div class="icon_div"><i class="icon iconfont i4">&#xe960;</i> </div></gezico_p_yindaoguanlikanban>	
+   <gezico_p_yindaoliuchengtianbao><div class="icon_div"><i class="icon iconfont i4">&#xe961;</i> </div></gezico_p_yindaoliuchengtianbao>	
+   <gezico_p_yindaoqitalianjie><div class="icon_div"><i class="icon iconfont i4">&#xe962;</i> </div></gezico_p_yindaoqitalianjie>	
+   <gezico_p_yindaoquanxian><div class="icon_div"><i class="icon iconfont i1q">&#xe963;</i> </div></gezico_p_yindaoquanxian>	
+   <gezico_p_yindaoshezhiguanli><div class="icon_div"><i class="icon iconfont i1q">&#xe964;</i> </div></gezico_p_yindaoshezhiguanli>	
+   <gezico_p_yindaoxiazai><div class="icon_div"><i class="icon iconfont i1q">&#xe965;</i> </div></gezico_p_yindaoxiazai>	
+   <gezico_p_yindaoxinjian><div class="icon_div"><i class="icon iconfont i4">&#xe966;</i> </div></gezico_p_yindaoxinjian>	
+   <gezico_p_yindaoxinshouyindao><div class="icon_div"><i class="icon iconfont i0">&#xe968;</i> </div></gezico_p_yindaoxinshouyindao>	
+   <gezico_p_yindaoxitonggongju><div class="icon_div"><i class="icon iconfont i4">&#xe969;</i> </div></gezico_p_yindaoxitonggongju>	
+   <gezico_p_yindaoxitongguanli><div class="icon_div"><i class="icon iconfont i4">&#xe96a;</i> </div></gezico_p_yindaoxitongguanli>	
+   <gezico_p_yindaoxiugai><div class="icon_div"><i class="icon iconfont i1q">&#xe96b;</i> </div></gezico_p_yindaoxiugai>	
+   <gezico_p_yindaoyanshi><div class="icon_div"><i class="icon iconfont i4">&#xe96c;</i> </div></gezico_p_yindaoyanshi>	
+   <gezico_p_yindaoyanshishipin><div class="icon_div"><i class="icon iconfont i4">&#xe96d;</i> </div></gezico_p_yindaoyanshishipin>	
+   <gezico_p_yindaoyebaobiao><div class="icon_div"><i class="icon iconfont i4">&#xe96e;</i> </div></gezico_p_yindaoyebaobiao>	
+   <gezico_p_yindaoyeshujufenxi><div class="icon_div"><i class="icon iconfont i4">&#xe96f;</i> </div></gezico_p_yindaoyeshujufenxi>	
+   <gezico_p_yindaoyidongyingyong><div class="icon_div"><i class="icon iconfont i4">&#xe970;</i> </div></gezico_p_yindaoyidongyingyong>	
+   <gezico_p_yindaozhanxian><div class="icon_div"><i class="icon iconfont i1q">&#xe971;</i> </div></gezico_p_yindaozhanxian>	
+   <gezico_p_yindaozuzhijigouquanxian><div class="icon_div"><i class="icon iconfont i4">&#xe972;</i> </div></gezico_p_yindaozuzhijigouquanxian>	
+   <gezico_p_yindaojiaochengxiazai><div class="icon_div"><i class="icon iconfont i1q">&#xe973;</i> </div></gezico_p_yindaojiaochengxiazai>	
+   <gezico_p_daochu><div class="icon_div"><i class="icon iconfont i1">&#xe974;</i> </div></gezico_p_daochu>	
+   <gezico_p_danyuangefanxian><div class="icon_div"><i class="icon iconfont i3">&#xe976;</i> <i class="icon iconfont i3q">&#xe977;</i> <i class="icon iconfont i4">&#xe978;</i> </div></gezico_p_danyuangefanxian>	
+   <gezico_p_fanhuishouye><div class="icon_div"><i class="icon iconfont i1">&#xe979;</i> </div></gezico_p_fanhuishouye>	
+   <gezico_f_guanbi>{ "attributes":[{"text": "\ue97b","fontName":"iconfont","foreColor":"#727272"},{"text": "\ue97c","fontName":"iconfont","foreColor":"#D14524"}]}</gezico_f_guanbi>	
+   <gezico_f_jiantouzhankai>{ "attributes":[{"text": "\ue97d","fontName":"iconfont","foreColor":"#727272"}]}</gezico_f_jiantouzhankai>	
+   <gezico_f_jiantouzhedie>{ "attributes":[{"text": "\ue97e","fontName":"iconfont","foreColor":"#727272"}]}</gezico_f_jiantouzhedie>	
+   <gezico_f_yujingshuxingtianjia>{ "attributes":[{"text": "\ue984","fontName":"iconfont","foreColor":"#2DA262"},{"text": "\ue985","fontName":"iconfont","foreColor":"#0E5430"}]}</gezico_f_yujingshuxingtianjia>	
+   <gezico_p_bianjijigouyonghu><div class="icon_div"><i class="icon iconfont i1">&#xe987;</i> <i class="icon iconfont i2s">&#xe988;</i> </div></gezico_p_bianjijigouyonghu>	
+   <gezico_p_geijigoushouquan><div class="icon_div"><i class="icon iconfont i2s">&#xe989;</i> </div></gezico_p_geijigoushouquan>	
+   <gezico_p_piliangzhuanchu><div class="icon_div"><i class="icon iconfont i1">&#xe98b;</i> <i class="icon iconfont i3q">&#xe98c;</i> <i class="icon iconfont i3s">&#xe98d;</i> </div></gezico_p_piliangzhuanchu>	
+   <gezico_p_yonghujinyong><div class="icon_div"><i class="icon iconfont i4">&#xe994;</i> <i class="icon iconfont i4q">&#xe98f;</i> </div></gezico_p_yonghujinyong>	
+   <gezico_p_yonghuqiyong><div class="icon_div"><i class="icon iconfont i4">&#xe991;</i> <i class="icon iconfont i5">&#xe992;</i> <i class="icon iconfont i5q">&#xe993;</i> </div></gezico_p_yonghuqiyong>	
+   <gezico_f_gouxuankuangkongxin>{ "attributes":[{"text": "\ue97a","fontName":"iconfont","foreColor":"#727272"}]}</gezico_f_gouxuankuangkongxin>	
+   <gezico_f_xianshizhi86>{ "attributes":[{"text": "\ue980","fontName":"iconfont","foreColor":"#727272"},{"text": "\ue981","fontName":"iconfont","foreColor":"#4A7DB1"},{"text": "\ue982","fontName":"iconfont","foreColor":"#104970"}]}</gezico_f_xianshizhi86>	
+   <gezico_f_xuanzewenjian>{ "attributes":[{"text": "\ue995","fontName":"iconfont","foreColor":"#4A7DB1"}]}</gezico_f_xuanzewenjian>	
+   <gezico_p_ziyuanxuanxian><div class="icon_div"><i class="icon iconfont i2">&#xe997;</i> <i class="icon iconfont i3s">&#xe998;</i> </div></gezico_p_ziyuanxuanxian>	
+   <gezico_p_zuzhiguanli><div class="icon_div"><i class="icon iconfont i1">&#xe999;</i> </div></gezico_p_zuzhiguanli>	
+   <gezico_f_pailiechaxuntiaojian>{ "attributes":[{"text": "\ue99a","fontName":"iconfont","foreColor":"#727272"},{"text": "\ue99b","fontName":"iconfont","foreColor":"#DD9C33"},{"text": "\ue99c","fontName":"iconfont","foreColor":"#80C0D3"},{"text": "\ue99d","fontName":"iconfont","foreColor":"#F0998B"}]}</gezico_f_pailiechaxuntiaojian>	
+   <gezico_f_qiehuandaogaojibuju>{ "attributes":[{"text": "\ue99f","fontName":"iconfont","foreColor":"#727272"},{"text": "\ue9a0","fontName":"iconfont","foreColor":"#104970"}]}</gezico_f_qiehuandaogaojibuju>	
+   <gezico_f_quanbushanchu>{ "attributes":[{"text": "\ue9a2","fontName":"iconfont","foreColor":"#CCCCCC"},{"text": "\ue9a3","fontName":"iconfont","foreColor":"#D14524"}]}</gezico_f_quanbushanchu>	
+   <gezico_f_anduanfenzu>{ "attributes":[{"text": "\ue9a4","fontName":"iconfont","foreColor":"#727272"},{"text": "\ue9aa","fontName":"iconfont","foreColor":"#104970"}]}</gezico_f_anduanfenzu>	
+   <gezico_f_tongji>{ "attributes":[{"text": "\ue9ab","fontName":"iconfont","foreColor":"#F5E1BE"},{"text": "\ue9ac","fontName":"iconfont","foreColor":"#80C0D3"},{"text": "\ue9ad","fontName":"iconfont","foreColor":"#D14524"}]}</gezico_f_tongji>	
+   <gezico_f_shujuliebiao>{ "attributes":[{"text": "\ue902","fontName":"iconfont","foreColor":"#FFFFFF"},{"text": "\ue903","fontName":"iconfont","foreColor":"#727272"}]}</gezico_f_shujuliebiao>	
+   <gezico_f_chicunshezhi>{ "attributes":[{"text": "\ue9a5","fontName":"iconfont","foreColor":"#727272"},{"text": "\ue9a7","fontName":"iconfont","foreColor":"#2DA262"}]}</gezico_f_chicunshezhi>	
+   <gezico_p_shangyiye><div class="icon_div"><i class="icon iconfont i1s">&#xe9a8;</i> </div></gezico_p_shangyiye>	
+   <gezico_p_xialajiantou><div class="icon_div"><i class="icon iconfont i1">&#xe9ae;</i> </div></gezico_p_xialajiantou>	
+   <gezico_p_xialajiantoub><div class="icon_div"><i class="icon iconfont i0">&#xe9af;</i> </div></gezico_p_xialajiantoub>	
+   <gezico_p_xiayiye><div class="icon_div"><i class="icon iconfont i1s">&#xe9b0;</i> </div></gezico_p_xiayiye>	
+   <gezico_p_zuihouyiye><div class="icon_div"><i class="icon iconfont i1s">&#xe9b1;</i> </div></gezico_p_zuihouyiye>	
+   <gezico_p_diyiye><div class="icon_div"><i class="icon iconfont i1s">&#xe9b2;</i> </div></gezico_p_diyiye>	
+   <gezico_p_fuxuankuang><div class="icon_div"><i class="icon iconfont i3">&#xe9b3;</i> </div></gezico_p_fuxuankuang>	
+   <gezico_p_fuxuankuangxz><div class="icon_div"><i class="icon iconfont i1">&#xe9b4;</i> </div></gezico_p_fuxuankuangxz>	
+   <gezico_p_gengduoxiala><div class="icon_div"><i class="icon iconfont i1s">&#xe9b5;</i> </div></gezico_p_gengduoxiala>	
+   <gezico_p_gengduoxialab><div class="icon_div"><i class="icon iconfont i0">&#xe9b6;</i> </div></gezico_p_gengduoxialab>	
+   <gezico_p_rilib><div class="icon_div"><i class="icon iconfont i0">&#xe9b7;</i> </div></gezico_p_rilib>	
+   <gezico_p_rili><div class="icon_div"><i class="icon iconfont i3">&#xe9b8;</i> </div></gezico_p_rili>	
+   <gezico_p_zhankaiyuanxing><div class="icon_div"><i class="icon iconfont i1q">&#xe9b9;</i> </div></gezico_p_zhankaiyuanxing>	
+   <gezico_p_zhedieyuanxing><div class="icon_div"><i class="icon iconfont i1q">&#xe9ba;</i> </div></gezico_p_zhedieyuanxing>	
+   <gezico_p_qiehuanzhilianglan><div class="icon_div"><i class="icon iconfont i0">&#xe9bb;</i> </div></gezico_p_qiehuanzhilianglan>	
+   <gezico_p_demoall><div class="icon_div"><i class="icon iconfont i1">&#xe9bc;</i> </div></gezico_p_demoall>	
+   <gezico_p_demobaobiao><div class="icon_div"><i class="icon iconfont i1">&#xe9bd;</i> </div></gezico_p_demobaobiao>	
+   <gezico_p_demodashboard><div class="icon_div"><i class="icon iconfont i1">&#xe9be;</i> </div></gezico_p_demodashboard>	
+   <gezico_p_demoliuchengguanli><div class="icon_div"><i class="icon iconfont i1">&#xe9bf;</i> </div></gezico_p_demoliuchengguanli>	
+   <gezico_p_demopingtaiguanli><div class="icon_div"><i class="icon iconfont i1">&#xe9c0;</i> </div></gezico_p_demopingtaiguanli>	
+   <gezico_p_demoshujufenxi><div class="icon_div"><i class="icon iconfont i1">&#xe9c1;</i> </div></gezico_p_demoshujufenxi>	
+   <gezico_p_demotianbao><div class="icon_div"><i class="icon iconfont i1">&#xe9c2;</i> </div></gezico_p_demotianbao>	
+   <gezico_p_demotongjitu><div class="icon_div"><i class="icon iconfont i1">&#xe9c3;</i> </div></gezico_p_demotongjitu>	
+   <gezico_p_demotongyongchaxun><div class="icon_div"><i class="icon iconfont i1">&#xe9c4;</i> </div></gezico_p_demotongyongchaxun>	
+   <gezico_p_demoyidongyingyong><div class="icon_div"><i class="icon iconfont i1">&#xe9c5;</i> </div></gezico_p_demoyidongyingyong>	
+   <gezico_p_qiehuanzhizuoyou><div class="icon_div"><i class="icon iconfont i1">&#xe9c6;</i> </div></gezico_p_qiehuanzhizuoyou>	
+   <gezico_m_APPguanyu></gezico_m_APPguanyu>	
+   <gezico_m_APPlixianchakan></gezico_m_APPlixianchakan>	
+   <gezico_m_APPpaixu></gezico_m_APPpaixu>	
+   <gezico_m_APPshezhi></gezico_m_APPshezhi>	
+   <gezico_m_APPsuo></gezico_m_APPsuo>	
+   <gezico_m_APPyonghu></gezico_m_APPyonghu>	
+   <gezico_m_APPziyuanfenlei></gezico_m_APPziyuanfenlei>	
+   <gezico_m_APPziyuanguanli></gezico_m_APPziyuanguanli>	
+   <gezico_m_APPziyuanzhongxin></gezico_m_APPziyuanzhongxin>	
+   <gezico_m_APPziyuanzhongxinfenlei></gezico_m_APPziyuanzhongxinfenlei>	
+   <gezico_m_APPyonghutouxiang></gezico_m_APPyonghutouxiang>	
+   <gezico_m_xiayiye></gezico_m_xiayiye>	
+   <gezico_m_zuijinbofang></gezico_m_zuijinbofang>	
+   <gezico_m_fanhuinew></gezico_m_fanhuinew>	
+   <gezico_m_shouyenew></gezico_m_shouyenew>	
+   <gezico_m_quanping></gezico_m_quanping>	
+   <gezico_p_shujubaosong><div class="icon_div"><i class="icon iconfont i1">&#xe9e1;</i> <i class="icon iconfont i3">&#xe9e2;</i> </div></gezico_p_shujubaosong>	
+   <gezico_p_weiqidong><div class="icon_div"><i class="icon iconfont i1">&#xe9da;</i> </div></gezico_p_weiqidong>	
+   <gezico_p_yiqidong><div class="icon_div"><i class="icon iconfont i3">&#xe9df;</i> </div></gezico_p_yiqidong>	
+   <gezico_p_weiqiyong><div class="icon_div"><i class="icon iconfont i0">&#xe9e6;</i> <i class="icon iconfont i4">&#xe9e3;</i> </div></gezico_p_weiqiyong>	
+   <gezico_p_yiqiyong><div class="icon_div"><i class="icon iconfont i0">&#xe9e7;</i> <i class="icon iconfont i3">&#xe9e4;</i> </div></gezico_p_yiqiyong>	
+   <gezico_p_tiaojiananniu><div class="icon_div"><i class="icon iconfont i1">&#xe9d8;</i> </div></gezico_p_tiaojiananniu>	
+   <gezico_p_404><div class="icon_div"><i class="icon iconfont i0">&#xe9d9;</i> <i class="icon iconfont i1">&#xe9db;</i> <i class="icon iconfont i1s">&#xe9dc;</i> <i class="icon iconfont i3">&#xe9dd;</i> </div></gezico_p_404>	
+   <gezico_p></gezico_p>	
+   <gezico_p_fangdaditu><div class="icon_div"><i class="icon iconfont i0">&#xe9ea;</i> <i class="icon iconfont i1">&#xe9eb;</i> </div></gezico_p_fangdaditu>	
+   <gezico_p_jiayouzhan><div class="icon_div"><i class="icon iconfont i4">&#xe9ec;</i> </div></gezico_p_jiayouzhan>	
+   <gezico_p_suoxiaoditu><div class="icon_div"><i class="icon iconfont i0">&#xe9ee;</i> <i class="icon iconfont i1">&#xe9ef;</i> </div></gezico_p_suoxiaoditu>	
+   <gezico_p_wujiaoxing><div class="icon_div"><i class="icon iconfont i4">&#xe9f0;</i> </div></gezico_p_wujiaoxing>	
+   <gezico_p_yuanxingqipao><div class="icon_div"><i class="icon iconfont i2">&#xe9f2;</i> <i class="icon iconfont i2q">&#xe9f3;</i> </div></gezico_p_yuanxingqipao>	
+   <gezico_p_zhengchangbili><div class="icon_div"><i class="icon iconfont i0">&#xe9f5;</i> <i class="icon iconfont i1">&#xe9f6;</i> </div></gezico_p_zhengchangbili>	
+   <gezico_p_sanlan><div class="icon_div"><i class="icon iconfont i1">&#xe9f7;</i> </div></gezico_p_sanlan>	
+   <gezico_p_lianglan><div class="icon_div"><i class="icon iconfont i1">&#xe9f8;</i> </div></gezico_p_lianglan>	
+   <gezico_f_SAP>{ "attributes":[{"text": "\ue9fa","fontName":"iconfont","foreColor":"#FFFFFF"},{"text": "\ue9fb","fontName":"iconfont","foreColor":"#727272"}]}</gezico_f_SAP>	
+   <gezico_m_switch></gezico_m_switch>	
+   <gezico_p_huisekaiguan><div class="icon_div"><i class="icon iconfont i0">&#xea01;</i> <i class="icon iconfont i1">&#xea02;</i> </div></gezico_p_huisekaiguan>	
+   <gezico_p_lansekaiguan><div class="icon_div"><i class="icon iconfont i0">&#xea05;</i> <i class="icon iconfont i3">&#xea06;</i> </div></gezico_p_lansekaiguan>	
+   <gezico_p_huisewujiaoxing><div class="icon_div"><i class="icon iconfont i1q">&#xea03;</i> </div></gezico_p_huisewujiaoxing>	
+   <gezico_p_lansewujiaoxing><div class="icon_div"><i class="icon iconfont i3">&#xea07;</i> </div></gezico_p_lansewujiaoxing>	
+   <gezico_p_jiaohuzengqiang><div class="icon_div"><i class="icon iconfont i1">&#xea08;</i> </div></gezico_p_jiaohuzengqiang>	
+   <gezico_p_jiaohuzengqiangdemo><div class="icon_div"><i class="icon iconfont i1">&#xea09;</i> </div></gezico_p_jiaohuzengqiangdemo>	
+   <gezico_p_rizhiguanli><div class="icon_div"><i class="icon iconfont i0">&#xea0b;</i> <i class="icon iconfont i1">&#xea0c;</i> </div></gezico_p_rizhiguanli>	
+   <gezico_p_yangshimokuaiguanlifenzu><div class="icon_div"><i class="icon iconfont i1">&#xea0d;</i> </div></gezico_p_yangshimokuaiguanlifenzu>	
+   <gezico_p_yangshimokuaiguanli><div class="icon_div"><i class="icon iconfont i0">&#xea0e;</i> </div></gezico_p_yangshimokuaiguanli>	
+   <gezico_m_qq></gezico_m_qq>	
+   <gezico_m_weibo></gezico_m_weibo>	
+   <gezico_m_weixin></gezico_m_weixin>	
+   <gezico_p_gengduoyanshi><div class="icon_div"><i class="icon iconfont i1">&#xea12;</i> </div></gezico_p_gengduoyanshi>	
+   <gezico_p_tubiaojiehe><div class="icon_div"><i class="icon iconfont i1">&#xea13;</i> </div></gezico_p_tubiaojiehe>	
+   <gezico_f_ESPshujuji>{ "attributes":[{"text": "\uea15","fontName":"iconfont","foreColor":"#FFFFFF"},{"text": "\uea16","fontName":"iconfont","foreColor":"#727272"}]}</gezico_f_ESPshujuji>	
+   <gezico_p_wendangzaixianyanshi><div class="icon_div"><i class="icon iconfont i0">&#xea17;</i> </div></gezico_p_wendangzaixianyanshi>	
+   <gezico_f></gezico_f>	
+   <gezico_f_3dbaifenbiduijizhutu>{ "attributes":[{"text": "\uea45","fontName":"iconfont","foreColor":"#727272"},{"text": "\uea46","fontName":"iconfont","foreColor":"#CCCCCC"},{"text": "\uea47","fontName":"iconfont","foreColor":"#4A7DB1"},{"text": "\uea48","fontName":"iconfont","foreColor":"#104970"}]}</gezico_f_3dbaifenbiduijizhutu>	
+   <gezico_f_3dbingtu>{ "attributes":[{"text": "\uea4a","fontName":"iconfont","foreColor":"#CCCCCC"},{"text": "\uea4b","fontName":"iconfont","foreColor":"#4A7DB1"}]}</gezico_f_3dbingtu>	
+   <gezico_f_3dcuzhuangtiaoxingtu>{ "attributes":[{"text": "\uea4d","fontName":"iconfont","foreColor":"#727272"},{"text": "\uea4e","fontName":"iconfont","foreColor":"#CCCCCC"},{"text": "\uea4f","fontName":"iconfont","foreColor":"#4A7DB1"},{"text": "\uea50","fontName":"iconfont","foreColor":"#104970"}]}</gezico_f_3dcuzhuangtiaoxingtu>	
+   <gezico_f_3dcuzhuangzhutu>{ "attributes":[{"text": "\uea52","fontName":"iconfont","foreColor":"#727272"},{"text": "\uea53","fontName":"iconfont","foreColor":"#CCCCCC"},{"text": "\uea54","fontName":"iconfont","foreColor":"#4A7DB1"},{"text": "\uea55","fontName":"iconfont","foreColor":"#104970"}]}</gezico_f_3dcuzhuangzhutu>	
+   <gezico_f_3dduijitiaoxingtu>{ "attributes":[{"text": "\uea57","fontName":"iconfont","foreColor":"#727272"},{"text": "\uea58","fontName":"iconfont","foreColor":"#CCCCCC"},{"text": "\uea59","fontName":"iconfont","foreColor":"#4A7DB1"},{"text": "\uea5a","fontName":"iconfont","foreColor":"#104970"}]}</gezico_f_3dduijitiaoxingtu>	
+   <gezico_f_3dduijizhuxingtu>{ "attributes":[{"text": "\uea5c","fontName":"iconfont","foreColor":"#727272"},{"text": "\uea5d","fontName":"iconfont","foreColor":"#CCCCCC"},{"text": "\uea5e","fontName":"iconfont","foreColor":"#4A7DB1"},{"text": "\uea5f","fontName":"iconfont","foreColor":"#104970"}]}</gezico_f_3dduijizhuxingtu>	
+   <gezico_f_3dhuanxingtu>{ "attributes":[{"text": "\uea61","fontName":"iconfont","foreColor":"#727272"},{"text": "\uea62","fontName":"iconfont","foreColor":"#CCCCCC"},{"text": "\uea63","fontName":"iconfont","foreColor":"#4A7DB1"},{"text": "\uea64","fontName":"iconfont","foreColor":"#104970"}]}</gezico_f_3dhuanxingtu>	
+   <gezico_f_3dquyutu>{ "attributes":[{"text": "\uea66","fontName":"iconfont","foreColor":"#727272"},{"text": "\uea67","fontName":"iconfont","foreColor":"#CCCCCC"},{"text": "\uea68","fontName":"iconfont","foreColor":"#4A7DB1"},{"text": "\uea69","fontName":"iconfont","foreColor":"#80C0D3"}]}</gezico_f_3dquyutu>	
+   <gezico_f_3dtiaoxingtu>{ "attributes":[{"text": "\uead7","fontName":"iconfont","foreColor":"#727272"},{"text": "\uead8","fontName":"iconfont","foreColor":"#CCCCCC"},{"text": "\ueada","fontName":"iconfont","foreColor":"#4A7DB1"},{"text": "\uead9","fontName":"iconfont","foreColor":"#104970"}]}</gezico_f_3dtiaoxingtu>	
+   <gezico_f_3dzhexiantu>{ "attributes":[{"text": "\uea70","fontName":"iconfont","foreColor":"#CCCCCC"},{"text": "\uea71","fontName":"iconfont","foreColor":"#4A7DB1"}]}</gezico_f_3dzhexiantu>	
+   <gezico_f_3dzhutu>{ "attributes":[{"text": "\uea73","fontName":"iconfont","foreColor":"#727272"},{"text": "\uea74","fontName":"iconfont","foreColor":"#CCCCCC"},{"text": "\uea75","fontName":"iconfont","foreColor":"#4A7DB1"},{"text": "\uea76","fontName":"iconfont","foreColor":"#104970"}]}</gezico_f_3dzhutu>	
+   <gezico_f_ECH>{ "attributes":[{"text": "\uea78","fontName":"iconfont","foreColor":"#FFFFFF"},{"text": "\uea79","fontName":"iconfont","foreColor":"#DD9C33"}]}</gezico_f_ECH>	
+   <gezico_f_sandiantu>{ "attributes":[{"text": "\uea7b","fontName":"iconfont","foreColor":"#CCCCCC"},{"text": "\uea7c","fontName":"iconfont","foreColor":"#4A7DB1"}]}</gezico_f_sandiantu>	
+   <gezico_f_SVG>{ "attributes":[{"text": "\uea7e","fontName":"iconfont","foreColor":"#FFFFFF"},{"text": "\uea7f","fontName":"iconfont","foreColor":"#2DA262"}]}</gezico_f_SVG>	
+   <gezico_f_SWF>{ "attributes":[{"text": "\uea81","fontName":"iconfont","foreColor":"#FFFFFF"},{"text": "\uea82","fontName":"iconfont","foreColor":"#D14524"}]}</gezico_f_SWF>	
+   <gezico_f_teshutuditu>{ "attributes":[{"text": "\uea83","fontName":"iconfont","foreColor":"#4A7DB1"}]}</gezico_f_teshutuditu>	
+   <gezico_f_teshutuflashqipaotu>{ "attributes":[{"text": "\uea85","fontName":"iconfont","foreColor":"#CCCCCC"},{"text": "\uea86","fontName":"iconfont","foreColor":"#4A7DB1"}]}</gezico_f_teshutuflashqipaotu>	
+   <gezico_f_teshutugezitu>{ "attributes":[{"text": "\uea88","fontName":"iconfont","foreColor":"#CCCCCC"},{"text": "\uea89","fontName":"iconfont","foreColor":"#4A7DB1"}]}</gezico_f_teshutugezitu>	
+   <gezico_f_teshutugongzitu>{ "attributes":[{"text": "\uea8b","fontName":"iconfont","foreColor":"#CCCCCC"},{"text": "\uea8c","fontName":"iconfont","foreColor":"#4A7DB1"}]}</gezico_f_teshutugongzitu>	
+   <gezico_f_teshutuleidatu>{ "attributes":[{"text": "\uea8e","fontName":"iconfont","foreColor":"#CCCCCC"},{"text": "\uea8f","fontName":"iconfont","foreColor":"#4A7DB1"},{"text": "\uea90","fontName":"iconfont","foreColor":"#104970"}]}</gezico_f_teshutuleidatu>	
+   <gezico_f_teshutulichengbei>{ "attributes":[{"text": "\uea92","fontName":"iconfont","foreColor":"#CCCCCC"},{"text": "\uea93","fontName":"iconfont","foreColor":"#4A7DB1"}]}</gezico_f_teshutulichengbei>	
+   <gezico_f_teshutuquanjutu>{ "attributes":[{"text": "\uea95","fontName":"iconfont","foreColor":"#CCCCCC"},{"text": "\uea96","fontName":"iconfont","foreColor":"#4A7DB1"}]}</gezico_f_teshutuquanjutu>	
+   <gezico_f_teshutushijianzoushitu>{ "attributes":[{"text": "\uea98","fontName":"iconfont","foreColor":"#4A7DB1"},{"text": "\uea99","fontName":"iconfont","foreColor":"#D14524"}]}</gezico_f_teshutushijianzoushitu>	
+   <gezico_f_teshutushixuzhuangtaitu>{ "attributes":[{"text": "\uea9b","fontName":"iconfont","foreColor":"#CCCCCC"},{"text": "\uea9c","fontName":"iconfont","foreColor":"#4A7DB1"}]}</gezico_f_teshutushixuzhuangtaitu>	
+   <gezico_f_erweishuangzhouduoxiliezhuxingtu>{ "attributes":[{"text": "\uea22","fontName":"iconfont","foreColor":"#CCCCCC"},{"text": "\uea20","fontName":"iconfont","foreColor":"#4A7DB1"},{"text": "\uea21","fontName":"iconfont","foreColor":"#D14524"}]}</gezico_f_erweishuangzhouduoxiliezhuxingtu>	
+   <gezico_f_erweiquyutu>{ "attributes":[{"text": "\uea24","fontName":"iconfont","foreColor":"#CCCCCC"},{"text": "\uea25","fontName":"iconfont","foreColor":"#4A7DB1"}]}</gezico_f_erweiquyutu>	
+   <gezico_f_erweibingtu>{ "attributes":[{"text": "\uea28","fontName":"iconfont","foreColor":"#CCCCCC"},{"text": "\uea29","fontName":"iconfont","foreColor":"#4A7DB1"}]}</gezico_f_erweibingtu>	
+   <gezico_f_erweiflashhuanxingtu>{ "attributes":[{"text": "\uea2a","fontName":"iconfont","foreColor":"#CCCCCC"},{"text": "\uea2d","fontName":"iconfont","foreColor":"#4A7DB1"}]}</gezico_f_erweiflashhuanxingtu>	
+   <gezico_f_erweizhuxiantu>{ "attributes":[{"text": "\uea2b","fontName":"iconfont","foreColor":"#CCCCCC"},{"text": "\uea41","fontName":"iconfont","foreColor":"#4A7DB1"},{"text": "\uea40","fontName":"iconfont","foreColor":"#D14524"}]}</gezico_f_erweizhuxiantu>	
+   <gezico_f_erweizhexiantu>{ "attributes":[{"text": "\uea31","fontName":"iconfont","foreColor":"#CCCCCC"},{"text": "\uea32","fontName":"iconfont","foreColor":"#4A7DB1"},{"text": "\uea2f","fontName":"iconfont","foreColor":"#D14524"}]}</gezico_f_erweizhexiantu>	
+   <gezico_f_erweiduijitiaoxingtu>{ "attributes":[{"text": "\uea34","fontName":"iconfont","foreColor":"#CCCCCC"},{"text": "\uea35","fontName":"iconfont","foreColor":"#4A7DB1"}]}</gezico_f_erweiduijitiaoxingtu>	
+   <gezico_f_erweicuzhuangtiaoxingtu>{ "attributes":[{"text": "\uea37","fontName":"iconfont","foreColor":"#CCCCCC"},{"text": "\uea38","fontName":"iconfont","foreColor":"#4A7DB1"}]}</gezico_f_erweicuzhuangtiaoxingtu>	
+   <gezico_f_erweicuzhuangzhuxiantu>{ "attributes":[{"text": "\uea3c","fontName":"iconfont","foreColor":"#CCCCCC"},{"text": "\uea3b","fontName":"iconfont","foreColor":"#4A7DB1"},{"text": "\uea3a","fontName":"iconfont","foreColor":"#D14524"}]}</gezico_f_erweicuzhuangzhuxiantu>	
+   <gezico_f_erweidanxiliezhuxingtu>{ "attributes":[{"text": "\uea3f","fontName":"iconfont","foreColor":"#CCCCCC"},{"text": "\uea3e","fontName":"iconfont","foreColor":"#4A7DB1"}]}</gezico_f_erweidanxiliezhuxingtu>	
+   <gezico_f_erweibaifenbiduijizhuxingtu>{ "attributes":[{"text": "\uea43","fontName":"iconfont","foreColor":"#CCCCCC"},{"text": "\ueaa0","fontName":"iconfont","foreColor":"#4A7DB1"}]}</gezico_f_erweibaifenbiduijizhuxingtu>	
+   <gezico_f_erweiduijizhuxingtu>{ "attributes":[{"text": "\ueaa2","fontName":"iconfont","foreColor":"#CCCCCC"},{"text": "\ueaa3","fontName":"iconfont","foreColor":"#4A7DB1"}]}</gezico_f_erweiduijizhuxingtu>	
+   <gezico_f_erweicuzhuangzhuxingtu>{ "attributes":[{"text": "\ueaa5","fontName":"iconfont","foreColor":"#CCCCCC"},{"text": "\ueaa6","fontName":"iconfont","foreColor":"#4A7DB1"}]}</gezico_f_erweicuzhuangzhuxingtu>	
+   <gezico_f_sanweiflashshuangzhouzhuxiantu>{ "attributes":[{"text": "\ueaa8","fontName":"iconfont","foreColor":"#727272"},{"text": "\ueaa9","fontName":"iconfont","foreColor":"#CCCCCC"},{"text": "\ueaac","fontName":"iconfont","foreColor":"#4A7DB1"},{"text": "\ueaaa","fontName":"iconfont","foreColor":"#104970"},{"text": "\ueaab","fontName":"iconfont","foreColor":"#D14524"}]}</gezico_f_sanweiflashshuangzhouzhuxiantu>	
+   <gezico_f_erweishuangzhouzhexiantu>{ "attributes":[{"text": "\ueaae","fontName":"iconfont","foreColor":"#CCCCCC"},{"text": "\ueab0","fontName":"iconfont","foreColor":"#4A7DB1"},{"text": "\ueaaf","fontName":"iconfont","foreColor":"#D14524"}]}</gezico_f_erweishuangzhouzhexiantu>	
+   <gezico_f_shishitongjitu>{ "attributes":[{"text": "\ueab3","fontName":"iconfont","foreColor":"#4A7DB1"},{"text": "\ueab2","fontName":"iconfont","foreColor":"#D14524"}]}</gezico_f_shishitongjitu>	
+   <gezico_f_teshutuKxiantu>{ "attributes":[{"text": "\ueab7","fontName":"iconfont","foreColor":"#4A7DB1"},{"text": "\ueab6","fontName":"iconfont","foreColor":"#D14524"},{"text": "\ueab5","fontName":"iconfont","foreColor":"#2DA262"}]}</gezico_f_teshutuKxiantu>	
+   <gezico_f_baiduditu>{ "attributes":[{"text": "\uea6a","fontName":"iconfont","foreColor":"#CCCCCC"},{"text": "\uea6c","fontName":"iconfont","foreColor":"#4A7DB1"},{"text": "\uea30","fontName":"iconfont","foreColor":"#D14524"}]}</gezico_f_baiduditu>	
+   <gezico_f_teshutuhuanxingzhizhentu>{ "attributes":[{"text": "\uea9f","fontName":"iconfont","foreColor":"#727272"},{"text": "\uea9e","fontName":"iconfont","foreColor":"#CCCCCC"},{"text": "\uea6e","fontName":"iconfont","foreColor":"#4A7DB1"},{"text": "\uea9d","fontName":"iconfont","foreColor":"#D14524"}]}</gezico_f_teshutuhuanxingzhizhentu>	
+   <gezico_f_teshutuyibiaopan>{ "attributes":[{"text": "\ueabf","fontName":"iconfont","foreColor":"#CCCCCC"},{"text": "\ueac0","fontName":"iconfont","foreColor":"#4A7DB1"},{"text": "\ueabe","fontName":"iconfont","foreColor":"#D14524"}]}</gezico_f_teshutuyibiaopan>	
+   <gezico_f_erweigundongduoxiantu>{ "attributes":[{"text": "\ueac2","fontName":"iconfont","foreColor":"#CCCCCC"},{"text": "\ueac4","fontName":"iconfont","foreColor":"#4A7DB1"},{"text": "\ueac3","fontName":"iconfont","foreColor":"#D14524"}]}</gezico_f_erweigundongduoxiantu>	
+   <gezico_f_erweitiaoxingtu>{ "attributes":[{"text": "\ueac6","fontName":"iconfont","foreColor":"#CCCCCC"},{"text": "\ueac7","fontName":"iconfont","foreColor":"#4A7DB1"}]}</gezico_f_erweitiaoxingtu>	
+   <gezico_f_erweiflashgundongliezhutu>{ "attributes":[{"text": "\ueac9","fontName":"iconfont","foreColor":"#CCCCCC"},{"text": "\ueaca","fontName":"iconfont","foreColor":"#4A7DB1"}]}</gezico_f_erweiflashgundongliezhutu>	
+   <gezico_f_erweiflashdanzhouduijizhuxiantu>{ "attributes":[{"text": "\ueacd","fontName":"iconfont","foreColor":"#CCCCCC"},{"text": "\ueace","fontName":"iconfont","foreColor":"#4A7DB1"},{"text": "\ueacc","fontName":"iconfont","foreColor":"#D14524"}]}</gezico_f_erweiflashdanzhouduijizhuxiantu>	
+   <gezico_f_erweiflashshuangzhouduijizhuxiantu>{ "attributes":[{"text": "\uead1","fontName":"iconfont","foreColor":"#CCCCCC"},{"text": "\uead2","fontName":"iconfont","foreColor":"#4A7DB1"},{"text": "\uead0","fontName":"iconfont","foreColor":"#D14524"}]}</gezico_f_erweiflashshuangzhouduijizhuxiantu>	
+   <gezico_f_erweiflashshuangzhouzhuxingtu>{ "attributes":[{"text": "\uead4","fontName":"iconfont","foreColor":"#CCCCCC"},{"text": "\uead5","fontName":"iconfont","foreColor":"#4A7DB1"}]}</gezico_f_erweiflashshuangzhouzhuxingtu>	
+   <gezico_f_erweimianjitu>{ "attributes":[{"text": "\ueabc","fontName":"iconfont","foreColor":"#CCCCCC"},{"text": "\ueabb","fontName":"iconfont","foreColor":"#4A7DB1"},{"text": "\ueaba","fontName":"iconfont","foreColor":"#104970"}]}</gezico_f_erweimianjitu>	
+   <gez_p_ziyuanyingshe><div class="icon_div"><i class="icon iconfont i3">&#xeadb;</i> </div></gez_p_ziyuanyingshe>	
+   <gezico_p_fuzabaobiaosuiji_1_menu><div class="icon_div"><i class="icon iconfont i1">&#xeadc;</i> </div></gezico_p_fuzabaobiaosuiji_1_menu>	
+   <gezico_p_fuzabaobiaosuiji_2_menu><div class="icon_div"><i class="icon iconfont i1">&#xeadd;</i> </div></gezico_p_fuzabaobiaosuiji_2_menu>	
+   <gezico_p_fuzabaobiaosuiji_3_menu><div class="icon_div"><i class="icon iconfont i1">&#xeade;</i> </div></gezico_p_fuzabaobiaosuiji_3_menu>	
+   <gezico_p_fuzabaobiaosuiji_4_menu><div class="icon_div"><i class="icon iconfont i1">&#xeadf;</i> </div></gezico_p_fuzabaobiaosuiji_4_menu>	
+   <gezico_p_fuzabaobiaosuiji_5_menu><div class="icon_div"><i class="icon iconfont i1">&#xeae0;</i> </div></gezico_p_fuzabaobiaosuiji_5_menu>	
+   <gezico_p_fuzabaobiaosuiji_6_menu><div class="icon_div"><i class="icon iconfont i1">&#xeae1;</i> </div></gezico_p_fuzabaobiaosuiji_6_menu>	
+   <gezico_p_tianbaobiaosuiji_1_menu><div class="icon_div"><i class="icon iconfont i1">&#xeae2;</i> </div></gezico_p_tianbaobiaosuiji_1_menu>	
+   <gezico_p_tianbaobiaosuiji_2_menu><div class="icon_div"><i class="icon iconfont i1">&#xeae3;</i> </div></gezico_p_tianbaobiaosuiji_2_menu>	
+   <gezico_p_tianbaobiaosuiji_3_menu><div class="icon_div"><i class="icon iconfont i1">&#xeae4;</i> </div></gezico_p_tianbaobiaosuiji_3_menu>	
+   <gezico_p_tianbaobiaosuiji_4_menu><div class="icon_div"><i class="icon iconfont i1">&#xeae5;</i> </div></gezico_p_tianbaobiaosuiji_4_menu>	
+   <gezico_p_tianbaobiaosuiji_5_menu><div class="icon_div"><i class="icon iconfont i1">&#xeae6;</i> </div></gezico_p_tianbaobiaosuiji_5_menu>	
+   <gezico_p_tianbaobiaosuiji_6_menu><div class="icon_div"><i class="icon iconfont i1">&#xeae7;</i> </div></gezico_p_tianbaobiaosuiji_6_menu>	
+   <gezico_p_Dashboardmianban_menu><div class="icon_div"><i class="icon iconfont i1">&#xeae8;</i> </div></gezico_p_Dashboardmianban_menu>	
+   <gezico_p_ETLjiaoben_menu><div class="icon_div"><i class="icon iconfont i1">&#xeae9;</i> </div></gezico_p_ETLjiaoben_menu>	
+   <gezico_p_URLlianjie_menu><div class="icon_div"><i class="icon iconfont i1">&#xeaea;</i> </div></gezico_p_URLlianjie_menu>	
+   <gezico_p_zuhefenxi_menu><div class="icon_div"><i class="icon iconfont i1">&#xeaeb;</i> </div></gezico_p_zuhefenxi_menu>	
+   <gezico_p_tongyongchaxun_menu><div class="icon_div"><i class="icon iconfont i1">&#xeaec;</i> </div></gezico_p_tongyongchaxun_menu>	
+   <gezico_p_duoweifenxi_menu><div class="icon_div"><i class="icon iconfont i1">&#xeaed;</i> </div></gezico_p_duoweifenxi_menu>	
+   <gezico_p_shujufenxi_menu><div class="icon_div"><i class="icon iconfont i1">&#xeaee;</i> </div></gezico_p_shujufenxi_menu>	
+   <gezico_p_jiandantianbaobiao_menu><div class="icon_div"><i class="icon iconfont i1">&#xeaef;</i> </div></gezico_p_jiandantianbaobiao_menu>	
+   <gezico_p_hangshitianbaobiao_menu><div class="icon_div"><i class="icon iconfont i1">&#xeaf0;</i> </div></gezico_p_hangshitianbaobiao_menu>	
+   <gezico_p_tianbaobiaozu_menu><div class="icon_div"><i class="icon iconfont i1">&#xeaf1;</i> </div></gezico_p_tianbaobiaozu_menu>	
+   <gezico_p_jingtaiwendang_menu><div class="icon_div"><i class="icon iconfont i1">&#xeaf2;</i> </div></gezico_p_jingtaiwendang_menu>	
+   <gezico_p_JSPbaobiao_menu><div class="icon_div"><i class="icon iconfont i1">&#xeaf3;</i> </div></gezico_p_JSPbaobiao_menu>	
+   <gezico_p_ETLshipeiqishili_menu><div class="icon_div"><i class="icon iconfont i1">&#xeaf4;</i> </div></gezico_p_ETLshipeiqishili_menu>	
+   <gezico_p_baobiaozublue_menu><div class="icon_div"><i class="icon iconfont i1">&#xeaf5;</i> </div></gezico_p_baobiaozublue_menu>	
+   <gezico_p_Dashboardzujian_menu><div class="icon_div"><i class="icon iconfont i1">&#xeaf6;</i> </div></gezico_p_Dashboardzujian_menu>	
+   <gezico_p_tongjibaobiaozu_menu><div class="icon_div"><i class="icon iconfont i1">&#xeaf7;</i> </div></gezico_p_tongjibaobiaozu_menu>	
+   <gezico_p_ziyoufenxi_menu><div class="icon_div"><i class="icon iconfont i1">&#xeaf8;</i> </div></gezico_p_ziyoufenxi_menu>	
+   <gezico_p_bianliangguanli_menu><div class="icon_div"><i class="icon iconfont i1">&#xeaf9;</i> </div></gezico_p_bianliangguanli_menu>	
+   <gezico_p_chaolianjie_menu><div class="icon_div"><i class="icon iconfont i1">&#xeafa;</i> </div></gezico_p_chaolianjie_menu>	
+   <gezico_p_diaodurenwu_menu><div class="icon_div"><i class="icon iconfont i1">&#xeafb;</i> </div></gezico_p_diaodurenwu_menu>	
+   <gezico_p_liucheng_menu><div class="icon_div"><i class="icon iconfont i1">&#xeafc;</i> </div></gezico_p_liucheng_menu>	
+   <gezico_p_shujubaosong_menu><div class="icon_div"><i class="icon iconfont i1">&#xeafd;</i> </div></gezico_p_shujubaosong_menu>	
+   <gezico_p_shujubiao_menu><div class="icon_div"><i class="icon iconfont i1">&#xeafe;</i> </div></gezico_p_shujubiao_menu>	
+   <gezico_p_shujuji_menu><div class="icon_div"><i class="icon iconfont i1">&#xeaff;</i> </div></gezico_p_shujuji_menu>	
+   <gezico_p_tongjibaobiao_menu><div class="icon_div"><i class="icon iconfont i1">&#xeb00;</i> </div></gezico_p_tongjibaobiao_menu>	
+   <gezico_p_zhutifenxi_menu><div class="icon_div"><i class="icon iconfont i1">&#xeb01;</i> </div></gezico_p_zhutifenxi_menu>	
+   <gezico_p_ziyuanyingshe_menu><div class="icon_div"><i class="icon iconfont i1">&#xeb02;</i> </div></gezico_p_ziyuanyingshe_menu>	
+   <gezico_m_dianjijinrujichangshang></gezico_m_dianjijinrujichangshang>	
+   <gezico_m_dianjijinrujichangxia></gezico_m_dianjijinrujichangxia>	
+   <gezico_m_dianjijinrujichangyou></gezico_m_dianjijinrujichangyou>	
+   <gezico_m_dianjijinrujichangzuo></gezico_m_dianjijinrujichangzuo>	
+   <gezico_m_follow></gezico_m_follow>	
+   <gezico_m_followd></gezico_m_followd>	
+   <gezico_f_guanlianshujuji>{ "attributes":[{"text": "\ueb0a","fontName":"iconfont","foreColor":"#727272"},{"text": "\ueb09","fontName":"iconfont","foreColor":"#EEC87E"}]}</gezico_f_guanlianshujuji>	
+   <gezico_f_baocungray>{ "attributes":[{"text": "\ueb0d","fontName":"iconfont","foreColor":"#FFFFFF"},{"text": "\ueb0e","fontName":"iconfont","foreColor":"#CCCCCC"}]}</gezico_f_baocungray>	
+</font>

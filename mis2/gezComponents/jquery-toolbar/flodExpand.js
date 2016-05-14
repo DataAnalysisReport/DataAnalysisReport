@@ -1,0 +1,1 @@
+$(function(){$(".flodExpandBtn").click(function(){$(this).toggleClass("flodExpandBtnHover");$(this).siblings(".flodExpandContent").toggleClass("flodExpandCHover")})});

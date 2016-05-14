@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ROWS>
+<dataSetAlias>D_订单明细</dataSetAlias>
+<title>数据分析</title>
+<foot>信息系统</foot>
+<DBTYPE value="13"/><COLNAME>
+<COL alias="订单ID" dispValue="订单ID" editStyle="1" editConfig="" width="99" order="asc" isCompute="no">订单ID</COL>
+<COL alias="订购日期" dispValue="订购日期" editStyle="1" editConfig="" width="99" order="asc" isCompute="no">订购日期</COL>
+<COL alias="资金类型" dispValue="资金类型" editStyle="1" editConfig="" width="99" order="asc" isCompute="no">资金类型</COL>
+<COL alias="销售类型" dispValue="销售类型" editStyle="1" editConfig="" width="99" order="asc" isCompute="no">销售类型</COL>
+<COL alias="城市" dispValue="城市" editStyle="1" editConfig="" width="99" order="asc" isCompute="no">城市</COL>
+<COL alias="地区" dispValue="地区" editStyle="1" editConfig="" width="99" order="asc" isCompute="no">地区</COL>
+<COL alias="客户名称" dispValue="客户名称" editStyle="1" editConfig="" width="99" order="asc" isCompute="no">客户名称</COL>
+<COL alias="产品名称" dispValue="产品名称" editStyle="1" editConfig="" width="99" order="asc" isCompute="no">产品名称</COL>
+<COL alias="销售数量" dispValue="销售数量" editStyle="1" editConfig="" width="99" order="asc" isCompute="no">销售数量</COL>
+<COL alias="销售金额" dispValue="销售金额" editStyle="1" editConfig="" width="99" order="asc" isCompute="no">销售金额</COL>
+<COL alias="折扣比例" dispValue="折扣比例" editStyle="1" editConfig="" width="99" order="asc" isCompute="no">折扣比例</COL>
+</COLNAME>
+
+<COLTYPE>
+<COL>11</COL>
+<COL>11</COL>
+<COL>11</COL>
+<COL>11</COL>
+<COL>11</COL>
+<COL>11</COL>
+<COL>11</COL>
+<COL>11</COL>
+<COL>11</COL>
+<COL>6</COL>
+<COL>6</COL>
+</COLTYPE>
+
+<parameters>
+</parameters>
+</ROWS>

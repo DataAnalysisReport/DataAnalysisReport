@@ -1,0 +1,14 @@
+[
+    {
+        "schema": "test1",
+        "params": "vrType=big&autoMode=yes&totalCountExp=10000&pageCount=50&cachePageNum=40&cellsNum=0"
+    },
+     {
+        "schema": "test2",
+        "params": "showType=html&vrType=big&autoMode=yes&totalCountExp=10000&pageCount=50&cachePageNum=40"
+    },
+     {
+        "schema": "test3",
+        "params": "showType=html&vrType=big&totalCountExp=10000&pageCount=50&cachePageNum=40&cellsNum=0"
+    }
+]

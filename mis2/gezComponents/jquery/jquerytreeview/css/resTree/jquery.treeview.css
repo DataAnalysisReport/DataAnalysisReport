@@ -1,0 +1,217 @@
+.treeview, .treeview ul { 
+	padding: 0;
+	margin: 0;
+	list-style: none;
+}
+
+/** 由于下面设置了.filetree li的padding-left为12px，之前是16px，为不影响之前的布局，此处将整个树右移4px */
+.treeview{
+	margin-left:4px;
+}
+
+.treeview ul {
+	margin-top: 0;
+}
+
+.treeview .hitarea {
+	/*background: url(images/treeview-default.gif) -64px -25px no-repeat;*/
+	height: 26px;/** 此处将树节点的高度调成28px，由于上下有2px的padding，此处设为26px */
+	--line-height:26px;
+	width: 16px;
+	margin-left: -16px;
+	margin-top:0px !important;
+	float: left;
+	cursor: pointer;
+}
+/* fix for IE6 */
+* html .hitarea {
+	display: inline;
+	float:none;
+}
+
+.treeview li { 
+	margin: 0;
+	vertical-align:middle;
+}
+.treeview li > span{height:26px;vertical-align:middle;}/** 此处将树节点的高度调成28px，由于上下有2px的padding，此处设为26px */
+.treeview li span.checkIcon{position:relative;top:-5px;display:inline-block;vertical-align:top}
+.treeview a.selected {
+	background-color: #eee;
+}
+
+#treecontrol { margin: 1em 0; display: none; }
+
+.treeview .hover {  cursor: pointer; }
+--.treeview .hover {background: #CEE7FF;border:none;}
+
+.treeview li {background-image: url(../../../../../style/s1/customStyle/unSelectTree.gif) no-repeat;}
+.treeview .expandable-hitarea { }
+
+.treeview-red li { background-image: url(images/treeview-red-line.gif); }
+.treeview-red .hitarea, .treeview-red li.lastCollapsable, .treeview-red li.lastExpandable { background-image: url(images/treeview-red.gif); } 
+
+.treeview-black li { background-image: url(images/treeview-black-line.gif); }
+.treeview-black .hitarea, .treeview-black li.lastCollapsable, .treeview-black li.lastExpandable { background-image: url(images/treeview-black.gif); }  
+
+.treeview-gray li { background-image: url(images/treeview-gray-line.gif); }
+.treeview-gray .hitarea, .treeview-gray li.lastCollapsable, .treeview-gray li.lastExpandable { background-image: url(images/treeview-gray.gif); } 
+
+.treeview-famfamfam li { background-image: url(images/treeview-famfamfam-line.gif); }
+
+.treeview .placeholder {
+	background: url(images/loading.gif) 0 0 no-repeat;
+	height: 16px;
+	width: 16px;
+	display: block;
+}
+/*
+.restree li { background-image: url(images/treeview-famfamfam-line.gif); }
+.restree .hitarea, .treeview-famfamfam li.lastCollapsable, .treeview-famfamfam li.lastExpandable { background-image: url(images/treeview-default-blue.gif); } 
+.restree span.folder, .restree span.file { padding: 1px 0 1px 16px; display: block; padding-left:24px;}
+.restree span.folder { background: url(images/folder.gif) 0 0 no-repeat; }
+.restree li.expandable span.folder { background: url(images/folder-closed.gif) 0 0 no-repeat; }
+.restree span.file { background: url(images/file.gif) 0 0 no-repeat; }
+*/
+.restree li { padding: 1px 0 1px 16px; list-style: none;}
+/*.restree span.folder{ padding: 14px 0 1px 14px;*padding-top: 1px;  }*/
+.restree span.file{ padding: 13px 0 1px 17px;*padding-top: 1px; cursor: pointer; }
+.restree span.resource{ padding: 14px 0 1px 17px;*padding-top: 1px; cursor: pointer; }
+
+.restree span{ display: block; font-size: 1em;text-align:left}
+
+.restree span.folder { background: url(images/folder.gif) 0 0 no-repeat; padding-left:18px;}
+.restree span.file { background: url(images/folder-closed.gif) 0 0 no-repeat;padding-left:18px;}
+.restree span.resource { background: url(images/folder-closed.gif) 0 0 no-repeat; padding-left:18px;}
+.restree li.expandable span.folder { background: url(images/folder-closed.gif) 0 0 no-repeat; }
+
+.filetree li { padding: 1px 0 1px 12px; list-style: none;}
+.filetree span.folder{height:18px;width:18px;}
+.filetree span.file{ padding: 13px 0 1px 17px;*padding-top: 1px; cursor: pointer; }
+.filetree span.resource{ padding: 13px 0 1px 17px;*padding-top: 1px;cursor: pointer;vertical-align:middle }
+
+.filetree span{ display: inline-block; font-size: 1em;text-align:left;vertical-align:middle}
+.filetree span.folder { background: url(images/folder.gif) 0 0 no-repeat; padding-left:8px;}
+.filetree span.file { background: url(images/folder-closed.gif) 0 0 no-repeat;padding-left:18px;}
+.filetree span.resource { background: url(images/file.gif) 0 0 no-repeat;padding-left:18px; }
+.filetree li.expandable span.folder { background: url(images/folder-closed.gif) 0 0 no-repeat; }
+
+.usertree li { padding: 1px 0 1px 16px; list-style: none;}
+.usertree span.folder{ padding: 14px 0 1px 14px;padding-bottom:2px;*padding-top: 2px;  }
+.usertree span.file{ padding: 13px 0 1px 17px;*padding-top: 1px; cursor: pointer; }
+.usertree span.resource{ padding: 13px 0 1px 17px;*padding-top: 1px; cursor: pointer; }
+
+.usertree span{ display: inline-block; font-size: 1em;text-align:left}
+
+.usertree span.folder { background: url(images/org.gif) 0 0 no-repeat; padding-left:18px;}
+.usertree span.file { background: url(images/org.gif) 0 0 no-repeat; padding-left:18px;}
+.usertree span.resource { background: url(images/role.gif) 0 0 no-repeat; padding-left:18px;}
+.usertree li.expandable span.folder { background: url(images/org.gif) 0 0 no-repeat; }
+.rq-ui-treeView-div .fontcolor a{background-color:#A7CDF0;}
+.fontbgcolor2 a{background-color: #C0D2EC;}
+.fontbgcolor2 span{background-color: #C0D2EC;}
+.rq-ui-treeView-div .fontcolor2 a{background-color:#A7CDF0;}
+.rq-ui-treeView-div {
+	font-size: 12px;
+	font-family:"����", Arial, Times New Roman;
+}
+.rq-ui-treeView-div a{text-decoration:none; color: #4D214D;vertical-align:top}
+.rqui-treeview-edit-edit{float:left;width:16px;height:12px;background: url(images/edit2.png) 0 0 no-repeat;}
+.rqui-treeview-edit-del{float:left;width:16px;height:12px;background: url(images/del2.png) 0 0 no-repeat;}
+.rqui-treeview-edit-up{float:left;width:16px;height:12px;background: url(images/up2.png) 0 0 no-repeat;}
+.rqui-treeview-edit-down{float:left;width:16px;height:12px;background: url(images/down2.png) 0 0 no-repeat;}
+
+.rq-ui-treeView-div .treeview span{white-space:nowrap;}
+
+/*下拉树的按钮样式*/
+.selectImg{
+	background:url("../../../../../style/s1/customStyle/select-blue.gif");
+}
+.selectImgWrite{
+	background:url("../../../../../style/s1/customStyle/seect-write.gif");
+}
+
+/* 复选框，单选框和后面的文字对齐*/
+.rqTreealign{
+	vertical-align:middle;
+	position:relative;
+	filter:alpha(opacity=0);
+	opacity:0;
+	margin-top:3px;
+	*margin-top:0px;
+}
+
+.treeButtonSpan{
+	height:18px;
+	line-height:18px;
+	width:48px !important;
+	text-align:center;
+	display:inline-block;
+	border:#CCCCCC solid 1px;
+	float:right;
+	margin:5px 5px 0px 0px;
+	cursor:pointer;
+}
+
+/*复选框被选中状态*/
+.rqTreeNodeSelected{
+	vertical-align:middle;
+	height:17px;
+	padding-left:0;
+	padding-right:20px;
+	padding-top:3px;
+	background: url("../../../../formstyle/css/images/all_checked.png") no-repeat;
+	cursor:pointer;
+}
+/*复选框未被选中状态*/
+.rqTreeNodeSelect{
+	vertical-align:middle;
+	height:17px;
+	padding-left:0;
+	padding-right:20px;
+	padding-top:3px;
+	background: url("../../../../formstyle/css/images/no_checked.png") no-repeat;
+	cursor:pointer;
+}
+
+/**全选复选框图片img -*/
+.rqUnChooseAllNodeImg{
+	position:relative;
+	vertical-align:middle;
+	margin-right:0px;
+	margin-left:5px;
+	height:20px;
+	width:20px;
+	background:url("../../../../formstyle/css/images/no_checked.png") no-repeat;
+}
+.rqChooseAllNodeImg{
+	position:relative;
+	vertical-align:middle;
+	margin-top:0px;
+	margin-left:5px;
+	height:20px;
+	width:20px;
+	background:url("../../../../formstyle/css/images/all_checked.png") no-repeat;
+}
+.checkAllIcon .icon_div{margin-left:-20px;margin-top:-20px;}
+.checkedAllIcon .icon_div i,.checkedIcon .icon_div i{color:#4A7DB1!important}
+.unCheckAllIcon .icon_div i,.unCheckedIcon .icon_div i{color:#ccc!important}
+.iconZD{font-size:9px;-webkit-transform:scale(0.75)}
+.okBtn .icon_div i{color:#069C21!important}
+
+.rq-ui-treeView-div .treeview SPAN {
+	/*vertical-align: middle;*/
+}
+.rq-ui-treeView-div .treeview .icon{
+	margin:0px;
+	/*
+	line-height:26px;
+	line-height:16px\9 !important;*//*IE6-IE10*/
+	/*line-height:26px\9\0 !important;*//*IE6-IE10*/
+	vertical-align: middle;
+}
+
+/*
+.rq-ui-treeView-div .treeview .icon_div,.rq-ui-treeView-div .treeview .icon_div,.rq-ui-treeView-div .treeview .icon,.rq-ui-treeView-div .treeview .icon{
+	position:static !important;
+}
+*/

@@ -1,0 +1,19 @@
+<!--
+	超链接html格式包含一个IFRAME和一个DIV
+	IFRAME用于显示超链接内容，id由用户自定义，设置超链接时，在超链接打开方式框中输入这个IFRAME的id即可
+	DIV用于控制窗口是否显示，DIV的id是用IFRAME的id后面加上"_div"，弹出超链接的时候会自动将这个DIV设置为显示（DISPLAY:block）
+
+	简单格式如下：
+	<DIV id="testLink_div" style="DISPLAY:none;">
+		<IFRAME id=testLink name=testLink src=""></IFRAME>
+	</DIV>
+-->
+<DIV id="dialogLink_div" style="Z-INDEX: 1006; OUTLINE-STYLE: none; OUTLINE-COLOR: invert; OUTLINE-WIDTH: 0px; WIDTH: 1024px; DISPLAY: none; TOP: 50px; LEFT: 200px" class="ui-dialog ui-widget ui-widget-content ui-corner-all ui-draggable">
+	<DIV style="PADDING-LEFT: 0px; PADDING-RIGHT: 0px; MozUserSelect: none" class="ui-dialog-titlebar ui-widget-header ui-corner-all ui-helper-clearfix" sizcache="6" sizset="0" unselectable="on">
+		<SPAN style="MozUserSelect: none" class=ui-dialog-title unselectable="on">超链接弹窗</SPAN>
+		<A style="MozUserSelect: none" class="ui-dialog-titlebar-close ui-corner-all" role=button href="javascript:void(0);" onclick="$('#dialogLink_div').css('display','none');$('#testLink').attr('src','');" unselectable="on"><SPAN style="MARGIN-RIGHT: 3px; MozUserSelect: none" class="ui-icon ui-icon-closethick">close</SPAN></A>
+	</DIV>
+	<DIV style="PADDING-BOTTOM: 0px; MARGIN: 0px; MIN-HEIGHT: 120px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; HEIGHT: auto; PADDING-TOP: 0px" class="ui-dialog-content ui-widget-content">
+		<IFRAME style="WIDTH: 1024px; HEIGHT: 500px" id=dialogLink src="" frameBorder=0 name=dialogLink resizable="no"></IFRAME>
+	</DIV>
+</DIV>

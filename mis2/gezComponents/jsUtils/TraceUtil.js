@@ -1,0 +1,1 @@
+var _DEBUG=true;var _INFO=true;var _ERROR=true;function TraceUtil(){this.traceDebug=function(a){if(_DEBUG){alert(a)}};this.traceInfo=function(a){if(_INFO){alert(a)}};this.traceError=function(a){if(_ERROR){alert(a)}}};

@@ -1,0 +1,37 @@
+@charset "utf-8";
+/* CSS Document */
+.ui-jqgrid-pager table{
+	font-size:11px;
+}
+/*.ui-widget-content{border:1px solid #a6c9e2;}*/
+.ui-widget-content .ui-state-default{color:#000;}
+.ui-widget-content td.ui-state-hover {  background: #d0e5f5 url(images/ui-bg_glass_75_d0e5f5_1x400.png)  repeat-x;   }
+.ui-state-highlight, .ui-widget-content .ui-state-highlight, .ui-widget-header .ui-state-highlight{background:none;background-color:#FBEC88;}
+.ui-th-column, .ui-jqgrid .ui-jqgrid-htable th.ui-th-column {text-align:left;font-size:12px;/*border:1px solid #C5DBEC;border-left:none;*/}
+.cbox{margin-left:6px!important;*margin-left:0px;}
+.ui-jqgrid tr.jqgrow {font-size: 12px; }
+.ui-jqgrid tr.jqgrow td {border-bottom-width: 0px;}
+.ui-jqgrid tr.ui-row-ltr td{border-right-width: 0px;}
+/*通用列表*/
+.jqGrid input[type='text']{height: 16px;}      /* 给通用列表中显示出的input设置高度*/
+.jqGridDiv .ui-jqgrid-hdiv .ui-jqgrid-hbox .ui-jqgrid-htable div.ui-jqgrid-sortable{ font-family:"宋体", Arial, Times New Roman; font-size: 12px;}
+.jqGridDiv .ui-jqgrid-bdiv table.jqGrid {font-family:"宋体", Arial, Times New Roman; font-size: 12px;};
+/*分组列表*/
+.groupTable input[type='text']{height: 16px;}  /* 给分组列表中显示出的input设置高度*/
+.groupTable b{position:absolute; margin-left:6px; margin-top: 2px;width: 100%;}/*分组标题*/
+.ui-icon-groupGrid-minus{background-image:url("../../../../style/s1/customStyle/groupGrid-minus.png") !important;}
+.ui-icon-groupGrid-plus{background-image:url("../../../../style/s1/customStyle/groupGrid-plus.png") !important;}
+.groupTable .ui-icon.ui-icon-circlesmall-minus.span{position:absolute; margin-top: -7px}/*折叠和展开图片的位置*/
+.groupTableDiv .ui-jqgrid-hdiv table.ui-jqgrid-htable tr.ui-jqgrid-labels th.ui-th-ltr div.ui-jqgrid-sortable {font-family:"宋体", Arial, Times New Roman; font-size: 12px;}
+.groupTableDiv .groupTable {font-family:"宋体", Arial, Times New Roman; font-size: 12px;};
+/*通树形列表*/
+
+.rq-ui-treeGrid-fatherDiv .ui-jqgrid-view .ui-jqgrid-hdiv .ui-jqgrid-hbox .ui-jqgrid-htable tr.ui-jqgrid-labels th.ui-th-ltr{font-family:"宋体", Arial, Times New Roman; font-size: 12px;};
+.rq-ui-treeGrid-table tr.ui-widget-content td {border-bottom:1px solid #E0E0E0; }
+.rq-ui-treeGrid-fatherDiv .rq-ui-treeGrid-table tr.ui-widget-content td {border-bottom:1px solid #E0E0E0; }
+.rq-ui-treeGrid-fatherDiv .rq-ui-treeGrid-table {font-family:"宋体", Arial, Times New Roman; font-size: 12px;};
+.ui-jqgrid-htable {font-family:"宋体", Arial, Times New Roman; font-size: 12px;}
+.ui-jqgrid.rq-ui-treeGrid-fatherDiv .ui-jqgrid-htable {font-family:"宋体", Arial, Times New Roman; font-size: 12px;}
+.ui-jqgrid.rq-ui-treeGrid-fatherDiv{border-width: 0px;}
+
+.ui-jqgrid .ui-pager-control {background:url(images/ui-pager-control-back.png) repeat-x;}

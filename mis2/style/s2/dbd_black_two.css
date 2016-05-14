@@ -1,0 +1,38 @@
+
+.dashboard{position:relative;height:expression(document.body.clientHeight-10); width:expression(document.body.clientWidth-5); padding:10px;}
+
+/* 黑色black 样式二 */
+.dashboardList{background:#373737; border:1px solid #777777; border-top-left-radius:0.6em; border-top-right-radius:0.6em; border-bottom-left-radius:0.3em; border-bottom-right-radius:0.3em; }
+.DBTitleContent{background:url(dbd-styletwo/black/dbd_title_back.png) repeat-x; height:30px;line-height:30px;border-top-left-radius:0.6em; border-top-right-radius:0.6em;}
+.DBTitleText{color:#fff;font-weight:bold;font-size:12px; padding-left:9px; padding-top:5px;}
+.DBTitleIconList{float:right; margin-top:5px;*margin-top:-18px;margin-right:5px;}
+.DBTitleIconListno{float:right; margin-top:5px;}
+.DBTitleIconList a{ width:12px; height:12px;margin-right:5px;}
+.DBTitleIconList a.filter{background:url(dbd-styletwo/black/icon.png) -13px -10px no-repeat; display:inline-block;width:11px; height:10px;}
+.DBTitleIconList a.filterno{background:url() -0px -0px no-repeat; display:none;width:11px; height:10px;}
+.DBTitleIconList a.set{background:url(dbd-styletwo/black/icon.png) -37px -10px no-repeat; display:inline-block;width:11px; height:10px;}
+.DBTitleIconList a.setno{background:url() -0px -0px no-repeat; display:none;width:11px; height:8px;}
+.DBTitleIconList a.refresh{background:url(dbd-styletwo/black/icon.png) -79px -10px no-repeat; display:inline-block;width:11px; height:10px;}
+.DBTitleIconList a.show{background:url(dbd-styletwo/black/icon.png) -57px -10px no-repeat; display:inline-block;width:11px; height:10px;}
+.DBTitleIconList a.showno{background:url() -0px -0px no-repeat; display:none;width:11px; height:8px;}
+.DBTitleIconList a.filter:hover{ background:url(dbd-styletwo/black/icon.png) -13px -39px no-repeat;width:11px; height:10px;}
+.DBTitleIconList a.refresh:hover{ background:url(dbd-styletwo/black/icon.png) -79px -39px no-repeat;width:11px; height:10px;}
+.DBTitleIconList a.filterno:hover{ background:url() -13px -39px no-repeat;width:11px; height:10px;}
+.DBTitleIconList a.set:hover{ background:url(dbd-styletwo/black/icon.png) -37px -39px no-repeat;width:11px; height:10px;}
+.DBTitleIconList a.show:hover{background:url(dbd-styletwo/black/icon.png) -57px -39px no-repeat; display:inline-block;width:11px; height:10px;}
+.DBContentContent{
+	padding:0px;
+	background-color:#ffffff;
+    border-right-width: 1px;
+	border-bottom-width: 1px;
+	border-left-width: 1px;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-left-style: solid;
+	border-right-color: #777777;
+	border-bottom-color: #777777;
+	border-left-color: #777777;
+    margin-left: 4px;
+    margin-bottom: 4px;
+    margin-right: 4px;
+}
